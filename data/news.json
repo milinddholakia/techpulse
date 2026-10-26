@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "news-1",
+    "title": "DeepSeek-R1: Open-Weights Reasoning Architecture & High-Efficiency Distillation",
+    "category": "Reasoning Models",
+    "categoryColor": "#3b82f6",
+    "badge": "🔥 Breakthrough",
+    "source": "DeepSeek AI / arXiv",
+    "url": "https://arxiv.org/abs/2501.12948",
+    "readTime": "6 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "DeepSeek unveiled R1, a frontier open-weights reasoning model that matches OpenAI o1 across competitive mathematics, coding, and logical reasoning benchmarks. What sets R1 apart is its dual-stage training: DeepSeek-R1-Zero, trained purely through large-scale reinforcement learning (RL) without prior supervised fine-tuning (SFT), demonstrated that self-evolution through rule-based reward incentives naturally produces advanced chain-of-thought, self-verification, and problem-decomposition behaviors.",
+    "keyMetrics": [
+      {
+        "label": "MATH-500",
+        "value": "97.3%"
+      },
+      {
+        "label": "AIME 2024",
+        "value": "79.8%"
+      },
+      {
+        "label": "Codeforces",
+        "value": "Percentile 96.3%"
+      },
+      {
+        "label": "Inference Cost",
+        "value": "~95% cheaper than o1"
+      }
+    ],
+    "technicalDeepDive": "DeepSeek-R1-Zero bypassed human demonstration warm-ups by directly optimizing base models using Group Relative Policy Optimization (GRPO) with rule-based outcome rewards (accuracy and formatting checks). To fix readability and language mixing, the production DeepSeek-R1 incorporates a cold-start data stage with thousands of curated long-chain-of-thought examples followed by multi-stage RL. DeepSeek then distilled 800,000 reasoning trajectories directly into standard open architectures (Qwen-2.5 and Llama-3), enabling 1.5B to 70B models to inherit frontier reasoning capabilities without needing huge compute during inference.",
+    "industryImpact": "By releasing both model weights and distilled checkpoints under an MIT-equivalent license, DeepSeek broke the proprietary monopoly on frontier reasoning. Developers can now run local 14B and 32B reasoning models directly on Apple Silicon M-series chips and single consumer RTX 4090 GPUs, making high-level autonomous code review, verifiable contract validation, and quantitative research private and zero-cost per token.",
+    "resources": [
+      {
+        "label": "arXiv Technical Report",
+        "url": "https://arxiv.org/abs/2501.12948"
+      },
+      {
+        "label": "GitHub Weights & Code",
+        "url": "https://github.com/deepseek-ai/DeepSeek-R1"
+      }
+    ]
+  },
+  {
+    "id": "news-2",
+    "title": "NVIDIA Blackwell GB200 NVL72 Racks: Trillion-Parameter Scale & Liquid Cooling",
+    "category": "AI Hardware",
+    "categoryColor": "#10b981",
+    "badge": "⚡️ Hardware",
+    "source": "NVIDIA Newsroom / Hot Chips",
+    "url": "https://nvidianews.nvidia.com/",
+    "readTime": "5 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "NVIDIA has initiated volume shipments of its flagship GB200 NVL72 computing systems to tier-1 hyperscalers including Microsoft Azure, AWS, and Google Cloud. The architecture marks a monumental shift from discrete air-cooled servers to an end-to-end liquid-cooled, single-rack supercomputer uniting 72 Blackwell GPUs and 36 Grace CPUs over a 130 TB/s NVLink copper switch backbone.",
+    "keyMetrics": [
+      {
+        "label": "Inference Speedup",
+        "value": "30x vs H100"
+      },
+      {
+        "label": "NVLink Bandwidth",
+        "value": "1.8 TB/s per GPU"
+      },
+      {
+        "label": "Rack Power",
+        "value": "120 kW (Liquid)"
+      },
+      {
+        "label": "FP4 Compute",
+        "value": "1.44 Exaflops"
+      }
+    ],
+    "technicalDeepDive": "The GB200 utilizes a second-generation Transformer Engine supporting native 4-bit floating point (FP4) precision. This doubles compute density and halves memory bandwidth bottlenecks without sacrificing accuracy on mixture-of-experts (MoE) token routing. By utilizing a passive copper backplane for the 5,184-cable NVLink spine, NVIDIA eliminated 20,000 transceivers and saved 20 kilowatts of power per rack compared to optical interconnects.",
+    "industryImpact": "The NVL72 allows frontier models with over 1 trillion parameters (such as Llama 3.1 405B and next-generation multimodal architectures) to reside entirely within unified GPU memory across a single rack. This slashes per-token inference latency down to real-time conversational speeds and cuts energy consumption per million generated tokens by up to 25x compared to Hopper clusters.",
+    "resources": [
+      {
+        "label": "NVIDIA Architecture Whitepaper",
+        "url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/"
+      },
+      {
+        "label": "Hot Chips Technical Keynote",
+        "url": "https://hotchips.org/"
+      }
+    ]
+  },
+  {
+    "id": "news-3",
+    "title": "Anthropic Claude Hybrid Reasoning & Adaptive Thinking Budgets",
+    "category": "Agentic Systems",
+    "categoryColor": "#f59e0b",
+    "badge": "🛠 Agents",
+    "source": "Anthropic Research",
+    "url": "https://www.anthropic.com/news",
+    "readTime": "5 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Anthropic introduced a breakthrough hybrid reasoning capability across its Claude model suite, allowing developers to allocate an explicit 'thinking budget' (from 1,000 to 128,000 tokens) on a per-request basis. Unlike fixed-mode reasoning systems that lock models into slow, verbose chains for simple tasks, Claude dynamically balances deep internal deliberation for tough architectural problems with blazing fast output tokens for straightforward logic.",
+    "keyMetrics": [
+      {
+        "label": "SWE-bench Verified",
+        "value": "70.2% Fix Rate"
+      },
+      {
+        "label": "Thinking Budget",
+        "value": "1k to 128k tokens"
+      },
+      {
+        "label": "Multi-turn Tool Accuracy",
+        "value": "+34% reduction in errors"
+      },
+      {
+        "label": "Context Window",
+        "value": "200k tokens"
+      }
+    ],
+    "technicalDeepDive": "Claude's extended thinking token stream operates in a hidden internal scratchpad, allowing the model to simulate edge cases, test counter-arguments, and backtrack before writing code or making bash tool calls. The architecture supports interleaved thinking between sequential tool calls: after executing a terminal command or viewing a git diff, the agent enters another thinking block to inspect test output before determining its next action.",
+    "industryImpact": "Engineering teams building autonomous coding copilots and multi-agent workflows can now prevent agent 'hallucination drift' during long-horizon tasks. Complex codebase refactors that previously failed after 5 steps can now run through 30+ iterative tool invocations with high reliability.",
+    "resources": [
+      {
+        "label": "Anthropic Engineering Post",
+        "url": "https://www.anthropic.com/news"
+      },
+      {
+        "label": "Developer Documentation",
+        "url": "https://docs.anthropic.com/"
+      }
+    ]
+  },
+  {
+    "id": "news-4",
+    "title": "Google Quantum AI 'Willow': Below-Threshold Error Suppression Achieved",
+    "category": "Quantum Computing",
+    "categoryColor": "#8b5cf6",
+    "badge": "🔬 Frontier",
+    "source": "Google Quantum AI / Nature",
+    "url": "https://blog.google/technology/ai/google-quantum-ai-willow/",
+    "readTime": "6 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Google's Quantum AI team unveiled 'Willow', a 105-qubit superconducting quantum processor that demonstrated for the first time that increasing code distance exponentially reduces logical error rates. This physical milestone—known as operating 'below threshold'—has eluded physicists for thirty years and confirms that quantum surface error-correcting codes function in hardware exactly as predicted by theoretical quantum mechanics.",
+    "keyMetrics": [
+      {
+        "label": "Physical Qubits",
+        "value": "105 Qubits"
+      },
+      {
+        "label": "Error Suppression",
+        "value": "2x reduction per code distance"
+      },
+      {
+        "label": "Benchmark Time",
+        "value": "<5 min vs 10^25 yrs supercomputer"
+      },
+      {
+        "label": "Fidelity",
+        "value": "99.9% two-qubit gates"
+      }
+    ],
+    "technicalDeepDive": "Willow achieved this through custom fabricated superconducting transmon qubits with sub-nanosecond microwave pulse control and integrated flux-trapping metallurgy that neutralizes stray cosmic ray phonons. When scaling from code distance 3 to distance 5 and distance 7 surface codes, logical qubit lifetimes doubled with each step, proving that adding more imperfect physical qubits makes the overall logical quantum system significantly more stable, not noisier.",
+    "industryImpact": "Fault-tolerant logical qubits unlock exact quantum chemistry simulations of carbon-fixation enzymes (nitrogenase), battery electrolyte degradation, and quantum cryptography. Google outlined an updated timeline pointing to commercial-scale million-qubit quantum supercomputers before 2032.",
+    "resources": [
+      {
+        "label": "Google AI Announcement",
+        "url": "https://blog.google/technology/ai/google-quantum-ai-willow/"
+      },
+      {
+        "label": "Nature Research Paper",
+        "url": "https://www.nature.com/"
+      }
+    ]
+  },
+  {
+    "id": "news-5",
+    "title": "Zero-Latency In-Browser LLMs: WebAssembly SIMD & WebGPU Compute Pipelines",
+    "category": "Web & Edge AI",
+    "categoryColor": "#ec4899",
+    "badge": "🌐 Web Tech",
+    "source": "W3C / WebGPU Community Group",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Browser-based AI has reached parity with native client execution thanks to mature WebGPU WGSL compute shaders and Wasm 128-bit SIMD matrix engines. Modern web applications can now download quantized 3B to 7B parameter models (such as Llama-3.2-3B, Gemma-2-2B, and SmolLM) directly into browser memory (OPFS) and execute generative text and vision pipelines entirely on the client's local GPU without transmitting a single byte to an external server.",
+    "keyMetrics": [
+      {
+        "label": "Generation Speed",
+        "value": "45+ tokens/sec on M3/M4"
+      },
+      {
+        "label": "Time to First Token",
+        "value": "<120 ms"
+      },
+      {
+        "label": "Server Cloud Cost",
+        "value": "$0.00 / month"
+      },
+      {
+        "label": "Privacy Compliance",
+        "value": "100% Zero-Egress GDPR"
+      }
+    ],
+    "technicalDeepDive": "The pipeline pairs WebAssembly for tokenization and memory layout with WebGPU compute passes executing custom quantized 4-bit integer (AWQ/GPTQ) matrix multiplications. By caching model weights inside the Origin Private File System (OPFS), models are fetched once and load in under 400 milliseconds on subsequent visits. Dynamic KV-cache memory pooling prevents browser tab crashes even during 8,000-token context interactions.",
+    "industryImpact": "Web application developers can build intelligent text editors, code reviewers, and semantic search interfaces without managing GPU server clusters, paying recurring API bills, or exposing sensitive user documents to third-party model providers.",
+    "resources": [
+      {
+        "label": "MDN WebGPU Documentation",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API"
+      },
+      {
+        "label": "WebLLM Open Project",
+        "url": "https://webllm.mlc.ai/"
+      }
+    ]
+  },
+  {
+    "id": "news-6",
+    "title": "Humanoid Robotics Enter Automotive Production: 8-Hour Autonomous Shifts",
+    "category": "Robotics",
+    "categoryColor": "#06b6d4",
+    "badge": "🤖 Physical AI",
+    "source": "TechCrunch Robotics / IEEE Spectrum",
+    "url": "https://techcrunch.com/category/robotics/",
+    "readTime": "5 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Commercial humanoid robots have graduated from laboratory demonstrations to continuous deployment inside active automotive assembly plants. Companies like Figure and Boston Dynamics announced that electric humanoid units have completed thousands of production cycles at BMW and Hyundai manufacturing facilities, autonomously carrying stamping blanks, loading CNC milling machines, and sequencing heavy structural parts without human teleoperation.",
+    "keyMetrics": [
+      {
+        "label": "Continuous Shift",
+        "value": "8 Hours Autonomous"
+      },
+      {
+        "label": "Payload Capacity",
+        "value": "25 kg (55 lbs)"
+      },
+      {
+        "label": "Tactile Gripper Precision",
+        "value": "16-DoF Sub-Millimeter"
+      },
+      {
+        "label": "Cycle Placement Error",
+        "value": "<0.1%"
+      }
+    ],
+    "technicalDeepDive": "The breakthrough stems from Vision-Language-Action (VLA) end-to-end models trained on billions of real and simulated interaction tokens. Rather than hard-coding trajectory waypoints, humanoid hands equipped with high-bandwidth optical tactile sensors adjust their grip pressure in real-time based on slip detection. The robots navigate dynamic factory environments using stereo depth cameras and continuous whole-body model predictive control (MPC).",
+    "industryImpact": "Humanoid robotics resolves structural labor shortages in hazardous manufacturing roles (e.g., hot stamping, foundry loading, and sheet metal transport). Factory managers can reprogram tasks in hours via natural language and video demonstration instead of re-tooling fixed robotic gantry cages.",
+    "resources": [
+      {
+        "label": "Figure Commercial Field Update",
+        "url": "https://www.figure.ai/"
+      },
+      {
+        "label": "IEEE Robotics & Automation",
+        "url": "https://www.ieee-ras.org/"
+      }
+    ]
+  },
+  {
+    "id": "news-7",
+    "title": "AlphaFold 3 Weights Released for Academic Drug Discovery & Therapeutic Design",
+    "category": "BioTech & Health",
+    "categoryColor": "#14b8a6",
+    "badge": "🧬 Biology",
+    "source": "DeepMind / Nature",
+    "url": "https://deepmind.google/technologies/alphafold/",
+    "readTime": "5 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "DeepMind has officially released the model weights and open-source inference codebase for AlphaFold 3 to academic and non-profit researchers worldwide. While AlphaFold 2 revolutionized protein structure prediction, AlphaFold 3 expands structural biology into predicting full multi-molecular complexes—including proteins interacting with DNA, RNA, small-molecule drug candidates, ions, and post-translational chemical modifications.",
+    "keyMetrics": [
+      {
+        "label": "Binding Prediction",
+        "value": "50% more accurate than docking"
+      },
+      {
+        "label": "Supported Modalities",
+        "value": "Proteins, DNA, RNA, Ligands"
+      },
+      {
+        "label": "Prediction Runtime",
+        "value": "<2 minutes per complex"
+      },
+      {
+        "label": "License Type",
+        "value": "Open Academic & Research"
+      }
+    ],
+    "technicalDeepDive": "AlphaFold 3 replaces the MSA Pairformer module with a streamlined Diffusion Module that operates directly on 3D atomic coordinates rather than internal torsion angles. This enables the model to accurately capture atomic interactions without rigid steric constraints. Chemical ligands are represented as full molecular graphs with SMILES topologies, enabling unified co-folding of target receptors with candidate pharmaceutical compounds.",
+    "industryImpact": "Researchers can now screen hundreds of drug candidates against targeted oncology and antiviral receptor proteins on a single workstation before synthesizing compounds in a wet lab. This drastically compresses lead optimization timelines from several years down to weeks.",
+    "resources": [
+      {
+        "label": "AlphaFold Server",
+        "url": "https://alphafoldserver.com/"
+      },
+      {
+        "label": "Nature Publication",
+        "url": "https://www.nature.com/articles/s41586-024-07487-w"
+      }
+    ]
+  },
+  {
+    "id": "news-8",
+    "title": "Sub-150ms Duplex Speech-to-Speech AI Eliminates Turn-Taking Lag",
+    "category": "Audio & Speech AI",
+    "categoryColor": "#f43f5e",
+    "badge": "🎙 Speech",
+    "source": "VentureBeat / InterSpeech",
+    "url": "https://venturebeat.com/category/ai/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "A fundamental shift is underway in conversational voice interfaces: native audio-in, audio-out multimodal architectures have officially replaced the legacy pipeline of Whisper (ASR) → LLM → ElevenLabs (TTS). By modeling raw discrete audio tokens directly within the neural transformer backbone, the system achieves sub-150 millisecond duplex response latency—matching natural human conversation speeds.",
+    "keyMetrics": [
+      {
+        "label": "Latency (End-to-End)",
+        "value": "120 - 150 ms"
+      },
+      {
+        "label": "Interruption Recovery",
+        "value": "Instant (<20 ms)"
+      },
+      {
+        "label": "Acoustic Expressiveness",
+        "value": "Whispers, Laughter, Pitch Nuance"
+      },
+      {
+        "label": "Bandwidth Requirement",
+        "value": "<24 kbps Opus stream"
+      }
+    ],
+    "technicalDeepDive": "Legacy cascading stacks accumulated latency at every stage: 300ms for speech-to-text, 400ms for text generation, and 300ms for voice synthesis, creating awkward 1-second pauses. The new native audio models use neural codec tokenizers (such as SoundStream and EnCodec) to tokenize acoustic waveforms into discrete tokens. An integrated Voice Activity Detection (VAD) layer listens continuously on a full-duplex WebSocket stream, instantly cutting generation when the human speaker interrupts.",
+    "industryImpact": "Enables completely natural customer support agents, real-time simultaneous language interpreters, and interactive virtual tutors that detect emotional hesitation, sarcasm, and conversational cadence in real time.",
+    "resources": [
+      {
+        "label": "VentureBeat Voice AI Overview",
+        "url": "https://venturebeat.com/category/ai/"
+      },
+      {
+        "label": "InterSpeech Audio Research",
+        "url": "https://www.interspeech2024.org/"
+      }
+    ]
+  },
+  {
+    "id": "news-9",
+    "title": "Hyperscalers Sign Landmark 24/7 Nuclear & Geothermal AI Power PPAs",
+    "category": "Clean Energy",
+    "categoryColor": "#84cc16",
+    "badge": "⚡️ Energy",
+    "source": "MIT Technology Review / Bloomberg Energy",
+    "url": "https://www.technologyreview.com/",
+    "readTime": "5 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Grid interconnect constraints have officially surpassed chip availability as the #1 bottleneck for AI expansion. In response, Microsoft, Amazon, and Google signed historic 20-year Power Purchase Agreements (PPAs) totaling over 15 gigawatts of baseload carbon-free energy. The deals span restarting decommissioned nuclear reactors (such as Constellation's Three Mile Island Unit 1) and co-funding commercial Small Modular Reactor (SMR) and enhanced geothermal developers.",
+    "keyMetrics": [
+      {
+        "label": "Contracted Capacity",
+        "value": "15+ Gigawatts"
+      },
+      {
+        "label": "Datacenter Growth",
+        "value": "3x power demand by 2030"
+      },
+      {
+        "label": "Carbon Intensity",
+        "value": "Zero Scope 2 emissions"
+      },
+      {
+        "label": "Commercial SMR Target",
+        "value": "2028 - 2030"
+      }
+    ],
+    "technicalDeepDive": "Training 100,000-GPU clusters requires uninterrupted 500MW to 1GW electrical loads that cannot tolerate intermittent wind or solar drops. Next-gen PPAs incorporate behind-the-meter high-voltage direct connections to nuclear power plants and deep EGS (Enhanced Geothermal Systems) that use hydraulic stimulation in hot dry crystalline rock to pump supercritical water, delivering continuous 99.9% capacity factor electricity.",
+    "industryImpact": "These multi-billion-dollar hyperscaler commitments provide the long-sought private financing required to commercialize SMRs (Kairos Power, TerraPower, NuScale) and de-risk modern deep-rock geothermal, accelerating the greening of national electric grids.",
+    "resources": [
+      {
+        "label": "MIT Tech Review Clean Energy",
+        "url": "https://www.technologyreview.com/"
+      },
+      {
+        "label": "US Department of Energy Report",
+        "url": "https://www.energy.gov/"
+      }
+    ]
+  },
+  {
+    "id": "news-10",
+    "title": "Waymo Driverless Robotaxis Surpass 150,000 Paid Commercial Trips Weekly",
+    "category": "Autonomous Systems",
+    "categoryColor": "#0ea5e9",
+    "badge": "🚗 Mobility",
+    "source": "The Verge / Waymo Safety Record",
+    "url": "https://www.theverge.com/transportation",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Alphabet's autonomous driving division Waymo confirmed it is now serving more than 150,000 commercial paid passenger trips every week across San Francisco, Phoenix, Los Angeles, and Austin without human safety operators. Verified actuarial data submitted to state insurance regulators shows Waymo vehicles experienced 85% fewer injury-causing crashes per million miles compared to human drivers in the same urban environments.",
+    "keyMetrics": [
+      {
+        "label": "Weekly Paid Trips",
+        "value": "150,000+"
+      },
+      {
+        "label": "Commercial Miles",
+        "value": "25+ Million Autonomous"
+      },
+      {
+        "label": "Injury Crash Reduction",
+        "value": "85% vs human drivers"
+      },
+      {
+        "label": "Generation Fleet",
+        "value": "6th-Gen Geely Zeekr EV"
+      }
+    ],
+    "technicalDeepDive": "Waymo's 6th-generation hardware suite incorporates 13 high-resolution cameras, 4 multi-beam LiDAR sensors, and 6 imaging radar arrays with integrated thermal heaters to defeat fog, heavy rain, and dust. The software architecture leverages end-to-end multimodal transformers that predict trajectories for hundreds of pedestrians, cyclists, and aggressive drivers simultaneously while enforcing deterministic safety boundaries.",
+    "industryImpact": "Autonomous mobility is transforming urban real estate by reducing parking lot demand, lowering drunk-driving incidents, and redefining rideshare unit economics. Waymo's rapid expansion into airport shuttles and highway routes marks the mainstream arrival of Level 4 autonomous transportation.",
+    "resources": [
+      {
+        "label": "Waymo Safety & Performance Data",
+        "url": "https://waymo.com/safety/"
+      },
+      {
+        "label": "The Verge Full Report",
+        "url": "https://www.theverge.com/transportation"
+      }
+    ]
+  },
+  {
+    "id": "news-11",
+    "title": "Cosmopedia v2 & Verifiable Self-Play: Breaking the LLM Public Data Wall",
+    "category": "Open Source",
+    "categoryColor": "#6366f1",
+    "badge": "📦 Open Source",
+    "source": "Hugging Face Research",
+    "url": "https://huggingface.co/blog",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "With human-written web text projected to be fully exhausted for pre-training frontier models by 2026, researchers have turned to high-density synthetic data curricula. Hugging Face and academic partners published Cosmopedia v2, an open-source dataset of 30+ million structured textbooks, coding lessons, and interactive web tutorials synthesized by smaller teacher models with mathematical validation checks.",
+    "keyMetrics": [
+      {
+        "label": "Synthetic Tokens",
+        "value": "35+ Billion high-grade"
+      },
+      {
+        "label": "Benchmark Boost",
+        "value": "+18% MMLU for 1B models"
+      },
+      {
+        "label": "Toxicity / Bias",
+        "value": "94% lower than CommonCrawl"
+      },
+      {
+        "label": "License",
+        "value": "Apache 2.0 Free Commercial"
+      }
+    ],
+    "technicalDeepDive": "Cosmopedia utilizes automated prompt evolution to generate textbooks across thousands of academic disciplines. Rather than copying web text, the model generates curriculum-driven examples, practice questions with verified solutions, and clean step-by-step proofs. Automated Python and Lean theorem solvers verify the code and mathematical assertions before appending them to the training corpus.",
+    "industryImpact": "Small open-source teams can now train competitive 1B to 7B language models on synthetic tokens for under $25,000 in cloud compute, achieving benchmark scores that previously required petabytes of noisy web-scraped data.",
+    "resources": [
+      {
+        "label": "Hugging Face Cosmopedia Dataset",
+        "url": "https://huggingface.co/datasets/HuggingFaceTB/cosmopedia"
+      },
+      {
+        "label": "Research Technical Whitepaper",
+        "url": "https://huggingface.co/blog"
+      }
+    ]
+  },
+  {
+    "id": "news-12",
+    "title": "Neuralink Second Human Trial: Zero Thread Retraction & High-Speed 3D CAD",
+    "category": "BioTech & Neural",
+    "categoryColor": "#a855f7",
+    "badge": "🧠 NeuroTech",
+    "source": "Neuralink Technical Update",
+    "url": "https://neuralink.com/blog/",
+    "readTime": "5 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Neuralink announced complete clinical success with its second human participant ('Alex'), who suffers from a spinal cord injury. Alex achieved immediate high-speed control of digital interfaces on day one, setting new records for bits-per-second cursor control and successfully designing custom 3D mounts in Fusion 360 and playing competitive first-person shooter games purely through neural intention.",
+    "keyMetrics": [
+      {
+        "label": "Active Electrodes",
+        "value": "1,024 thin-film threads"
+      },
+      {
+        "label": "Thread Retraction",
+        "value": "0% (Completely solved)"
+      },
+      {
+        "label": "Spike Sorting Latency",
+        "value": "<15 ms Bluetooth Low Energy"
+      },
+      {
+        "label": "Trial Status",
+        "value": "FDA Breakthrough Device Designation"
+      }
+    ],
+    "technicalDeepDive": "To eliminate the thread retraction observed in the first trial (where brain pulsation caused flexible threads to shift), the surgical team reduced brain motion during robot insertion, increased insertion depth, and sculpted the cranial contour. Neuralink's on-chip DSP performs real-time spike sorting across 1,024 channels, translating motor cortex intentions into 2D/3D kinematic vector velocity commands.",
+    "industryImpact": "Neuralink plans to begin trials for 'Blindsight' (delivering visual percepts directly into the visual cortex of blind patients) and expanding limb-restoration motor bypasses, cementing high-bandwidth BCIs as mainstream clinical medicine.",
+    "resources": [
+      {
+        "label": "Neuralink Progress Blog",
+        "url": "https://neuralink.com/blog/"
+      },
+      {
+        "label": "ClinicalTrials Registry",
+        "url": "https://clinicaltrials.gov/"
+      }
+    ]
+  },
+  {
+    "id": "news-13",
+    "title": "Silicon Photonics Interconnects: Overcoming Copper's Thermal AI Limit",
+    "category": "Semiconductors",
+    "categoryColor": "#e11d48",
+    "badge": "💡 Silicon",
+    "source": "EE Times / Lightmatter",
+    "url": "https://www.eetimes.com/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "As GPU clusters exceed 100,000 accelerators, traditional copper interconnect cables are hitting severe physical limits in reach, latency, and thermal dissipation. Silicon photonics pioneers Lightmatter and Celestial AI showcased optical interposer solutions that route terabits of memory bandwidth directly from silicon dies using laser waveguides rather than copper traces.",
+    "keyMetrics": [
+      {
+        "label": "Optical Bandwidth",
+        "value": "128 Terabits/sec inter-die"
+      },
+      {
+        "label": "Latency Reduction",
+        "value": "6x lower than copper switches"
+      },
+      {
+        "label": "Energy Consumption",
+        "value": "<1 picojoule / bit"
+      },
+      {
+        "label": "Reach Distance",
+        "value": "Up to 100 meters without loss"
+      }
+    ],
+    "technicalDeepDive": "Silicon photonics integrates lasers, modulators, and photodetectors onto standard CMOS silicon wafers. By replacing electrical serial-deserializer (SerDes) channels with optical waveguides, accelerators can directly access HBM memory banks across adjacent servers with zero electrical impedance degradation and near-zero heat dissipation.",
+    "industryImpact": "Enables truly disaggregated datacenter architectures where thousands of GPUs and memory banks communicate as if they were a single colossal chip, eliminating the cluster-networking latency bottleneck for trillion-parameter AI models.",
+    "resources": [
+      {
+        "label": "EE Times Technical Analysis",
+        "url": "https://www.eetimes.com/"
+      },
+      {
+        "label": "Lightmatter Technology Architecture",
+        "url": "https://lightmatter.co/"
+      }
+    ]
+  },
+  {
+    "id": "news-14",
+    "title": "SWE-Bench Verified: Autonomous AI Agents Resolve 50%+ Real GitHub Issues",
+    "category": "Dev Tools",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "source": "SWE-bench / Princeton NLP",
+    "url": "https://www.swebench.com/",
+    "readTime": "5 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "The definitive benchmark for autonomous software engineering agents—SWE-bench Verified, consisting of 500 validated real-world GitHub issues across Django, SymPy, scikit-learn, and pytest—saw frontier AI agents break past the 50% automated fix threshold. Just one year ago, leading models solved less than 4% of these challenges without human assistance.",
+    "keyMetrics": [
+      {
+        "label": "Current Benchmark Record",
+        "value": "51.8% Automated Fix Rate"
+      },
+      {
+        "label": "Historical Baseline (2023)",
+        "value": "3.8% (GPT-4)"
+      },
+      {
+        "label": "Avg Solution Cost",
+        "value": "$1.20 per resolved PR"
+      },
+      {
+        "label": "Test Suite Validation",
+        "value": "100% regression test pass"
+      }
+    ],
+    "technicalDeepDive": "High-scoring agent frameworks combine tree-of-thought exploration with dynamic test-driven execution. When given a bug description, the agent clones the repo, locates candidate files using semantic AST search, writes reproductive unit tests, inspects failures in an isolated container sandbox, edits the implementation, and loops until all existing and newly written test suites pass cleanly.",
+    "industryImpact": "Autonomous software agents are transitioning from autocomplete toys into junior pair programmers that triage backlogs, fix dependency vulnerabilities, and draft draft pull requests overnight, transforming the day-to-day role of software engineers into system architecture and verification.",
+    "resources": [
+      {
+        "label": "SWE-bench Leaderboard",
+        "url": "https://www.swebench.com/"
+      },
+      {
+        "label": "Princeton Research Paper",
+        "url": "https://arxiv.org/abs/2310.06770"
+      }
+    ]
+  },
+  {
+    "id": "news-15",
+    "title": "QuantumScape B-Sample Solid-State Cells: 15-Minute Fast Charge & 1,000 Cycles",
+    "category": "Battery & Energy",
+    "categoryColor": "#eab308",
+    "badge": "🔋 CleanTech",
+    "source": "Green Car Congress / Automotive News",
+    "url": "https://www.greencarcongress.com/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "QuantumScape has delivered commercial B-sample solid-state lithium-metal cells (QSE-5) to automotive partners, including the Volkswagen Group. The cells feature an anodeless architecture that completely eliminates graphite/silicon anodes, achieving unprecedented volumetric energy density while meeting rigorous automotive fast-charging and thermal safety criteria.",
+    "keyMetrics": [
+      {
+        "label": "Energy Density",
+        "value": ">800 Wh/L volumetric"
+      },
+      {
+        "label": "Fast Charge Time",
+        "value": "10% to 80% in <15 minutes"
+      },
+      {
+        "label": "Cycle Life",
+        "value": ">1,000 cycles with >95% retention"
+      },
+      {
+        "label": "Operating Temp",
+        "value": "-30°C to +60°C without fires"
+      }
+    ],
+    "technicalDeepDive": "Traditional lithium-ion batteries rely on flammable liquid electrolytes and bulky graphite anodes. QuantumScape replaces the liquid with a proprietary flexible ceramic separator that resists lithium dendrite formation, allowing pure metallic lithium to plate directly onto the current collector during charging. This removes 40% of battery volume while eliminating runaway combustion risks.",
+    "industryImpact": "Solid-state batteries pave the way for 500-to-600-mile electric vehicles that charge as quickly as filling a gas tank, eliminating range anxiety and accelerating consumer EV transition.",
+    "resources": [
+      {
+        "label": "QuantumScape Commercial Update",
+        "url": "https://www.quantumscape.com/"
+      },
+      {
+        "label": "Green Car Congress Review",
+        "url": "https://www.greencarcongress.com/"
+      }
+    ]
+  },
+  {
+    "id": "news-16",
+    "title": "Starship Flight 6: Orbital Raptor Relight & Tileless Reentry Telemetry",
+    "category": "Space Tech",
+    "categoryColor": "#3b82f6",
+    "badge": "🚀 Aerospace",
+    "source": "SpaceX Mission Updates",
+    "url": "https://www.spacex.com/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "SpaceX achieved another critical flight test milestone for the 121-meter Starship launch vehicle from Starbase, Texas. Flight 6 demonstrated the first in-space reignition of a vacuum Raptor engine—a mandatory capability for orbital deorbit burns and satellite deployment—and intentionally stripped heat shield tiles from high-stress zones to collect structural survival telemetry during peak atmospheric entry heating.",
+    "keyMetrics": [
+      {
+        "label": "Liftoff Thrust",
+        "value": "16.7 Million lbs (33 Raptors)"
+      },
+      {
+        "label": "Payload to LEO",
+        "value": "150+ metric tons (Reusable)"
+      },
+      {
+        "label": "In-Space Relight",
+        "value": "100% Successful ignition"
+      },
+      {
+        "label": "Splashdown Precision",
+        "value": "Sub-meter pinpoint Indian Ocean"
+      }
+    ],
+    "technicalDeepDive": "Igniting liquid methane and liquid oxygen engines in zero-gravity vacuum requires precise cryogenic propellant settling using reaction control thrusters and high-pressure helium chilldown. Flight 6 tested updated secondary thermal protection layers behind intentional heat-shield gaps to validate structural safety margins for future ship catches with the 'Mechazilla' launch tower chopstick arms.",
+    "industryImpact": "Fully reusable heavy-lift orbital flight drops launch costs below $100 per kilogram, making lunar bases (Artemis III), orbital propellant depots, and mega-constellation space telescopes economically feasible.",
+    "resources": [
+      {
+        "label": "SpaceX Starship Flight Updates",
+        "url": "https://www.spacex.com/launches/"
+      },
+      {
+        "label": "NASA Artemis Program",
+        "url": "https://www.nasa.gov/artemis/"
+      }
+    ]
+  },
+  {
+    "id": "news-17",
+    "title": "Dual-LLM Firewall Architecture Neutralizes Indirect Prompt Injections",
+    "category": "Cybersecurity",
+    "categoryColor": "#ef4444",
+    "badge": "🛡 Security",
+    "source": "arXiv Security / USENIX Security",
+    "url": "https://arxiv.org/abs/2403.05047",
+    "readTime": "5 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Prompt injection—the OWASP #1 vulnerability in production LLM applications—has plagued AI agent deployments where untrusted web content or email text tricks models into exfiltrating credentials or executing unauthorized actions. Security researchers from Stanford and Berkeley unveiled a formally verified 'Dual-LLM' firewall architecture that structurally isolates instructions from untrusted data channels.",
+    "keyMetrics": [
+      {
+        "label": "Injection Defense Rate",
+        "value": "99.4% on benchmark attacks"
+      },
+      {
+        "label": "False Positive Rate",
+        "value": "<0.2% on legitimate prompts"
+      },
+      {
+        "label": "Latency Overhead",
+        "value": "<45 ms"
+      },
+      {
+        "label": "Standards Alignment",
+        "value": "OWASP GenAI Top 10"
+      }
+    ],
+    "technicalDeepDive": "Single-model architectures treat user instructions and scraped data as a unified token stream, making delimiter-based escaping ineffective. The Dual-LLM architecture splits tasks into a privileged 'Planner LLM' (which never sees raw untrusted data directly) and an unprivileged 'Execution Sandboxed LLM'. Untrusted content is treated as passive binary data that cannot alter the Planner's control flow graph.",
+    "industryImpact": "Enterprises can safely connect autonomous agents to company email inboxes, CRM records, and SQL databases without fearing that an adversarial email or malicious webpage will hijack company credentials or trigger unauthorized money transfers.",
+    "resources": [
+      {
+        "label": "arXiv Research Paper",
+        "url": "https://arxiv.org/abs/2403.05047"
+      },
+      {
+        "label": "OWASP GenAI Security Project",
+        "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+      }
+    ]
+  },
+  {
+    "id": "news-18",
+    "title": "Apple Open-Sources 'MLX' Unified Memory Speedups: 70B Models on MacBooks",
+    "category": "Apple Silicon AI",
+    "categoryColor": "#64748b",
+    "badge": "🍎 Ecosystem",
+    "source": "Apple Machine Learning Research",
+    "url": "https://github.com/ml-explore/mlx",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Apple released a major update to MLX, its open-source array framework tailored specifically for Apple Silicon's unified memory architecture. The update introduces fused quantized matrix multiplication kernels and dynamic memory allocation improvements that allow 128GB/192GB M-series MacBook Pros and Mac Studios to fine-tune and run 70B parameter models at full speed with zero PCIe transfer penalties.",
+    "keyMetrics": [
+      {
+        "label": "Inference Speedup",
+        "value": "3.2x faster for quantized 70B"
+      },
+      {
+        "label": "Max Memory Bandwidth",
+        "value": "Up to 800 GB/s (M-Max/Ultra)"
+      },
+      {
+        "label": "Quantization Formats",
+        "value": "4-bit, 8-bit, FP16, BF16"
+      },
+      {
+        "label": "Framework Compatibility",
+        "value": "PyTorch-like NumPy API"
+      }
+    ],
+    "technicalDeepDive": "Unlike discrete PC GPUs where weights must be copied over a bandwidth-limited PCIe bus from host RAM to VRAM, Apple Silicon shares a single high-bandwidth unified memory pool between CPU and GPU. MLX provides lazy evaluation and unified buffer sharing: tensors allocated by the CPU can be consumed by GPU compute kernels without copying or converting memory layouts.",
+    "industryImpact": "Turns portable consumer laptops into premier personal research labs. Individual developers and privacy-conscious enterprises can fine-tune frontier models on confidential customer data without renting expensive cloud GPU clusters.",
+    "resources": [
+      {
+        "label": "MLX GitHub Repository",
+        "url": "https://github.com/ml-explore/mlx"
+      },
+      {
+        "label": "Apple ML Research Blog",
+        "url": "https://machinelearning.apple.com/"
+      }
+    ]
+  },
+  {
+    "id": "news-19",
+    "title": "RISC-V 128-Core Server Chiplets Enter Commercial Cloud Datacenter Trials",
+    "category": "Computer Architecture",
+    "categoryColor": "#0d9488",
+    "badge": "⚙️ Hardware",
+    "source": "RISC-V International / SemiAnalysis",
+    "url": "https://riscv.org/",
+    "readTime": "5 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Ventana Micro Systems and Jim Keller's Tenstorrent unveiled high-performance 128-core RISC-V server chiplets targeting hyperscale cloud deployments. Featuring open-standard Vector Extensions (RVV 1.0) and advanced matrix acceleration units, the processors challenge x86 (Intel/AMD) and ARM architectures with an open, royalty-free instruction set that hyperscalers can customize directly.",
+    "keyMetrics": [
+      {
+        "label": "Core Count",
+        "value": "128 Cores per socket"
+      },
+      {
+        "label": "Process Node",
+        "value": "TSMC 3nm FinFET"
+      },
+      {
+        "label": "Interconnect Standard",
+        "value": "UCIe Die-to-Die open link"
+      },
+      {
+        "label": "Royalty Cost",
+        "value": "Zero ISA licensing fees"
+      }
+    ],
+    "technicalDeepDive": "The Veyron V2 architecture utilizes Universal Chiplet Interconnect Express (UCIe) to pair standard RISC-V compute dies with custom customer-designed AI accelerator chiplets. The 128-bit vector units support native bfloat16 and INT8 matrix multiplies, delivering high throughput for cloud microservices and distributed storage engines.",
+    "industryImpact": "Breaks the duopoly of proprietary server architectures and insulates global cloud operators from geopolitical export controls. Cloud giants can tailor custom silicon specifically for their AI workloads without paying millions in architecture licensing fees.",
+    "resources": [
+      {
+        "label": "RISC-V International",
+        "url": "https://riscv.org/"
+      },
+      {
+        "label": "Tenstorrent Silicon Architecture",
+        "url": "https://tenstorrent.com/"
+      }
+    ]
+  },
+  {
+    "id": "news-20",
+    "title": "Diffusion-Transformers Synthesize Production-Grade Parametric 3D CAD",
+    "category": "Generative 3D",
+    "categoryColor": "#d946ef",
+    "badge": "🎨 3D & Design",
+    "source": "ACM SIGGRAPH / Autodesk Research",
+    "url": "https://www.siggraph.org/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Generative 3D has evolved beyond polygonal mesh blobs. Autodesk and academic partners debuted multimodal diffusion-transformer models that synthesize production-grade boundary representation (B-Rep) CAD solids directly from text descriptions and hand-drawn mechanical sketches. The generated models include editable parametric sketch planes, fillet radii, and mechanical constraints compatible with SolidWorks, AutoCAD, and Fusion 360.",
+    "keyMetrics": [
+      {
+        "label": "Geometry Format",
+        "value": "Parametric STEP / B-Rep"
+      },
+      {
+        "label": "Generation Time",
+        "value": "<10 seconds per part"
+      },
+      {
+        "label": "Manufacturability Check",
+        "value": "100% watertight valid solids"
+      },
+      {
+        "label": "Format Export",
+        "value": "STEP, IGES, Parasolid"
+      }
+    ],
+    "technicalDeepDive": "Previous generative 3D approaches (NeRFs, Gaussian Splatting) produced surface meshes unusable for CNC machining or injection molding. The new architecture tokenizes CAD construction history sequences (extrusions, cuts, lofts, fillets) as a formal programmatic grammar, using autoregressive transformers with geometric constraint solvers to guarantee that all generated faces and edges stitch into watertight manifolds.",
+    "industryImpact": "Mechanical engineers and industrial designers can generate dozens of manufacturable component variants in minutes, drastically accelerating aerospace prototyping, consumer electronics tooling, and automotive chassis development.",
+    "resources": [
+      {
+        "label": "ACM SIGGRAPH Research",
+        "url": "https://www.siggraph.org/"
+      },
+      {
+        "label": "Autodesk AI Research",
+        "url": "https://www.autodesk.com/research"
+      }
+    ]
+  },
+  {
+    "id": "news-21",
+    "title": "Raspberry Pi 5 AI HAT+: 26 TOPS Edge NPU Inference Under $70",
+    "category": "Maker & IoT",
+    "categoryColor": "#e11d48",
+    "badge": "🍓 Maker",
+    "source": "Raspberry Pi Foundation",
+    "url": "https://www.raspberrypi.com/news/",
+    "readTime": "3 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "The Raspberry Pi Foundation launched the AI HAT+ module, integrating Hailo-8 neural processing units with the Raspberry Pi 5. Delivering up to 26 tera-operations per second (TOPS) over the Pi's native PCIe 2.0 interface, the accessory allows makers and industrial engineers to run multiple neural networks—including YOLOv8 object detection, facial recognition, and voice models—at 60 FPS in real time.",
+    "keyMetrics": [
+      {
+        "label": "Compute Power",
+        "value": "Up to 26 TOPS"
+      },
+      {
+        "label": "Price Point",
+        "value": "$70 (Complete module)"
+      },
+      {
+        "label": "Power Consumption",
+        "value": "<2.5 Watts"
+      },
+      {
+        "label": "Interface",
+        "value": "Single-lane PCIe 2.0 M.2"
+      }
+    ],
+    "technicalDeepDive": "The Hailo-8 NPU utilizes a structure-driven architecture that maps neural network graph topologies directly onto physical compute-and-memory units. This eliminates the energy-expensive memory shuttling common in discrete GPUs, achieving high inferencing throughput at just 2.5 watts of thermal design power.",
+    "industryImpact": "Democratizes intelligent robotics, smart home security cameras, wildlife tracking devices, and automated factory sorting for hobbyists, startups, and university researchers without requiring expensive industrial edge servers.",
+    "resources": [
+      {
+        "label": "Raspberry Pi Launch Blog",
+        "url": "https://www.raspberrypi.com/news/"
+      },
+      {
+        "label": "Hailo-8 Architecture Guide",
+        "url": "https://hailo.ai/"
+      }
+    ]
+  },
+  {
+    "id": "news-22",
+    "title": "Boom Supersonic XB-1 Completes Supersonic Envelope Expansion Flights",
+    "category": "Aviation",
+    "categoryColor": "#2563eb",
+    "badge": "✈️ Supersonic",
+    "source": "Aviation Week / FlightGlobal",
+    "url": "https://aviationweek.com/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Boom Supersonic's XB-1 demonstrator aircraft successfully completed its first series of supersonic test flights over the Mojave Desert in California. The aircraft represents the first independently developed civil supersonic aircraft to exceed Mach 1 and serves as the technological testbed for the full-scale commercial airliner 'Overture', designed to carry 64-80 passengers on 100% sustainable aviation fuel.",
+    "keyMetrics": [
+      {
+        "label": "Maximum Speed",
+        "value": "Mach 1.2+ Envelope Tested"
+      },
+      {
+        "label": "Airframe Material",
+        "value": "Carbon-Fiber Composite"
+      },
+      {
+        "label": "Vision System",
+        "value": "Augmented Reality HUD (No droop nose)"
+      },
+      {
+        "label": "Airliner Target",
+        "value": "Overture 2029 Maiden Flight"
+      }
+    ],
+    "technicalDeepDive": "Unlike Concorde's heavy hydraulic drooping nose, XB-1 features an aerodynamically optimized chined needle nose that uses digital forward cameras and augmented reality displays to project synthetic runway views for the pilot. The airframe's area-ruled fuselage minimizes supersonic wave drag, while digital twin simulations eliminated thousands of hours of wind tunnel trials.",
+    "industryImpact": "Commercial supersonic travel would cut transatlantic flight times in half (New York to London in 3.5 hours), unlocking a new era of global passenger mobility powered by sustainable biofuels.",
+    "resources": [
+      {
+        "label": "Boom Supersonic Flight Updates",
+        "url": "https://boomsupersonic.com/"
+      },
+      {
+        "label": "Aviation Week Technical Review",
+        "url": "https://aviationweek.com/"
+      }
+    ]
+  },
+  {
+    "id": "news-23",
+    "title": "Mistral Pixtral 12B: Open-Weights Native Vision-Language Architecture",
+    "category": "Multimodal Models",
+    "categoryColor": "#f97316",
+    "badge": "👁 Vision AI",
+    "source": "Mistral AI / Hugging Face",
+    "url": "https://mistral.ai/news/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Mistral AI released Pixtral 12B, an open-weights 12-billion-parameter multimodal vision-language model trained natively on images and text. Pixtral achieves frontier results on complex technical document parsing, multi-chart reasoning, and code visual QA, outperforming existing open-weights models and matching proprietary vision models on key visual benchmarks under an open Apache 2.0 license.",
+    "keyMetrics": [
+      {
+        "label": "Parameter Count",
+        "value": "12 Billion (Weights Open)"
+      },
+      {
+        "label": "Context Window",
+        "value": "128,000 tokens"
+      },
+      {
+        "label": "Image Resolution",
+        "value": "Arbitrary aspect ratio native"
+      },
+      {
+        "label": "DocVQA Score",
+        "value": "90.7%"
+      }
+    ],
+    "technicalDeepDive": "Most vision models crop images into fixed square patches (e.g. 336x336 or 448x448), distorting fine text and diagrams. Pixtral uses a custom 400M parameter vision encoder that accepts arbitrary aspect ratios and resolutions natively. Images and text tokens share the same 128k context window, allowing users to query multiple high-resolution PDF pages simultaneously.",
+    "industryImpact": "Enterprises can deploy Pixtral locally to automate legal document extraction, medical chart audits, and architectural blueprint parsing without leaking proprietary company imagery to external cloud APIs.",
+    "resources": [
+      {
+        "label": "Mistral AI Announcement",
+        "url": "https://mistral.ai/news/"
+      },
+      {
+        "label": "Hugging Face Model Card",
+        "url": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+      }
+    ]
+  },
+  {
+    "id": "news-24",
+    "title": "Autonomous AI Reviewers Flag Unnoticed Concurrency Bugs in Open Source",
+    "category": "Software QA",
+    "categoryColor": "#14b8a6",
+    "badge": "🤖 DevOps",
+    "source": "GitHub Universe / ACM Queue",
+    "url": "https://github.blog/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Autonomous background agents deployed across GitHub CI/CD workflows are discovering critical concurrency race conditions, memory leaks, and logic flaws that escaped experienced human maintainers. In major open-source repositories including the Linux kernel and Kubernetes, automated AI code review bots have submitted hundreds of verified, merged security and performance patches.",
+    "keyMetrics": [
+      {
+        "label": "Bug Detection Rate",
+        "value": "40% more subtle edge-cases"
+      },
+      {
+        "label": "PR Review Turnaround",
+        "value": "<90 seconds per pull request"
+      },
+      {
+        "label": "Maintainer Acceptance",
+        "value": "78% patch merge rate"
+      },
+      {
+        "label": "False Positive Rate",
+        "value": "Dropped from 45% to <7%"
+      }
+    ],
+    "technicalDeepDive": "Rather than relying on static AST regex linting, modern review agents compile the project, instrument the binary with thread sanitizers (TSan/ASan), and generate targeted fuzzing inputs based on the PR diff. If a panic or memory corruption occurs, the agent writes an isolated reproduction test case and proposes the exact diff patch to resolve it.",
+    "industryImpact": "Alleviates open-source maintainer burnout and drastically elevates global software security hygiene by catching zero-day vulnerabilities prior to production release.",
+    "resources": [
+      {
+        "label": "GitHub Engineering Blog",
+        "url": "https://github.blog/"
+      },
+      {
+        "label": "ACM Queue Software Engineering",
+        "url": "https://queue.acm.org/"
+      }
+    ]
+  },
+  {
+    "id": "news-25",
+    "title": "Next-Gen Spatial Audio Glasses: On-Device Neural Co-Processors & Bone Conduction",
+    "category": "Wearables",
+    "categoryColor": "#8b5cf6",
+    "badge": "🕶 Wearables",
+    "source": "Wired / IEEE Consumer Electronics",
+    "url": "https://www.wired.com/category/gear/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Wearable hardware makers have begun shipping lightweight everyday smart audio glasses that embed dedicated ultra-low-power neural co-processors and bone-conduction transducers into standard eyewear frames. Unlike bulky VR headsets, these 42-gram frames provide continuous, hands-free conversational AI assistance and live language translation with 18-hour all-day battery life without visible cameras or screens.",
+    "keyMetrics": [
+      {
+        "label": "Frame Weight",
+        "value": "42 grams (Everyday glasses)"
+      },
+      {
+        "label": "Battery Life",
+        "value": "18+ Hours continuous"
+      },
+      {
+        "label": "Audio Delivery",
+        "value": "Private Bone-Conduction"
+      },
+      {
+        "label": "On-Device NPU",
+        "value": "Sub-millivolt always-on wake"
+      }
+    ],
+    "technicalDeepDive": "The key breakthrough is multi-tier power gating: an always-on micro-watt neural classifier detects voice activity and spatial orientation locally. When triggered, it activates the Bluetooth Low Energy (BLE) audio stream to your phone or executes local offline commands without waking the primary system processor, keeping standby power under 3 milliwatts.",
+    "industryImpact": "Points toward a screenless ambient computing future where users receive contextual whisper notifications, real-time speech translations, and meeting summaries effortlessly throughout their daily lives.",
+    "resources": [
+      {
+        "label": "Wired Gear & Wearables",
+        "url": "https://www.wired.com/category/gear/"
+      },
+      {
+        "label": "IEEE Consumer Technology Society",
+        "url": "https://ctsoc.ieee.org/"
+      }
+    ]
+  }
+]

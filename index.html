@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>TechPulse • In-Depth Daily AI & Tech Swipe</title>
+  <meta name="description" content="Tinder-style daily briefing of 25 comprehensive Tech & AI stories. Swipe right to like, swipe left to pass. Fresh edition every morning at 6:00 AM.">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#07090e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-left">
+        <div class="brand">
+          <div class="brand-icon-wrapper">
+            <span class="brand-icon">⚡️</span>
+            <span class="live-dot" title="Daily 6:00 AM Auto-Refresh Active"></span>
+          </div>
+          <div class="brand-text">
+            <h1 class="brand-title">TechPulse</h1>
+            <p class="brand-subtitle">Daily In-Depth AI & Tech Briefing • 6:00 AM Edition</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-center">
+        <div class="deck-counter-badge" id="deckCounter">
+          <span class="counter-dot"></span>
+          <span id="counterText">Story 1 of 25</span>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <!-- Audio toggle -->
+        <button id="soundToggleBtn" class="icon-button" title="Toggle Sound FX" aria-label="Toggle Sound Effects">
+          <span id="soundIcon">🔊</span>
+        </button>
+
+        <!-- Help / Shortcuts -->
+        <button id="helpBtn" class="icon-button" title="Keyboard & Swipe Shortcuts" aria-label="Shortcuts">
+          <span>⌨️</span>
+        </button>
+
+        <!-- Favorites button -->
+        <button id="favoritesBtn" class="favorites-toggle-btn" aria-label="Open Saved Articles">
+          <span class="fav-icon">⭐️</span>
+          <span class="fav-label">Favorites</span>
+          <span class="fav-badge" id="favBadgeCount">0</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Swipe Area -->
+    <main class="swipe-viewport">
+      <!-- Card Stack Canvas Container -->
+      <div class="card-stack-container" id="cardStack">
+        <div class="deck-loading-state" id="loadingState">
+          <div class="spinner"></div>
+          <p>Compiling in-depth daily intelligence briefings...</p>
+        </div>
+      </div>
+
+      <!-- Finished Deck State (Shown when all cards swiped) -->
+      <div class="end-of-deck-screen hidden" id="endDeckScreen">
+        <div class="end-card-box">
+          <div class="end-icon">🎉</div>
+          <h2>You're Fully Briefed!</h2>
+          <p class="end-subtitle">You reviewed today's complete 25-story in-depth Tech & AI edition.</p>
+
+          <div class="deck-stats-grid">
+            <div class="stat-card stat-liked">
+              <span class="stat-num" id="statLikedCount">0</span>
+              <span class="stat-label">Saved to Favorites</span>
+            </div>
+            <div class="stat-card stat-passed">
+              <span class="stat-num" id="statPassedCount">0</span>
+              <span class="stat-label">Passed / Boring</span>
+            </div>
+            <div class="stat-card stat-total">
+              <span class="stat-num" id="statTotalCount">25</span>
+              <span class="stat-label">Total Stories</span>
+            </div>
+          </div>
+
+          <div class="end-actions">
+            <button class="btn btn-primary" id="viewFavsFromEndBtn">
+              <span>⭐️ View Your Liked Stories (<span id="endFavBtnCount">0</span>)</span>
+            </button>
+            <button class="btn btn-secondary" id="restartDeckBtn">
+              <span>🔄 Restart Today's Deck</span>
+            </button>
+          </div>
+
+          <div class="daily-notice">
+            <span>⏰ Next automatic edition arrives tomorrow at <strong>6:00 AM</strong></span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Swipe Action Controls Bar -->
+    <footer class="action-dock">
+      <div class="dock-buttons">
+        <!-- Pass / Boring (Swipe Left) -->
+        <button id="passBtn" class="dock-btn btn-pass" title="Swipe Left (Boring / Pass) [← Arrow]" aria-label="Pass">
+          <div class="btn-icon">✖️</div>
+          <span class="btn-caption">Boring</span>
+          <span class="key-hint">←</span>
+        </button>
+
+        <!-- Undo last swipe -->
+        <button id="undoBtn" class="dock-btn btn-undo" title="Undo Last Swipe [Z]" aria-label="Undo" disabled>
+          <div class="btn-icon">↩️</div>
+          <span class="btn-caption">Undo</span>
+          <span class="key-hint">Z</span>
+        </button>
+
+        <!-- Open Deep Dive Modal -->
+        <button id="deepDiveBtn" class="dock-btn btn-deep-dive" title="Open Complete Deep Dive [Space / D]" aria-label="Deep Dive">
+          <div class="btn-icon">📖</div>
+          <span class="btn-caption">Deep Dive</span>
+          <span class="key-hint">Space</span>
+        </button>
+
+        <!-- Open Article Link -->
+        <button id="openLinkBtn" class="dock-btn btn-open-link" title="Open Primary Source Link in New Tab [↑ Arrow]" aria-label="Open Article">
+          <div class="btn-icon">🔗</div>
+          <span class="btn-caption">Source</span>
+          <span class="key-hint">↑</span>
+        </button>
+
+        <!-- Like / Favorite (Swipe Right) -->
+        <button id="likeBtn" class="dock-btn btn-like" title="Swipe Right (Like & Save to Favorites) [→ Arrow]" aria-label="Like & Save">
+          <div class="btn-icon">❤️</div>
+          <span class="btn-caption">Favorite</span>
+          <span class="key-hint">→</span>
+        </button>
+      </div>
+
+      <div class="swipe-hint-bar">
+        <span>👈 Drag left for Boring</span>
+        <span class="hint-separator">•</span>
+        <span>Scroll card for details</span>
+        <span class="hint-separator">•</span>
+        <span>Drag right for Favorite 👉</span>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Deep Dive Reader Modal -->
+  <dialog class="deep-dive-dialog" id="deepDiveDialog">
+    <div class="reader-container" id="deepDiveContent">
+      <!-- Populated dynamically by app.js -->
+    </div>
+  </dialog>
+
+  <!-- Favorites Drawer (Modal / Slide-Over) -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <aside class="favorites-drawer" id="favoritesDrawer" aria-label="Saved Articles Drawer">
+    <div class="drawer-header">
+      <div class="drawer-title-group">
+        <span class="drawer-title-icon">⭐️</span>
+        <h2>Your Saved Favorites</h2>
+        <span class="drawer-count-pill" id="drawerPillCount">0 items</span>
+      </div>
+      <button class="drawer-close-btn" id="closeDrawerBtn" aria-label="Close drawer">✕</button>
+    </div>
+
+    <!-- Category filter row -->
+    <div class="drawer-filter-bar" id="drawerCategoryFilters">
+      <button class="filter-chip active" data-category="ALL">All (<span id="allCount">0</span>)</button>
+    </div>
+
+    <!-- Saved items list -->
+    <div class="drawer-content" id="favoritesListContainer">
+      <!-- Populated dynamically -->
+    </div>
+
+    <!-- Drawer Footer Actions -->
+    <div class="drawer-footer">
+      <button class="btn btn-outline" id="exportFavoritesBtn" title="Copy markdown summary of favorites">
+        <span>📋 Export / Copy as Markdown</span>
+      </button>
+      <button class="btn btn-danger-subtle" id="clearAllFavoritesBtn" title="Clear all saved articles">
+        <span>🗑 Clear All</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Keyboard Shortcuts & Info Dialog -->
+  <dialog class="shortcuts-dialog" id="shortcutsDialog">
+    <div class="dialog-box">
+      <div class="dialog-header">
+        <h3>⚡️ TechPulse Navigation Guide</h3>
+        <button class="dialog-close-btn" id="closeDialogBtn">✕</button>
+      </div>
+      <div class="dialog-body">
+        <div class="guide-grid">
+          <div class="guide-item">
+            <kbd>→</kbd> or <strong>Swipe Right</strong>
+            <p>Save story to your Favorites list</p>
+          </div>
+          <div class="guide-item">
+            <kbd>←</kbd> or <strong>Swipe Left</strong>
+            <p>Mark as Boring & skip to next</p>
+          </div>
+          <div class="guide-item">
+            <kbd>Space</kbd> or <kbd>D</kbd>
+            <p>Open full Deep Dive reader modal</p>
+          </div>
+          <div class="guide-item">
+            <kbd>↑</kbd>
+            <p>Open original source link in new tab</p>
+          </div>
+          <div class="guide-item">
+            <kbd>Z</kbd>
+            <p>Undo your last card swipe</p>
+          </div>
+          <div class="guide-item">
+            <kbd>F</kbd>
+            <p>Open / Close Favorites drawer</p>
+          </div>
+          <div class="guide-item">
+            <kbd>Esc</kbd>
+            <p>Close any open dialog or drawer</p>
+          </div>
+        </div>
+
+        <div class="edition-info-box">
+          <h4>⏰ How the 6:00 AM Daily Feed Works</h4>
+          <p>Every morning at 6:00 AM, the automated news aggregator queries top Tech & AI sources (Hacker News, arXiv, TechCrunch AI, The Verge, official labs). It extracts 20 to 25 high-signal breakthroughs, filters out noise, compiles comprehensive technical deep dives, and delivers your morning swipe deck.</p>
+        </div>
+      </div>
+      <div class="dialog-footer">
+        <button class="btn btn-primary" id="dialogGotItBtn">Got it, let's explore!</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Toast notification container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
