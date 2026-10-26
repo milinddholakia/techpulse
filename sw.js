@@ -1,12 +1,16 @@
 // TechPulse Service Worker
-const CACHE_NAME = 'techpulse-cache-v1';
+const CACHE_NAME = 'techpulse-cache-v2';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
+  './learn.html',
   './styles.css',
+  './learn.css',
   './app.js',
+  './learn.js',
   './manifest.json',
-  './data/news.json'
+  './data/news.json',
+  './data/learn_topics.json'
 ];
 
 self.addEventListener('install', (event) => {

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>TechPulse • Learn AI: 50 Core Topics with Code</title>
+  <meta name="description" content="Master 50 essential AI & Deep Learning concepts from Transformers to RAG, GRPO, Quantization, and Agents with real code examples and intuitive analogies.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="learn.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#07090e">
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+
+  <div class="learn-page-container">
+    <!-- Top Global Header -->
+    <header class="app-header">
+      <div class="header-left">
+        <a href="index.html" class="brand" style="text-decoration: none;">
+          <div class="brand-icon-wrapper">
+            <span class="brand-icon">⚡️</span>
+            <span class="live-dot" title="TechPulse Active"></span>
+          </div>
+          <div class="brand-text">
+            <h1 class="brand-title">TechPulse</h1>
+            <p class="brand-subtitle">Curated AI Intelligence</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- Navigation Tabs between Daily Swipe and Learn AI -->
+      <nav class="nav-tab-group" aria-label="Main Navigation">
+        <a href="index.html" class="nav-tab">
+          <span>⚡️ Daily Swipe</span>
+        </a>
+        <a href="learn.html" class="nav-tab active">
+          <span>🧠 Learn AI (50)</span>
+        </a>
+      </nav>
+
+      <div class="header-right">
+        <!-- Audio toggle -->
+        <button id="soundToggleBtn" class="icon-button" title="Toggle Sound FX" aria-label="Toggle Sound Effects">
+          <span id="soundIcon">🔊</span>
+        </button>
+
+        <a href="index.html" class="icon-button" title="Back to Swipe Deck" aria-label="Daily Swipe">
+          <span>🃏</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Learn AI Hero & Progress Banner -->
+    <section class="learn-hero">
+      <div class="hero-content">
+        <div class="hero-badge">🎓 Master Frontier AI</div>
+        <h1 class="hero-title">50 Fundamental & Frontier AI Concepts</h1>
+        <p class="hero-subtitle">From Self-Attention and Quantization to GRPO, PagedAttention, and Autonomous Agents. Plain-English analogies, math breakdowns, and production code examples.</p>
+      </div>
+
+      <!-- Interactive Progress Tracker -->
+      <div class="mastery-tracker-box">
+        <div class="tracker-header">
+          <div class="tracker-label-group">
+            <span class="tracker-icon">🏆</span>
+            <span class="tracker-title">Your AI Mastery Progress</span>
+          </div>
+          <span class="tracker-stat" id="progressStatsText">0 / 50 Topics Mastered (0%)</span>
+        </div>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" id="progressBarFill" style="width: 0%;"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Search & Filter Controls -->
+    <section class="controls-toolbar">
+      <!-- Search Input -->
+      <div class="search-input-wrapper">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="topicSearchInput" class="search-input" placeholder="Search 50 topics (e.g. attention, kv cache, grpo, lora, diffusion)..." autocomplete="off">
+        <button id="clearSearchBtn" class="clear-search-btn hidden" title="Clear search">✕</button>
+      </div>
+
+      <!-- Quick filters: Difficulty -->
+      <div class="difficulty-filter-row">
+        <span class="filter-label">Level:</span>
+        <button class="diff-btn active" data-diff="ALL">All</button>
+        <button class="diff-btn" data-diff="Beginner">Beginner</button>
+        <button class="diff-btn" data-diff="Intermediate">Intermediate</button>
+        <button class="diff-btn" data-diff="Advanced">Advanced</button>
+        <button class="diff-btn" data-diff="Frontier">Frontier</button>
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div class="category-scroll-bar" id="categoryFilterContainer">
+        <!-- Dynamically injected -->
+      </div>
+    </section>
+
+    <!-- Topics Grid / List -->
+    <main class="topics-container" id="topicsContainer">
+      <div class="deck-loading-state">
+        <div class="spinner"></div>
+        <p>Loading 50 in-depth AI topics with code...</p>
+      </div>
+    </main>
+
+    <!-- Empty search result state -->
+    <div class="empty-topics-state hidden" id="emptyTopicsState">
+      <div class="empty-icon">🔎</div>
+      <h3>No topics matched your search</h3>
+      <p>Try searching for a different term like "attention", "lora", "diffusion", or "quantization".</p>
+      <button class="btn btn-secondary" id="resetFiltersBtn">Reset All Filters</button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="learn-footer">
+      <p>TechPulse AI Curriculum • Curated for developers, engineers, and researchers.</p>
+      <div class="footer-links">
+        <a href="index.html">← Back to Today's News Deck</a>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Toast notification container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <script src="learn.js"></script>
+</body>
+</html>
