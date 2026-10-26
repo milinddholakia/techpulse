@@ -184,6 +184,9 @@
 
     // --- Favorites LocalStorage Management ---
     loadFavorites() {
+      if (window.TechPulseSession) {
+        return window.TechPulseSession.getFavorites();
+      }
       try {
         const stored = localStorage.getItem('techpulse_favorites_v2');
         return stored ? JSON.parse(stored) : [];
@@ -193,10 +196,12 @@
     }
 
     saveFavorites() {
-      try {
-        localStorage.setItem('techpulse_favorites_v2', JSON.stringify(this.favorites));
-      } catch (e) {
-        console.error('Failed to save favorites to localStorage', e);
+      if (window.TechPulseSession) {
+        window.TechPulseSession.saveFavorites(this.favorites);
+      } else {
+        try {
+          localStorage.setItem('techpulse_favorites_v2', JSON.stringify(this.favorites));
+        } catch (e) {}
       }
       this.updateFavoritesBadges();
       if (this.favoritesDrawer.classList.contains('open')) {
@@ -322,6 +327,22 @@
             <div class="intel-section impact-box">
               <div class="intel-section-title">🌐 Industry Impact & Developer Utility</div>
               <p class="intel-section-text">${article.industryImpact}</p>
+            </div>
+          ` : ''}
+
+          <!-- Related Learning Concepts Cross-Link -->
+          ${article.relatedTopics && article.relatedTopics.length > 0 ? `
+            <div class="intel-section" style="border-left: 3px solid var(--accent-purple); background: rgba(139, 92, 246, 0.05);">
+              <div class="intel-section-title" style="color: #c4b5fd;">🧠 Master The Underlying Concepts</div>
+              <div class="resource-links-row">
+                ${article.relatedTopics.map(rt => `
+                  <a href="learn.html?topic=topic-${rt.id}" class="resource-pill" style="background: rgba(139, 92, 246, 0.15); border-color: rgba(139, 92, 246, 0.35); color: #c4b5fd;">
+                    <span>🧠</span>
+                    <span>#${rt.id}: ${rt.title}</span>
+                    <span>↗</span>
+                  </a>
+                `).join('')}
+              </div>
             </div>
           ` : ''}
 
@@ -876,6 +897,17 @@
       }, 2500);
     }
 
+    // --- Update Header Profile and Streaks ---
+    updateHeaderProfile() {
+      if (!window.TechPulseSession) return;
+      const username = window.TechPulseSession.getUsername();
+      const streak = window.TechPulseSession.getStreak();
+      const userText = document.getElementById('headerUsernameText');
+      const streakText = document.getElementById('streakCountText');
+      if (userText) userText.textContent = username;
+      if (streakText) streakText.textContent = `${streak}-Day Streak`;
+    }
+
     // --- Sound Icon State ---
     updateSoundIcon() {
       if (this.soundIcon) {
@@ -885,6 +917,82 @@
 
     // --- Event Listeners Setup ---
     setupEventListeners() {
+      this.updateHeaderProfile();
+
+      // Profile Dialog
+      const profileBtn = document.getElementById('userProfileBtn');
+      const profileDialog = document.getElementById('profileDialog');
+      const closeProfileBtn = document.getElementById('closeProfileBtn');
+
+      if (profileBtn && profileDialog) {
+        profileBtn.addEventListener('click', () => {
+          const user = window.TechPulseSession.currentUser;
+          const isGuest = window.TechPulseSession.isGuest();
+          document.getElementById('profileUsername').textContent = user.username === 'guest' ? 'Guest Explorer' : user.username;
+          document.getElementById('pstatStreak').textContent = user.streak || 1;
+          document.getElementById('pstatMastered').textContent = (user.masteredTopics || []).length;
+          document.getElementById('pstatFavs').textContent = (user.favorites || []).length;
+          document.getElementById('authLogoutBtn').classList.toggle('hidden', isGuest);
+          profileDialog.showModal();
+        });
+        if (closeProfileBtn) {
+          closeProfileBtn.addEventListener('click', () => profileDialog.close());
+        }
+
+        document.getElementById('authSubmitRegisterBtn')?.addEventListener('click', () => {
+          const u = document.getElementById('authUsernameInput').value;
+          const p = document.getElementById('authPasswordInput').value;
+          const res = window.TechPulseSession.register(u, p);
+          this.showToast(res.message);
+          if (res.success) {
+            this.updateHeaderProfile();
+            profileDialog.close();
+          }
+        });
+
+        document.getElementById('authSubmitLoginBtn')?.addEventListener('click', () => {
+          const u = document.getElementById('authUsernameInput').value;
+          const p = document.getElementById('authPasswordInput').value;
+          const res = window.TechPulseSession.login(u, p);
+          this.showToast(res.message);
+          if (res.success) {
+            this.updateHeaderProfile();
+            this.favorites = this.loadFavorites();
+            this.updateFavoritesBadges();
+            profileDialog.close();
+          }
+        });
+
+        document.getElementById('authLogoutBtn')?.addEventListener('click', () => {
+          const res = window.TechPulseSession.logout();
+          this.showToast(res.message);
+          this.updateHeaderProfile();
+          this.favorites = this.loadFavorites();
+          this.updateFavoritesBadges();
+          profileDialog.close();
+        });
+
+        document.getElementById('exportProfileBtn')?.addEventListener('click', () => {
+          const json = window.TechPulseSession.exportProfileJSON();
+          navigator.clipboard.writeText(json).then(() => {
+            this.showToast('📋 Copied Sync JSON!');
+          }).catch(() => this.showToast('Failed to copy.'));
+        });
+
+        document.getElementById('importProfileBtn')?.addEventListener('click', () => {
+          const pasted = prompt('Paste your TechPulse Sync JSON string:');
+          if (pasted) {
+            const res = window.TechPulseSession.importProfileJSON(pasted);
+            this.showToast(res.message);
+            if (res.success) {
+              this.updateHeaderProfile();
+              this.favorites = this.loadFavorites();
+              this.updateFavoritesBadges();
+              profileDialog.close();
+            }
+          }
+        });
+      }
       // Swipe action buttons
       this.passBtn.addEventListener('click', () => this.swipeLeft());
       this.likeBtn.addEventListener('click', () => this.swipeRight());

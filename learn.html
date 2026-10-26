@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>TechPulse • Learn AI: 50 Core Topics with Code</title>
-  <meta name="description" content="Master 50 essential AI & Deep Learning concepts from Transformers to RAG, GRPO, Quantization, and Agents with real code examples and intuitive analogies.">
+  <title>TechPulse • Learn AI: 50 Core Topics with Code & Simulators</title>
+  <meta name="description" content="Master 50 essential AI concepts with live interactive simulators, code examples, career learning paths, and daily micro-quizzes.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -35,7 +35,7 @@
         </a>
       </div>
 
-      <!-- Navigation Tabs between Daily Swipe and Learn AI -->
+      <!-- Navigation Tabs -->
       <nav class="nav-tab-group" aria-label="Main Navigation">
         <a href="index.html" class="nav-tab">
           <span>⚡️ Daily Swipe</span>
@@ -46,23 +46,32 @@
       </nav>
 
       <div class="header-right">
+        <!-- Daily Quiz Button -->
+        <button id="openQuizBtn" class="streak-badge-btn" title="Take Today's 60-Second AI Micro-Quiz">
+          <span class="fire-icon">🔥</span>
+          <span id="streakCountText">1-Day Streak</span>
+          <span class="quiz-pill">Quiz</span>
+        </button>
+
+        <!-- User Profile Button -->
+        <button id="userProfileBtn" class="user-profile-btn" title="Account & Profile Settings" aria-label="User Profile">
+          <span class="user-avatar-icon">👤</span>
+          <span id="headerUsernameText">Guest</span>
+        </button>
+
         <!-- Audio toggle -->
         <button id="soundToggleBtn" class="icon-button" title="Toggle Sound FX" aria-label="Toggle Sound Effects">
           <span id="soundIcon">🔊</span>
         </button>
-
-        <a href="index.html" class="icon-button" title="Back to Swipe Deck" aria-label="Daily Swipe">
-          <span>🃏</span>
-        </a>
       </div>
     </header>
 
     <!-- Learn AI Hero & Progress Banner -->
     <section class="learn-hero">
       <div class="hero-content">
-        <div class="hero-badge">🎓 Master Frontier AI</div>
+        <div class="hero-badge">🎓 Master Frontier AI • Theory, Code & Simulators</div>
         <h1 class="hero-title">50 Fundamental & Frontier AI Concepts</h1>
-        <p class="hero-subtitle">From Self-Attention and Quantization to GRPO, PagedAttention, and Autonomous Agents. Plain-English analogies, math breakdowns, and production code examples.</p>
+        <p class="hero-subtitle">Interactive deep dives with plain-English analogies, production code, interactive visualizers, and direct links to breaking tech news.</p>
       </div>
 
       <!-- Interactive Progress Tracker -->
@@ -80,6 +89,119 @@
       </div>
     </section>
 
+    <!-- 🎛 SECTION: Interactive Visualizers & AI Lab -->
+    <section class="visualizer-lab-section">
+      <div class="section-header-row">
+        <div class="sec-title-group">
+          <span class="sec-icon">🎛</span>
+          <h2>Interactive AI Simulators</h2>
+          <span class="badge-pill">Live Lab</span>
+        </div>
+        <div class="lab-tabs-nav">
+          <button class="lab-tab-btn active" data-tab="sampling">🌡 Sampling & Temperature</button>
+          <button class="lab-tab-btn" data-tab="attention">🧠 Attention Matrix</button>
+          <button class="lab-tab-btn" data-tab="vectors">📐 Vector Math (2D)</button>
+        </div>
+      </div>
+
+      <!-- Simulator 1: Temperature & Sampling -->
+      <div class="lab-card-body" id="labSamplingTab">
+        <div class="sim-intro-row">
+          <p><strong>Experiment:</strong> See how Temperature and Top-P (Nucleus) change next-token generation probabilities for the prompt: <em>"The capital of France is..."</em></p>
+        </div>
+        <div class="sim-controls-grid">
+          <div class="sim-control-item">
+            <label for="tempSlider">Temperature: <strong id="tempValDisplay">0.70</strong> <span class="sub-label">(0.0 = Deterministic, 1.5 = Creative)</span></label>
+            <input type="range" id="tempSlider" min="0.01" max="1.50" step="0.05" value="0.70" class="slider-input">
+          </div>
+          <div class="sim-control-item">
+            <label for="topPSlider">Top-P (Nucleus): <strong id="topPValDisplay">0.90</strong> <span class="sub-label">(Cumulative threshold)</span></label>
+            <input type="range" id="topPSlider" min="0.10" max="1.00" step="0.05" value="0.90" class="slider-input">
+          </div>
+        </div>
+        <div class="sim-bars-container" id="samplingBarsContainer">
+          <!-- Populated by learn.js -->
+        </div>
+        <div class="sim-action-row">
+          <button class="btn btn-primary" id="sampleTokenBtn">🎲 Sample Next Token</button>
+          <span class="sample-result-text" id="sampleResultText">Click button to sample a token based on current distribution!</span>
+        </div>
+      </div>
+
+      <!-- Simulator 2: Self-Attention Matrix Heatmap -->
+      <div class="lab-card-body hidden" id="labAttentionTab">
+        <div class="sim-intro-row">
+          <p><strong>Interactive Heatmap:</strong> Click or hover over words in this sentence to inspect how tokens attend to each other in self-attention layers.</p>
+        </div>
+        <div class="attention-sentence-selector">
+          <span class="sel-label">Preset:</span>
+          <button class="preset-chip active" data-sentence="The animal didn't cross because it was tired">"The animal didn't cross because it was tired"</button>
+          <button class="preset-chip" data-sentence="Attention is all you need for reasoning">"Attention is all you need for reasoning"</button>
+        </div>
+        <div class="attention-matrix-wrapper" id="attentionMatrixContainer">
+          <!-- Populated by learn.js -->
+        </div>
+        <div class="attention-explanation-box" id="attentionExplainBox">
+          Hover over any cell in the matrix to inspect attention score and weight distribution!
+        </div>
+      </div>
+
+      <!-- Simulator 3: 2D Vector Embedding Math Playground -->
+      <div class="lab-card-body hidden" id="labVectorsTab">
+        <div class="sim-intro-row">
+          <p><strong>Vector Arithmetic:</strong> Word embeddings preserve semantic directions. See vector addition and subtraction in a 2D projection space.</p>
+        </div>
+        <div class="vector-canvas-wrapper">
+          <canvas id="vectorCanvas" width="600" height="300"></canvas>
+        </div>
+        <div class="vector-controls-row">
+          <button class="btn btn-secondary" id="runKingQueenMathBtn">📐 Run: [King] - [Man] + [Woman] = [Queen]</button>
+          <button class="btn btn-outline" id="resetVectorCanvasBtn">↺ Reset Canvas</button>
+          <span class="vector-calc-status" id="vectorStatusText">Click the button above to animate semantic vector math!</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 🛣 SECTION: Career Learning Paths (Roadmaps) -->
+    <section class="learning-paths-section">
+      <div class="sec-title-group">
+        <span class="sec-icon">🛣</span>
+        <h2>Guided Career Tracks</h2>
+        <span class="badge-pill">Roadmaps</span>
+      </div>
+      <div class="path-chips-row">
+        <button class="path-chip-btn active" data-path="ALL">
+          <span>All 50 Topics</span>
+          <span class="path-badge">50</span>
+        </button>
+        <button class="path-chip-btn" data-path="llm-systems">
+          <span>🛣 LLM Systems Engineer</span>
+          <span class="path-badge">15</span>
+        </button>
+        <button class="path-chip-btn" data-path="agents-rag">
+          <span>🛣 AI Agent & RAG Architect</span>
+          <span class="path-badge">13</span>
+        </button>
+        <button class="path-chip-btn" data-path="alignment-reasoning">
+          <span>🛣 Alignment & Reasoning</span>
+          <span class="path-badge">14</span>
+        </button>
+        <button class="path-chip-btn" data-path="multimodal-robotics">
+          <span>🛣 Multimodal & Robotics</span>
+          <span class="path-badge">7</span>
+        </button>
+      </div>
+
+      <!-- Active Path Banner (shown when a specific path is clicked) -->
+      <div class="path-description-banner hidden" id="pathBanner">
+        <div class="path-banner-text">
+          <h3 id="pathBannerTitle">LLM Systems Engineer Track</h3>
+          <p id="pathBannerDesc">Focuses on high-throughput serving, KV caching, quantization, FlashAttention, and distributed GPU parallelism.</p>
+        </div>
+        <div class="path-progress-pill" id="pathProgressPill">0 / 15 Mastered</div>
+      </div>
+    </section>
+
     <!-- Search & Filter Controls -->
     <section class="controls-toolbar">
       <!-- Search Input -->
@@ -92,7 +214,7 @@
       <!-- Quick filters: Difficulty -->
       <div class="difficulty-filter-row">
         <span class="filter-label">Level:</span>
-        <button class="diff-btn active" data-diff="ALL">All</button>
+        <button class="diff-btn active" data-diff="ALL">All Levels</button>
         <button class="diff-btn" data-diff="Beginner">Beginner</button>
         <button class="diff-btn" data-diff="Intermediate">Intermediate</button>
         <button class="diff-btn" data-diff="Advanced">Advanced</button>
@@ -125,14 +247,131 @@
     <footer class="learn-footer">
       <p>TechPulse AI Curriculum • Curated for developers, engineers, and researchers.</p>
       <div class="footer-links">
-        <a href="index.html">← Back to Today's News Deck</a>
+        <a href="index.html">← Back to Today's 6:00 AM News Deck</a>
       </div>
     </footer>
   </div>
 
+  <!-- 🏆 Daily 60-Second AI Micro-Quiz Modal -->
+  <dialog class="quiz-dialog" id="quizDialog">
+    <div class="quiz-modal-box">
+      <div class="quiz-modal-header">
+        <div class="quiz-title-group">
+          <span class="quiz-badge">⚡️ Daily 60-Sec Challenge</span>
+          <span class="quiz-step-text" id="quizStepIndicator">Question 1 of 3</span>
+        </div>
+        <button class="dialog-close-btn" id="closeQuizBtn">✕</button>
+      </div>
+
+      <div class="quiz-body" id="quizQuestionBody">
+        <h3 class="quiz-question-title" id="quizQuestionText">Loading question...</h3>
+        <div class="quiz-options-list" id="quizOptionsList">
+          <!-- Populated dynamically -->
+        </div>
+        <div class="quiz-feedback-box hidden" id="quizFeedbackBox">
+          <div class="feedback-status" id="feedbackStatus">Correct!</div>
+          <p class="feedback-explanation" id="feedbackExplanation"></p>
+        </div>
+      </div>
+
+      <!-- Quiz Summary / Finished State -->
+      <div class="quiz-summary-box hidden" id="quizSummaryBox">
+        <div class="quiz-celebrate-icon">🎉</div>
+        <h2>Daily Quiz Complete!</h2>
+        <p class="quiz-score-sub" id="quizScoreSummary">You scored 3 / 3 correct today!</p>
+        <div class="streak-reward-card">
+          <span class="streak-fire">🔥</span>
+          <div class="streak-reward-text">
+            <strong>Study Streak Maintained!</strong>
+            <p>Come back tomorrow morning to keep your streak burning.</p>
+          </div>
+        </div>
+        <button class="btn btn-primary" id="finishQuizBtn">Awesome, Back to Learning!</button>
+      </div>
+
+      <div class="quiz-modal-footer" id="quizFooter">
+        <button class="btn btn-secondary hidden" id="quizNextBtn">Next Question →</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- 👤 User Profile & Session Auth Modal -->
+  <dialog class="profile-dialog" id="profileDialog">
+    <div class="profile-modal-box">
+      <div class="profile-modal-header">
+        <div class="profile-header-title">
+          <span class="profile-icon">👤</span>
+          <h3>Your TechPulse Profile</h3>
+        </div>
+        <button class="dialog-close-btn" id="closeProfileBtn">✕</button>
+      </div>
+
+      <div class="profile-body">
+        <!-- Current Account Card -->
+        <div class="current-account-card">
+          <div class="acc-meta">
+            <span class="acc-avatar">👤</span>
+            <div>
+              <h4 id="profileUsername">Guest User</h4>
+              <p id="profileStatusText">Session data stored locally on this device</p>
+            </div>
+          </div>
+          <div class="profile-stats-row">
+            <div class="pstat">
+              <span class="pstat-num" id="pstatStreak">1</span>
+              <span class="pstat-label">🔥 Day Streak</span>
+            </div>
+            <div class="pstat">
+              <span class="pstat-num" id="pstatMastered">0</span>
+              <span class="pstat-label">Mastered (50)</span>
+            </div>
+            <div class="pstat">
+              <span class="pstat-num" id="pstatFavs">0</span>
+              <span class="pstat-label">Saved Articles</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Login / Register Form (Toggleable) -->
+        <div class="auth-box">
+          <h4 id="authFormTitle">Save Progress to Account</h4>
+          <p class="auth-sub">Set a username and password to keep your session private or switch accounts.</p>
+          
+          <div class="auth-input-group">
+            <label for="authUsernameInput">Username:</label>
+            <input type="text" id="authUsernameInput" class="auth-input" placeholder="e.g. milind" autocomplete="username">
+          </div>
+          <div class="auth-input-group">
+            <label for="authPasswordInput">Password / PIN:</label>
+            <input type="password" id="authPasswordInput" class="auth-input" placeholder="••••••••" autocomplete="current-password">
+          </div>
+
+          <div class="auth-btn-row">
+            <button class="btn btn-primary" id="authSubmitRegisterBtn">Create Account</button>
+            <button class="btn btn-secondary" id="authSubmitLoginBtn">Log In</button>
+            <button class="btn btn-outline hidden" id="authLogoutBtn">Log Out</button>
+          </div>
+        </div>
+
+        <!-- Cross-Device Sync (Export/Import) -->
+        <div class="sync-box">
+          <h4>📲 Sync to Phone or Another Device</h4>
+          <p>Transfer your streak, favorites, and mastered topics without a cloud account.</p>
+          <div class="sync-btn-row">
+            <button class="btn btn-outline" id="exportProfileBtn">📋 Copy Sync JSON</button>
+            <button class="btn btn-outline" id="importProfileBtn">📥 Import Sync JSON</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
   <!-- Toast notification container -->
   <div class="toast-container" id="toastContainer"></div>
 
+  <!-- Session Manager Script -->
+  <script src="session.js"></script>
+  <!-- Learn AI Engine Script -->
   <script src="learn.js"></script>
 </body>
 </html>

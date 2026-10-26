@@ -15,6 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="learn.css">
 </head>
 <body>
   <!-- Ambient background glow elements -->
@@ -55,6 +56,18 @@
       </div>
 
       <div class="header-right">
+        <!-- Streak badge / Quiz link -->
+        <a href="learn.html" class="streak-badge-btn" title="Daily AI Study Streak & Micro-Quiz" style="text-decoration: none;">
+          <span class="fire-icon">🔥</span>
+          <span id="streakCountText">1-Day Streak</span>
+        </a>
+
+        <!-- User Profile Button -->
+        <button id="userProfileBtn" class="user-profile-btn" title="Account & Profile Settings" aria-label="User Profile">
+          <span class="user-avatar-icon">👤</span>
+          <span id="headerUsernameText">Guest</span>
+        </button>
+
         <!-- Audio toggle -->
         <button id="soundToggleBtn" class="icon-button" title="Toggle Sound FX" aria-label="Toggle Sound Effects">
           <span id="soundIcon">🔊</span>
@@ -261,9 +274,78 @@
     </div>
   </dialog>
 
+  <!-- 👤 User Profile & Session Auth Modal -->
+  <dialog class="profile-dialog" id="profileDialog">
+    <div class="profile-modal-box">
+      <div class="profile-modal-header">
+        <div class="profile-header-title">
+          <span class="profile-icon">👤</span>
+          <h3>Your TechPulse Profile</h3>
+        </div>
+        <button class="dialog-close-btn" id="closeProfileBtn">✕</button>
+      </div>
+
+      <div class="profile-body">
+        <div class="current-account-card">
+          <div class="acc-meta">
+            <span class="acc-avatar">👤</span>
+            <div>
+              <h4 id="profileUsername">Guest Explorer</h4>
+              <p id="profileStatusText">Session data stored locally on this device</p>
+            </div>
+          </div>
+          <div class="profile-stats-row">
+            <div class="pstat">
+              <span class="pstat-num" id="pstatStreak">1</span>
+              <span class="pstat-label">🔥 Day Streak</span>
+            </div>
+            <div class="pstat">
+              <span class="pstat-num" id="pstatMastered">0</span>
+              <span class="pstat-label">Mastered (50)</span>
+            </div>
+            <div class="pstat">
+              <span class="pstat-num" id="pstatFavs">0</span>
+              <span class="pstat-label">Saved Articles</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="auth-box">
+          <h4 id="authFormTitle">Save Progress to Account</h4>
+          <p class="auth-sub">Set a username and password to keep your session private or switch accounts.</p>
+          
+          <div class="auth-input-group">
+            <label for="authUsernameInput">Username:</label>
+            <input type="text" id="authUsernameInput" class="auth-input" placeholder="e.g. milind" autocomplete="username">
+          </div>
+          <div class="auth-input-group">
+            <label for="authPasswordInput">Password / PIN:</label>
+            <input type="password" id="authPasswordInput" class="auth-input" placeholder="••••••••" autocomplete="current-password">
+          </div>
+
+          <div class="auth-btn-row">
+            <button class="btn btn-primary" id="authSubmitRegisterBtn">Create Account</button>
+            <button class="btn btn-secondary" id="authSubmitLoginBtn">Log In</button>
+            <button class="btn btn-outline hidden" id="authLogoutBtn">Log Out</button>
+          </div>
+        </div>
+
+        <div class="sync-box">
+          <h4>📲 Sync to Phone or Another Device</h4>
+          <p>Transfer your streak, favorites, and mastered topics without a cloud account.</p>
+          <div class="sync-btn-row">
+            <button class="btn btn-outline" id="exportProfileBtn">📋 Copy Sync JSON</button>
+            <button class="btn btn-outline" id="importProfileBtn">📥 Import Sync JSON</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
   <!-- Toast notification container -->
   <div class="toast-container" id="toastContainer"></div>
 
+  <script src="session.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

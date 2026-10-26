@@ -1,5 +1,5 @@
 // TechPulse Service Worker
-const CACHE_NAME = 'techpulse-cache-v2';
+const CACHE_NAME = 'techpulse-cache-v3';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -8,6 +8,7 @@ const ASSETS_TO_CACHE = [
   './learn.css',
   './app.js',
   './learn.js',
+  './session.js',
   './manifest.json',
   './data/news.json',
   './data/learn_topics.json'
