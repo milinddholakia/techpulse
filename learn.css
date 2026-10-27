@@ -17,11 +17,14 @@
 .nav-tab-group {
   display: flex;
   align-items: center;
+  justify-content: center;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: var(--radius-full);
   padding: 3px;
   gap: 4px;
+  margin: 4px auto 0 auto;
+  width: fit-content;
 }
 
 .nav-tab {

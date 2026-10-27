@@ -42,11 +42,17 @@
       this.pathBannerDesc = document.getElementById('pathBannerDesc');
       this.pathProgressPill = document.getElementById('pathProgressPill');
 
-      // Modals
+      // Modals & Drawers
       this.quizDialog = document.getElementById('quizDialog');
       this.closeQuizBtn = document.getElementById('closeQuizBtn');
       this.profileDialog = document.getElementById('profileDialog');
       this.closeProfileBtn = document.getElementById('closeProfileBtn');
+      this.hamburgerBtn = document.getElementById('hamburgerBtn');
+      this.hamburgerDrawer = document.getElementById('hamburgerDrawer');
+      this.menuOverlay = document.getElementById('menuOverlay');
+      this.closeMenuBtn = document.getElementById('closeMenuBtn');
+      this.menuQuizBtn = document.getElementById('menuQuizBtn');
+      this.menuSyncBtn = document.getElementById('menuSyncBtn');
 
       this.init();
     }
@@ -802,11 +808,50 @@
         this.renderTopics();
       });
 
+      // Hamburger Menu Listeners
+      const openMenu = () => {
+        this.updateHeaderProfile();
+        if (this.hamburgerDrawer && this.menuOverlay) {
+          this.hamburgerDrawer.classList.add('open');
+          this.menuOverlay.classList.add('active');
+        }
+      };
+      const closeMenu = () => {
+        if (this.hamburgerDrawer && this.menuOverlay) {
+          this.hamburgerDrawer.classList.remove('open');
+          this.menuOverlay.classList.remove('active');
+        }
+      };
+
+      if (this.hamburgerBtn) this.hamburgerBtn.addEventListener('click', openMenu);
+      if (this.closeMenuBtn) this.closeMenuBtn.addEventListener('click', closeMenu);
+      if (this.menuOverlay) this.menuOverlay.addEventListener('click', closeMenu);
+      if (this.menuQuizBtn) {
+        this.menuQuizBtn.addEventListener('click', () => {
+          closeMenu();
+          this.startDailyQuiz();
+        });
+      }
+      if (this.menuSyncBtn) {
+        this.menuSyncBtn.addEventListener('click', () => {
+          closeMenu();
+          this.openProfileModal();
+        });
+      }
+      document.getElementById('menuSimulatorsLink')?.addEventListener('click', () => {
+        closeMenu();
+      });
+      document.getElementById('menuRoadmapsLink')?.addEventListener('click', () => {
+        closeMenu();
+      });
+
       // Sound toggle
       this.soundToggleBtn.addEventListener('click', () => {
         this.audioEnabled = !this.audioEnabled;
         localStorage.setItem('techpulse_sound_v1', this.audioEnabled);
         this.updateHeaderProfile();
+        const soundStatusText = document.getElementById('soundStatusText');
+        if (soundStatusText) soundStatusText.textContent = this.audioEnabled ? 'ON' : 'OFF';
         this.showToast(this.audioEnabled ? 'Sound FX On 🔊' : 'Sound FX Muted 🔇');
         if (this.audioEnabled) this.playChime();
       });

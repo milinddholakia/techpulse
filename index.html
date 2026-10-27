@@ -23,22 +23,44 @@
   <div class="ambient-glow glow-2"></div>
 
   <div class="app-container">
-    <!-- Header -->
+    <!-- Modern Mobile-First Header with Hamburger Menu -->
     <header class="app-header">
-      <div class="header-left">
-        <div class="brand">
-          <div class="brand-icon-wrapper">
-            <span class="brand-icon">⚡️</span>
-            <span class="live-dot" title="Daily 6:00 AM Auto-Refresh Active"></span>
+      <div class="header-top-row">
+        <div class="header-left">
+          <button id="hamburgerBtn" class="hamburger-btn" aria-label="Open Navigation Menu" title="Open Menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+          <div class="brand">
+            <div class="brand-icon-wrapper">
+              <span class="brand-icon">⚡️</span>
+              <span class="live-dot" title="Daily 6:00 AM Auto-Refresh Active"></span>
+            </div>
+            <div class="brand-text">
+              <h1 class="brand-title">TechPulse</h1>
+              <p class="brand-subtitle">Daily In-Depth AI & Tech Briefing</p>
+            </div>
           </div>
-          <div class="brand-text">
-            <h1 class="brand-title">TechPulse</h1>
-            <p class="brand-subtitle">Daily In-Depth AI & Tech Briefing • 6:00 AM Edition</p>
+        </div>
+
+        <div class="header-right">
+          <!-- Story counter pill -->
+          <div class="deck-counter-badge" id="deckCounter">
+            <span class="counter-dot"></span>
+            <span id="counterText">1 of 25</span>
           </div>
+
+          <!-- Quick Favorites pill -->
+          <button id="favoritesBtn" class="favorites-toggle-btn" aria-label="Open Saved Articles" title="Favorites">
+            <span class="fav-icon">⭐️</span>
+            <span class="fav-label">Favorites</span>
+            <span class="fav-badge" id="favBadgeCount">0</span>
+          </button>
         </div>
       </div>
 
-      <!-- Navigation Tabs -->
+      <!-- Centered 2-Pill Segmented Navigation -->
       <nav class="nav-tab-group" aria-label="Main Navigation">
         <a href="index.html" class="nav-tab active">
           <span>⚡️ Daily Swipe</span>
@@ -47,44 +69,6 @@
           <span>🧠 Learn AI (50)</span>
         </a>
       </nav>
-
-      <div class="header-center">
-        <div class="deck-counter-badge" id="deckCounter">
-          <span class="counter-dot"></span>
-          <span id="counterText">Story 1 of 25</span>
-        </div>
-      </div>
-
-      <div class="header-right">
-        <!-- Streak badge / Quiz link -->
-        <a href="learn.html" class="streak-badge-btn" title="Daily AI Study Streak & Micro-Quiz" style="text-decoration: none;">
-          <span class="fire-icon">🔥</span>
-          <span id="streakCountText">1-Day Streak</span>
-        </a>
-
-        <!-- User Profile Button -->
-        <button id="userProfileBtn" class="user-profile-btn" title="Account & Profile Settings" aria-label="User Profile">
-          <span class="user-avatar-icon">👤</span>
-          <span id="headerUsernameText">Guest</span>
-        </button>
-
-        <!-- Audio toggle -->
-        <button id="soundToggleBtn" class="icon-button" title="Toggle Sound FX" aria-label="Toggle Sound Effects">
-          <span id="soundIcon">🔊</span>
-        </button>
-
-        <!-- Help / Shortcuts -->
-        <button id="helpBtn" class="icon-button" title="Keyboard & Swipe Shortcuts" aria-label="Shortcuts">
-          <span>⌨️</span>
-        </button>
-
-        <!-- Favorites button -->
-        <button id="favoritesBtn" class="favorites-toggle-btn" aria-label="Open Saved Articles">
-          <span class="fav-icon">⭐️</span>
-          <span class="fav-label">Favorites</span>
-          <span class="fav-badge" id="favBadgeCount">0</span>
-        </button>
-      </div>
     </header>
 
     <!-- Main Swipe Area -->
@@ -183,6 +167,115 @@
       </div>
     </footer>
   </div>
+
+  <!-- 🍔 Hamburger Drawer Menu & Backdrop Overlay -->
+  <div class="menu-overlay" id="menuOverlay"></div>
+  <aside class="hamburger-drawer" id="hamburgerDrawer" aria-label="TechPulse Navigation Menu">
+    <div class="hamburger-drawer-header">
+      <div class="drawer-brand">
+        <span class="drawer-brand-icon">⚡️</span>
+        <div class="drawer-brand-text">
+          <h3>TechPulse</h3>
+          <p>Frontier Tech & AI Intelligence</p>
+        </div>
+      </div>
+      <button class="hamburger-drawer-close" id="closeMenuBtn" aria-label="Close menu">✕</button>
+    </div>
+
+    <div class="hamburger-drawer-body">
+      <!-- User Profile Card -->
+      <div class="drawer-account-card">
+        <div class="drawer-user-info">
+          <span class="drawer-avatar">👤</span>
+          <div>
+            <h4 id="menuUsernameText">Guest Explorer</h4>
+            <span class="user-tier-badge" id="menuTierBadge">Local Session</span>
+          </div>
+        </div>
+        <button class="btn btn-outline btn-sm" id="userProfileBtn">
+          <span>⚙️ Account & PIN</span>
+        </button>
+      </div>
+
+      <!-- Daily Streak & Micro-Quiz Highlight -->
+      <div class="drawer-streak-card">
+        <div class="streak-card-left">
+          <span class="streak-fire">🔥</span>
+          <div>
+            <strong id="streakCountText">1-Day Streak</strong>
+            <p>Today's 60-Sec AI Micro-Quiz is ready</p>
+          </div>
+        </div>
+        <a href="learn.html" class="btn btn-primary btn-sm" style="text-decoration:none;">Take Quiz</a>
+      </div>
+
+      <!-- Main Navigation -->
+      <nav class="drawer-nav-list">
+        <div class="drawer-section-label">Curriculum & Feed</div>
+        <a href="index.html" class="drawer-nav-item active">
+          <span class="item-icon">⚡️</span>
+          <span class="item-title">Daily 25 Briefings (Swipe)</span>
+          <span class="item-badge">Active</span>
+        </a>
+        <a href="learn.html" class="drawer-nav-item">
+          <span class="item-icon">🧠</span>
+          <span class="item-title">Learn AI: 50 Core Topics</span>
+          <span class="item-badge">50 Topics</span>
+        </a>
+        <a href="learn.html" class="drawer-nav-item">
+          <span class="item-icon">🧪</span>
+          <span class="item-title">Interactive AI Lab Simulators</span>
+        </a>
+        <a href="learn.html" class="drawer-nav-item">
+          <span class="item-icon">🛣️</span>
+          <span class="item-title">Career Learning Roadmaps</span>
+        </a>
+
+        <div class="drawer-section-label">Controls & Preferences</div>
+        <button class="drawer-nav-item" id="menuFavoritesBtn">
+          <span class="item-icon">⭐️</span>
+          <span class="item-title">Saved Favorites</span>
+          <span class="drawer-count-badge" id="menuFavBadgeCount">0</span>
+        </button>
+
+        <button class="drawer-nav-item" id="menuRefreshNewsBtn">
+          <span class="item-icon">🔄</span>
+          <div class="item-text-group">
+            <span class="item-title">Refresh News Feed Now</span>
+            <span class="item-desc">Fetch freshest 6:00 AM edition</span>
+          </div>
+        </button>
+
+        <div class="drawer-nav-toggle-row">
+          <div class="toggle-label-group">
+            <span class="item-icon" id="soundIcon">🔊</span>
+            <span class="item-title">Sound Effects</span>
+          </div>
+          <button id="soundToggleBtn" class="sound-toggle-switch" aria-label="Toggle Sound Effects">
+            <span id="soundStatusText">ON</span>
+          </button>
+        </div>
+
+        <button class="drawer-nav-item" id="helpBtn">
+          <span class="item-icon">⌨️</span>
+          <span class="item-title">Keyboard & Swipe Shortcuts</span>
+        </button>
+
+        <button class="drawer-nav-item" id="menuSyncBtn">
+          <span class="item-icon">📲</span>
+          <span class="item-title">Backup & Device Sync</span>
+        </button>
+      </nav>
+
+      <!-- Auto-Refresh Info Footer -->
+      <div class="drawer-footer-info">
+        <div class="edition-notice">
+          <span>⏰ Refreshed daily at <strong>6:00 AM IST</strong> via GitHub Actions</span>
+        </div>
+        <p class="edition-sub">TechPulse AI v2.4 • High-Signal Curated Briefing</p>
+      </div>
+    </div>
+  </aside>
 
   <!-- Deep Dive Reader Modal -->
   <dialog class="deep-dive-dialog" id="deepDiveDialog">

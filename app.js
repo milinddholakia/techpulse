@@ -155,6 +155,15 @@
       this.toastContainer = document.getElementById('toastContainer');
       this.activeFavFilter = 'ALL';
 
+      // Hamburger Drawer Elements
+      this.hamburgerBtn = document.getElementById('hamburgerBtn');
+      this.hamburgerDrawer = document.getElementById('hamburgerDrawer');
+      this.menuOverlay = document.getElementById('menuOverlay');
+      this.closeMenuBtn = document.getElementById('closeMenuBtn');
+      this.menuFavoritesBtn = document.getElementById('menuFavoritesBtn');
+      this.menuRefreshNewsBtn = document.getElementById('menuRefreshNewsBtn');
+      this.menuSyncBtn = document.getElementById('menuSyncBtn');
+
       this.init();
     }
 
@@ -166,15 +175,24 @@
       this.renderDeck();
     }
 
-    // --- Data Loading ---
-    async loadNewsData() {
+    // --- Data Loading with Cache Busting & Live Refresh ---
+    async loadNewsData(forceFresh = false) {
       try {
-        const response = await fetch('data/news.json', { cache: 'no-cache' });
+        const cacheBuster = forceFresh 
+          ? `?t=${Date.now()}` 
+          : `?v=${new Date().toISOString().slice(0, 13)}`;
+        const response = await fetch(`data/news.json${cacheBuster}`, { cache: 'no-cache' });
         if (!response.ok) throw new Error(`HTTP error ${response.status}`);
         const data = await response.json();
         if (Array.isArray(data) && data.length > 0) {
           this.newsList = data;
           console.log(`[TechPulse] Loaded ${data.length} in-depth articles.`);
+          if (forceFresh) {
+            this.currentIndex = 0;
+            this.history = [];
+            this.renderDeck();
+            this.showToast('✅ Feed updated with freshest 6:00 AM news!');
+          }
           return;
         }
       } catch (err) {
@@ -373,12 +391,65 @@
       }
     }
 
-    // --- Tinder Swipe Gesture Engine with Smart Vertical Scroll Protection ---
+    // --- Tinder Swipe Gesture Engine with Hardware-Accelerated Mobile Physics ---
     attachCardGestures(cardEl) {
       this.activeCardEl = cardEl;
 
+      let startX = 0;
+      let startY = 0;
+      let currentX = 0;
+      let currentY = 0;
+      let dragStartTime = 0;
+      let gestureState = 'idle'; // 'idle' | 'undecided' | 'swiping' | 'scrolling'
+      let rafId = null;
+      let pointerId = null;
+
+      const stampLike = cardEl.querySelector('.stamp-like');
+      const stampPass = cardEl.querySelector('.stamp-pass');
+      const card1 = this.cardStack.querySelector('.card-depth-1');
+
+      const renderSwipeFrame = () => {
+        if (gestureState !== 'swiping') return;
+
+        const deltaX = currentX - startX;
+        const deltaY = currentY - startY;
+        const rotation = deltaX * 0.055; // gentle, natural tilt
+
+        // Hardware-accelerated 3D transform for 60/120fps smoothness
+        cardEl.style.transform = `translate3d(${deltaX}px, ${deltaY * 0.22}px, 0) rotate(${rotation}deg)`;
+
+        // Smooth stamp reveals
+        if (deltaX > 15) {
+          const p = Math.min((deltaX - 15) / 75, 1);
+          if (stampLike) {
+            stampLike.style.opacity = p;
+            stampLike.style.transform = `rotate(12deg) scale(${0.85 + p * 0.25})`;
+          }
+          if (stampPass) stampPass.style.opacity = 0;
+        } else if (deltaX < -15) {
+          const p = Math.min((-deltaX - 15) / 75, 1);
+          if (stampPass) {
+            stampPass.style.opacity = p;
+            stampPass.style.transform = `rotate(-12deg) scale(${0.85 + p * 0.25})`;
+          }
+          if (stampLike) stampLike.style.opacity = 0;
+        } else {
+          if (stampLike) stampLike.style.opacity = 0;
+          if (stampPass) stampPass.style.opacity = 0;
+        }
+
+        // Lift background card smoothly
+        if (card1) {
+          const progress = Math.min(Math.abs(deltaX) / 180, 1);
+          const scale = 0.96 + progress * 0.04;
+          const translateY = 14 - progress * 14;
+          card1.style.transform = `translate3d(0, ${translateY}px, 0) scale(${scale})`;
+          card1.style.opacity = (0.85 + progress * 0.15).toFixed(2);
+        }
+      };
+
       const onPointerDown = (e) => {
-        // Allow clicking buttons, links, or inputs without starting drag
+        // Ignore clicks on links or interactive buttons
         if (e.target.closest('a') || e.target.closest('button')) {
           if (e.target.closest('[data-action="deep-dive"]')) {
             e.stopPropagation();
@@ -389,114 +460,96 @@
 
         if (this.isSwiping) return;
 
-        this.dragActive = true;
-        this.isIntentionalHorizontal = false;
-        this.startX = e.clientX;
-        this.startY = e.clientY;
-        this.currentX = e.clientX;
-        this.currentY = e.clientY;
-        this.dragStartTime = Date.now();
+        startX = e.clientX;
+        startY = e.clientY;
+        currentX = e.clientX;
+        currentY = e.clientY;
+        dragStartTime = performance.now();
+        pointerId = e.pointerId;
+        gestureState = 'undecided';
 
         cardEl.style.transition = 'none';
+        if (card1) card1.style.transition = 'none';
       };
 
       const onPointerMove = (e) => {
-        if (!this.dragActive) return;
+        if (gestureState === 'idle' || gestureState === 'scrolling') return;
 
-        this.currentX = e.clientX;
-        this.currentY = e.clientY;
+        currentX = e.clientX;
+        currentY = e.clientY;
+        const deltaX = currentX - startX;
+        const deltaY = currentY - startY;
 
-        const deltaX = this.currentX - this.startX;
-        const deltaY = this.currentY - this.startY;
+        if (gestureState === 'undecided') {
+          const absX = Math.abs(deltaX);
+          const absY = Math.abs(deltaY);
 
-        // Smart axis locking:
-        // If the user is scrolling vertically inside the card body, don't hijack as swipe!
-        if (!this.isIntentionalHorizontal) {
-          if (Math.abs(deltaY) > Math.abs(deltaX) && Math.abs(deltaY) > 8) {
-            // User is scrolling text vertically
-            this.dragActive = false;
-            return;
-          }
-          if (Math.abs(deltaX) > 12 && Math.abs(deltaX) > Math.abs(deltaY)) {
-            // User intentionally wants to swipe horizontally!
-            this.isIntentionalHorizontal = true;
+          // Declare horizontal swipe if horizontal movement is noticeable and dominant
+          if (absX >= 8 && absX > absY * 0.75) {
+            gestureState = 'swiping';
             try {
               cardEl.setPointerCapture(e.pointerId);
-            } catch (err) {}
-          }
-        }
-
-        if (!this.isIntentionalHorizontal) return;
-
-        const rotation = deltaX * 0.07; // tilt angle
-        cardEl.style.transform = `translate(${deltaX}px, ${deltaY * 0.3}px) rotate(${rotation}deg)`;
-
-        // Control stamp opacities
-        const stampLike = cardEl.querySelector('.stamp-like');
-        const stampPass = cardEl.querySelector('.stamp-pass');
-
-        if (stampLike && stampPass) {
-          if (deltaX > 0) {
-            stampLike.style.opacity = Math.min(deltaX / 80, 1);
-            stampLike.style.transform = `rotate(12deg) scale(${0.8 + Math.min(deltaX / 300, 0.4)})`;
-            stampPass.style.opacity = 0;
-          } else if (deltaX < 0) {
-            stampPass.style.opacity = Math.min(Math.abs(deltaX) / 80, 1);
-            stampPass.style.transform = `rotate(-12deg) scale(${0.8 + Math.min(Math.abs(deltaX) / 300, 0.4)})`;
-            stampLike.style.opacity = 0;
+            } catch (_) {}
+            cardEl.style.touchAction = 'none';
+          } else if (absY >= 10 && absY > absX) {
+            gestureState = 'scrolling'; // Hand control over to native vertical text scrolling
+            return;
           } else {
-            stampLike.style.opacity = 0;
-            stampPass.style.opacity = 0;
+            return; // Waiting for clear user intent
           }
         }
 
-        // Scale up card behind slightly as active card is dragged
-        const card1 = this.cardStack.querySelector('.card-depth-1');
-        if (card1) {
-          const progress = Math.min(Math.abs(deltaX) / 200, 1);
-          const scale = 0.96 + progress * 0.04;
-          const translateY = 14 - progress * 14;
-          card1.style.transform = `translateY(${translateY}px) scale(${scale})`;
-          card1.style.opacity = 0.85 + progress * 0.15;
+        if (gestureState === 'swiping') {
+          if (e.cancelable) e.preventDefault();
+          if (rafId) cancelAnimationFrame(rafId);
+          rafId = requestAnimationFrame(renderSwipeFrame);
         }
       };
 
       const onPointerUp = (e) => {
-        if (!this.dragActive && !this.isIntentionalHorizontal) return;
-        this.dragActive = false;
+        if (rafId) cancelAnimationFrame(rafId);
+
+        if (gestureState !== 'swiping') {
+          gestureState = 'idle';
+          cardEl.style.touchAction = '';
+          return;
+        }
 
         try {
-          cardEl.releasePointerCapture(e.pointerId);
-        } catch (err) {}
+          if (pointerId !== null) cardEl.releasePointerCapture(pointerId);
+        } catch (_) {}
 
-        const deltaX = this.currentX - this.startX;
-        const duration = Date.now() - this.dragStartTime;
-        const velocity = Math.abs(deltaX) / (duration || 1);
+        cardEl.style.touchAction = '';
+        const deltaX = currentX - startX;
+        const duration = Math.max(performance.now() - dragStartTime, 1);
+        const velocity = Math.abs(deltaX) / duration;
 
-        const thresholdPassed = this.isIntentionalHorizontal && (
-          Math.abs(deltaX) > 95 || (velocity > 0.45 && Math.abs(deltaX) > 40)
-        );
+        // Mobile-tuned responsive threshold: 60px distance or quick flick > 0.30 px/ms with 25px movement
+        const isSwipeTriggered = Math.abs(deltaX) > 60 || (velocity > 0.30 && Math.abs(deltaX) > 25);
 
-        if (thresholdPassed) {
+        if (isSwipeTriggered) {
+          if ('vibrate' in navigator) {
+            try { navigator.vibrate(12); } catch (_) {}
+          }
           const action = deltaX > 0 ? 'like' : 'pass';
           this.executeSwipe(action, cardEl, deltaX);
         } else {
-          // Snap back
           this.resetCardPosition(cardEl);
         }
 
-        this.isIntentionalHorizontal = false;
+        gestureState = 'idle';
+        pointerId = null;
       };
 
-      cardEl.addEventListener('pointerdown', onPointerDown);
-      cardEl.addEventListener('pointermove', onPointerMove);
+      cardEl.addEventListener('pointerdown', onPointerDown, { passive: true });
+      cardEl.addEventListener('pointermove', onPointerMove, { passive: false });
       cardEl.addEventListener('pointerup', onPointerUp);
       cardEl.addEventListener('pointercancel', onPointerUp);
     }
 
     resetCardPosition(cardEl) {
-      cardEl.style.transition = 'transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
-      cardEl.style.transform = 'translate(0px, 0px) rotate(0deg)';
+      cardEl.style.transition = 'transform 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+      cardEl.style.transform = 'translate3d(0px, 0px, 0) rotate(0deg)';
 
       const stampLike = cardEl.querySelector('.stamp-like');
       const stampPass = cardEl.querySelector('.stamp-pass');
@@ -505,8 +558,8 @@
 
       const card1 = this.cardStack.querySelector('.card-depth-1');
       if (card1) {
-        card1.style.transition = 'transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.25s ease';
-        card1.style.transform = 'translateY(14px) scale(0.96)';
+        card1.style.transition = 'transform 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.25s ease';
+        card1.style.transform = 'translate3d(0, 14px, 0) scale(0.96)';
         card1.style.opacity = '0.85';
       }
     }
@@ -897,15 +950,42 @@
       }, 2500);
     }
 
+    // --- Hamburger Menu Controls ---
+    openHamburgerMenu() {
+      if (this.hamburgerDrawer && this.menuOverlay) {
+        this.updateHeaderProfile();
+        this.updateFavoritesBadges();
+        this.hamburgerDrawer.classList.add('open');
+        this.menuOverlay.classList.add('active');
+      }
+    }
+
+    closeHamburgerMenu() {
+      if (this.hamburgerDrawer && this.menuOverlay) {
+        this.hamburgerDrawer.classList.remove('open');
+        this.menuOverlay.classList.remove('active');
+      }
+    }
+
     // --- Update Header Profile and Streaks ---
     updateHeaderProfile() {
       if (!window.TechPulseSession) return;
       const username = window.TechPulseSession.getUsername();
       const streak = window.TechPulseSession.getStreak();
       const userText = document.getElementById('headerUsernameText');
+      const menuUserText = document.getElementById('menuUsernameText');
       const streakText = document.getElementById('streakCountText');
-      if (userText) userText.textContent = username;
+      const menuStreakText = document.getElementById('menuStreakDays');
+      const menuTierBadge = document.getElementById('menuTierBadge');
+
+      const displayName = username === 'guest' ? 'Guest Explorer' : username;
+      if (userText) userText.textContent = displayName;
+      if (menuUserText) menuUserText.textContent = displayName;
       if (streakText) streakText.textContent = `${streak}-Day Streak`;
+      if (menuStreakText) menuStreakText.textContent = `${streak}-Day Streak`;
+      if (menuTierBadge) {
+        menuTierBadge.textContent = username === 'guest' ? 'Local Session' : 'Account Synced';
+      }
     }
 
     // --- Sound Icon State ---
@@ -913,11 +993,53 @@
       if (this.soundIcon) {
         this.soundIcon.textContent = this.sound.enabled ? '🔊' : '🔇';
       }
+      const soundStatusText = document.getElementById('soundStatusText');
+      if (soundStatusText) {
+        soundStatusText.textContent = this.sound.enabled ? 'ON' : 'OFF';
+      }
+    }
+
+    updateFavoritesBadges() {
+      const count = this.favorites.length;
+      if (this.favBadgeCount) this.favBadgeCount.textContent = count;
+      if (this.drawerPillCount) this.drawerPillCount.textContent = `${count} items`;
+      const menuFav = document.getElementById('menuFavBadgeCount');
+      if (menuFav) menuFav.textContent = count;
     }
 
     // --- Event Listeners Setup ---
     setupEventListeners() {
       this.updateHeaderProfile();
+
+      // Hamburger Menu Listeners
+      if (this.hamburgerBtn) {
+        this.hamburgerBtn.addEventListener('click', () => this.openHamburgerMenu());
+      }
+      if (this.closeMenuBtn) {
+        this.closeMenuBtn.addEventListener('click', () => this.closeHamburgerMenu());
+      }
+      if (this.menuOverlay) {
+        this.menuOverlay.addEventListener('click', () => this.closeHamburgerMenu());
+      }
+      if (this.menuFavoritesBtn) {
+        this.menuFavoritesBtn.addEventListener('click', () => {
+          this.closeHamburgerMenu();
+          this.openFavoritesDrawer();
+        });
+      }
+      if (this.menuRefreshNewsBtn) {
+        this.menuRefreshNewsBtn.addEventListener('click', () => {
+          this.closeHamburgerMenu();
+          this.loadNewsData(true);
+        });
+      }
+      if (this.menuSyncBtn) {
+        this.menuSyncBtn.addEventListener('click', () => {
+          this.closeHamburgerMenu();
+          const profileBtn = document.getElementById('userProfileBtn');
+          if (profileBtn) profileBtn.click();
+        });
+      }
 
       // Profile Dialog
       const profileBtn = document.getElementById('userProfileBtn');

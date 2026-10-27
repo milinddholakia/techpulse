@@ -1,5 +1,613 @@
 [
   {
+    "id": "rss-7440386",
+    "title": "VisionQuest is what happens when AI really goes rogue",
+    "category": "Robotics & Physical AI",
+    "categoryColor": "#06b6d4",
+    "badge": "🤖 Physical AI",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getting lost in elaborate, digital daydreams in which he and other artificial intelligence-powered beings live together in a home. The series is deeply fantastical, yet it plays with some of the ...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Control",
+        "value": "VLA Foundation Policy"
+      },
+      {
+        "label": "Autonomy",
+        "value": "Multi-Hour Shifts"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai"
+      }
+    ]
+  },
+  {
+    "id": "rss-2015016",
+    "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
+    "category": "Reasoning & LLMs",
+    "categoryColor": "#3b82f6",
+    "badge": "🔥 Breakthrough",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Anthropic cofounder and CEO Dario Amodei. | Bloomberg via Getty Images Anthropic wants to have it both ways. With its impending IPO, it wants to tap the vast riches of the public markets and insists it doesn't want to compromise its core mission of developing AI safely and for th...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Model Focus",
+        "value": "Frontier Reasoning"
+      },
+      {
+        "label": "Ecosystem",
+        "value": "Open / API"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety"
+      }
+    ]
+  },
+  {
+    "id": "rss-3256581",
+    "title": "Meta’s $25 billion legal loss just put blood in the water",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/policy/1019604/new-mexico-meta-cambridge-analytica-kids-safety-settlement",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "When attorneys general from across the US announced a $17 billion settlement with Meta this summer, the sum was unprecedented. But a ruling last week by a New Mexico judge blew that number out of the water. The judge ordered Meta to pay $25 billion to resolve claims that Meta mis...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/policy/1019604/new-mexico-meta-cambridge-analytica-kids-safety-settlement"
+      }
+    ]
+  },
+  {
+    "id": "rss-4483780",
+    "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+    "category": "Open Source & Web",
+    "categoryColor": "#ec4899",
+    "badge": "🌐 Open Tech",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste you...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Execution",
+        "value": "Zero-Egress Client"
+      },
+      {
+        "label": "License",
+        "value": "Permissive / Apache 2.0"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms"
+      }
+    ]
+  },
+  {
+    "id": "rss-6443562",
+    "title": "Google’s next Genie AI model generates more realistic experiences",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Google announced today its Genie 4 world model for generating interactive experiences using AI. The company says the model has four main updates: It allows for more realistic worlds, lets users update an experience in real time with a natural language prompt, can generate audio, ...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model"
+      }
+    ]
+  },
+  {
+    "id": "rss-4044883",
+    "title": "My favorite robot vacuum just got quieter, and more expensive",
+    "category": "Robotics & Physical AI",
+    "categoryColor": "#06b6d4",
+    "badge": "🤖 Physical AI",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1019298/matic-serene-robot-vacuum-price-specs-release-date",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "The Matic Serene looks identical to the current Matic but the company claims its hardware improvements make it much quieter. | Image: Matic Matic, the company behind my favorite robot vacuum, is launching its first new model since its 2023 debut: the Matic Serene. The new robotic...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Control",
+        "value": "VLA Foundation Policy"
+      },
+      {
+        "label": "Autonomy",
+        "value": "Multi-Hour Shifts"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1019298/matic-serene-robot-vacuum-price-specs-release-date"
+      }
+    ]
+  },
+  {
+    "id": "hn-50255298",
+    "title": "The Mythical Man-Month in the Age of AI",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 368 points and 258 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "368+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "258+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50255298"
+      }
+    ]
+  },
+  {
+    "id": "hn-50257326",
+    "title": "Wikipedia's Cleanup of AI-Generated Content",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 328 points and 154 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "328+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "154+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50257326"
+      }
+    ]
+  },
+  {
+    "id": "hn-50257548",
+    "title": "Software may be getting worse, but it used to be horrible",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 246 points and 225 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "246+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "225+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50257548"
+      }
+    ]
+  },
+  {
+    "id": "hn-50259406",
+    "title": "Is my data used for model training?",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 181 points and 76 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "181+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "76+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50259406"
+      }
+    ]
+  },
+  {
+    "id": "hn-50261819",
+    "title": "Police Are Using AI to Pull over Drivers for 'Suspicious' Behavior",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 157 points and 78 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "157+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "78+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50261819"
+      }
+    ]
+  },
+  {
+    "id": "hn-50261352",
+    "title": "Apple introduces the new 14‑inch MacBook Pro with M6",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 87 points and 92 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "87+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "92+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50261352"
+      }
+    ]
+  },
+  {
+    "id": "hn-50260960",
+    "title": "Data Recovery CEO Indicted for Allegedly Scamming Ransomware Victims",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://www.propublica.org/article/zohar-pinhasi-monstercloud-ransomware-indictment",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 47 points and 7 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "47+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "7+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://www.propublica.org/article/zohar-pinhasi-monstercloud-ransomware-indictment"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50260960"
+      }
+    ]
+  },
+  {
+    "id": "hn-50261584",
+    "title": "We let our cloud agents query prod (with OIDC, not secrets)",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://www.formal.ai/blog/cloud-agents-oidc-infrastructure/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 12 points and 7 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "12+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "7+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://www.formal.ai/blog/cloud-agents-oidc-infrastructure/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50261584"
+      }
+    ]
+  },
+  {
+    "id": "rss-5430163",
+    "title": "Trump is making it easier for fossil fuel companies to leak methane",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/policy/1019691/gas-leak-methane-rule-rollback-trump",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "In its latest gift to oil and gas companies, the Trump administration is expected to announce plans today to weaken rules that guard against methane leaks. Methane is a smog-forming pollutant and a powerful greenhouse gas that's up to 80 times as potent as carbon dioxide on a 20-...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/policy/1019691/gas-leak-methane-rule-rollback-trump"
+      }
+    ]
+  },
+  {
+    "id": "rss-232311",
+    "title": "The Super Mouse puts a touchscreen macro pad under your hand",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1019484/super-mouse-touchscreen-shortcuts-macros-kickstarter",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "A company called Arctic Fox Technologies has announced a new multifunction mouse that forgoes a myriad of customizable shortcut buttons peppered across its surface for a compact touchscreen sitting beneath your hand. The Super Mouse may not prioritize ergonomics with its boxy des...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1019484/super-mouse-touchscreen-shortcuts-macros-kickstarter"
+      }
+    ]
+  },
+  {
     "id": "news-1",
     "title": "DeepSeek-R1: Open-Weights Reasoning Architecture & High-Efficiency Distillation",
     "category": "Reasoning Models",
@@ -500,872 +1108,6 @@
       {
         "id": 29,
         "title": "Tensor & Pipeline Parallelism"
-      }
-    ]
-  },
-  {
-    "id": "news-10",
-    "title": "Waymo Driverless Robotaxis Surpass 150,000 Paid Commercial Trips Weekly",
-    "category": "Autonomous Systems",
-    "categoryColor": "#0ea5e9",
-    "badge": "🚗 Mobility",
-    "source": "The Verge / Waymo Safety Record",
-    "url": "https://www.theverge.com/transportation",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Alphabet's autonomous driving division Waymo confirmed it is now serving more than 150,000 commercial paid passenger trips every week across San Francisco, Phoenix, Los Angeles, and Austin without human safety operators. Verified actuarial data submitted to state insurance regulators shows Waymo vehicles experienced 85% fewer injury-causing crashes per million miles compared to human drivers in the same urban environments.",
-    "keyMetrics": [
-      {
-        "label": "Weekly Paid Trips",
-        "value": "150,000+"
-      },
-      {
-        "label": "Commercial Miles",
-        "value": "25+ Million Autonomous"
-      },
-      {
-        "label": "Injury Crash Reduction",
-        "value": "85% vs human drivers"
-      },
-      {
-        "label": "Generation Fleet",
-        "value": "6th-Gen Geely Zeekr EV"
-      }
-    ],
-    "technicalDeepDive": "Waymo's 6th-generation hardware suite incorporates 13 high-resolution cameras, 4 multi-beam LiDAR sensors, and 6 imaging radar arrays with integrated thermal heaters to defeat fog, heavy rain, and dust. The software architecture leverages end-to-end multimodal transformers that predict trajectories for hundreds of pedestrians, cyclists, and aggressive drivers simultaneously while enforcing deterministic safety boundaries.",
-    "industryImpact": "Autonomous mobility is transforming urban real estate by reducing parking lot demand, lowering drunk-driving incidents, and redefining rideshare unit economics. Waymo's rapid expansion into airport shuttles and highway routes marks the mainstream arrival of Level 4 autonomous transportation.",
-    "resources": [
-      {
-        "label": "Waymo Safety & Performance Data",
-        "url": "https://waymo.com/safety/"
-      },
-      {
-        "label": "The Verge Full Report",
-        "url": "https://www.theverge.com/transportation"
-      }
-    ],
-    "relatedTopicIds": [
-      35,
-      48
-    ],
-    "relatedTopics": [
-      {
-        "id": 35,
-        "title": "Vision-Language-Action (VLA)"
-      },
-      {
-        "id": 48,
-        "title": "Diffusion Policy for Robotics"
-      }
-    ]
-  },
-  {
-    "id": "news-11",
-    "title": "Cosmopedia v2 & Verifiable Self-Play: Breaking the LLM Public Data Wall",
-    "category": "Open Source",
-    "categoryColor": "#6366f1",
-    "badge": "📦 Open Source",
-    "source": "Hugging Face Research",
-    "url": "https://huggingface.co/blog",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "With human-written web text projected to be fully exhausted for pre-training frontier models by 2026, researchers have turned to high-density synthetic data curricula. Hugging Face and academic partners published Cosmopedia v2, an open-source dataset of 30+ million structured textbooks, coding lessons, and interactive web tutorials synthesized by smaller teacher models with mathematical validation checks.",
-    "keyMetrics": [
-      {
-        "label": "Synthetic Tokens",
-        "value": "35+ Billion high-grade"
-      },
-      {
-        "label": "Benchmark Boost",
-        "value": "+18% MMLU for 1B models"
-      },
-      {
-        "label": "Toxicity / Bias",
-        "value": "94% lower than CommonCrawl"
-      },
-      {
-        "label": "License",
-        "value": "Apache 2.0 Free Commercial"
-      }
-    ],
-    "technicalDeepDive": "Cosmopedia utilizes automated prompt evolution to generate textbooks across thousands of academic disciplines. Rather than copying web text, the model generates curriculum-driven examples, practice questions with verified solutions, and clean step-by-step proofs. Automated Python and Lean theorem solvers verify the code and mathematical assertions before appending them to the training corpus.",
-    "industryImpact": "Small open-source teams can now train competitive 1B to 7B language models on synthetic tokens for under $25,000 in cloud compute, achieving benchmark scores that previously required petabytes of noisy web-scraped data.",
-    "resources": [
-      {
-        "label": "Hugging Face Cosmopedia Dataset",
-        "url": "https://huggingface.co/datasets/HuggingFaceTB/cosmopedia"
-      },
-      {
-        "label": "Research Technical Whitepaper",
-        "url": "https://huggingface.co/blog"
-      }
-    ],
-    "relatedTopicIds": [
-      21
-    ],
-    "relatedTopics": [
-      {
-        "id": 21,
-        "title": "Synthetic Data & Self-Play"
-      }
-    ]
-  },
-  {
-    "id": "news-12",
-    "title": "Neuralink Second Human Trial: Zero Thread Retraction & High-Speed 3D CAD",
-    "category": "BioTech & Neural",
-    "categoryColor": "#a855f7",
-    "badge": "🧠 NeuroTech",
-    "source": "Neuralink Technical Update",
-    "url": "https://neuralink.com/blog/",
-    "readTime": "5 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Neuralink announced complete clinical success with its second human participant ('Alex'), who suffers from a spinal cord injury. Alex achieved immediate high-speed control of digital interfaces on day one, setting new records for bits-per-second cursor control and successfully designing custom 3D mounts in Fusion 360 and playing competitive first-person shooter games purely through neural intention.",
-    "keyMetrics": [
-      {
-        "label": "Active Electrodes",
-        "value": "1,024 thin-film threads"
-      },
-      {
-        "label": "Thread Retraction",
-        "value": "0% (Completely solved)"
-      },
-      {
-        "label": "Spike Sorting Latency",
-        "value": "<15 ms Bluetooth Low Energy"
-      },
-      {
-        "label": "Trial Status",
-        "value": "FDA Breakthrough Device Designation"
-      }
-    ],
-    "technicalDeepDive": "To eliminate the thread retraction observed in the first trial (where brain pulsation caused flexible threads to shift), the surgical team reduced brain motion during robot insertion, increased insertion depth, and sculpted the cranial contour. Neuralink's on-chip DSP performs real-time spike sorting across 1,024 channels, translating motor cortex intentions into 2D/3D kinematic vector velocity commands.",
-    "industryImpact": "Neuralink plans to begin trials for 'Blindsight' (delivering visual percepts directly into the visual cortex of blind patients) and expanding limb-restoration motor bypasses, cementing high-bandwidth BCIs as mainstream clinical medicine.",
-    "resources": [
-      {
-        "label": "Neuralink Progress Blog",
-        "url": "https://neuralink.com/blog/"
-      },
-      {
-        "label": "ClinicalTrials Registry",
-        "url": "https://clinicaltrials.gov/"
-      }
-    ],
-    "relatedTopicIds": [
-      35
-    ],
-    "relatedTopics": [
-      {
-        "id": 35,
-        "title": "Vision-Language-Action (VLA)"
-      }
-    ]
-  },
-  {
-    "id": "news-13",
-    "title": "Silicon Photonics Interconnects: Overcoming Copper's Thermal AI Limit",
-    "category": "Semiconductors",
-    "categoryColor": "#e11d48",
-    "badge": "💡 Silicon",
-    "source": "EE Times / Lightmatter",
-    "url": "https://www.eetimes.com/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "As GPU clusters exceed 100,000 accelerators, traditional copper interconnect cables are hitting severe physical limits in reach, latency, and thermal dissipation. Silicon photonics pioneers Lightmatter and Celestial AI showcased optical interposer solutions that route terabits of memory bandwidth directly from silicon dies using laser waveguides rather than copper traces.",
-    "keyMetrics": [
-      {
-        "label": "Optical Bandwidth",
-        "value": "128 Terabits/sec inter-die"
-      },
-      {
-        "label": "Latency Reduction",
-        "value": "6x lower than copper switches"
-      },
-      {
-        "label": "Energy Consumption",
-        "value": "<1 picojoule / bit"
-      },
-      {
-        "label": "Reach Distance",
-        "value": "Up to 100 meters without loss"
-      }
-    ],
-    "technicalDeepDive": "Silicon photonics integrates lasers, modulators, and photodetectors onto standard CMOS silicon wafers. By replacing electrical serial-deserializer (SerDes) channels with optical waveguides, accelerators can directly access HBM memory banks across adjacent servers with zero electrical impedance degradation and near-zero heat dissipation.",
-    "industryImpact": "Enables truly disaggregated datacenter architectures where thousands of GPUs and memory banks communicate as if they were a single colossal chip, eliminating the cluster-networking latency bottleneck for trillion-parameter AI models.",
-    "resources": [
-      {
-        "label": "EE Times Technical Analysis",
-        "url": "https://www.eetimes.com/"
-      },
-      {
-        "label": "Lightmatter Technology Architecture",
-        "url": "https://lightmatter.co/"
-      }
-    ],
-    "relatedTopicIds": [
-      29
-    ],
-    "relatedTopics": [
-      {
-        "id": 29,
-        "title": "Tensor & Pipeline Parallelism"
-      }
-    ]
-  },
-  {
-    "id": "news-14",
-    "title": "SWE-Bench Verified: Autonomous AI Agents Resolve 50%+ Real GitHub Issues",
-    "category": "Dev Tools",
-    "categoryColor": "#22c55e",
-    "badge": "💻 Dev Tools",
-    "source": "SWE-bench / Princeton NLP",
-    "url": "https://www.swebench.com/",
-    "readTime": "5 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "The definitive benchmark for autonomous software engineering agents—SWE-bench Verified, consisting of 500 validated real-world GitHub issues across Django, SymPy, scikit-learn, and pytest—saw frontier AI agents break past the 50% automated fix threshold. Just one year ago, leading models solved less than 4% of these challenges without human assistance.",
-    "keyMetrics": [
-      {
-        "label": "Current Benchmark Record",
-        "value": "51.8% Automated Fix Rate"
-      },
-      {
-        "label": "Historical Baseline (2023)",
-        "value": "3.8% (GPT-4)"
-      },
-      {
-        "label": "Avg Solution Cost",
-        "value": "$1.20 per resolved PR"
-      },
-      {
-        "label": "Test Suite Validation",
-        "value": "100% regression test pass"
-      }
-    ],
-    "technicalDeepDive": "High-scoring agent frameworks combine tree-of-thought exploration with dynamic test-driven execution. When given a bug description, the agent clones the repo, locates candidate files using semantic AST search, writes reproductive unit tests, inspects failures in an isolated container sandbox, edits the implementation, and loops until all existing and newly written test suites pass cleanly.",
-    "industryImpact": "Autonomous software agents are transitioning from autocomplete toys into junior pair programmers that triage backlogs, fix dependency vulnerabilities, and draft draft pull requests overnight, transforming the day-to-day role of software engineers into system architecture and verification.",
-    "resources": [
-      {
-        "label": "SWE-bench Leaderboard",
-        "url": "https://www.swebench.com/"
-      },
-      {
-        "label": "Princeton Research Paper",
-        "url": "https://arxiv.org/abs/2310.06770"
-      }
-    ],
-    "relatedTopicIds": [
-      34,
-      47,
-      32
-    ],
-    "relatedTopics": [
-      {
-        "id": 34,
-        "title": "Evaluation Harnesses (SWE-bench)"
-      },
-      {
-        "id": 47,
-        "title": "Semantic AST Code Synthesis"
-      },
-      {
-        "id": 32,
-        "title": "Tool Use & Sandboxing"
-      }
-    ]
-  },
-  {
-    "id": "news-15",
-    "title": "QuantumScape B-Sample Solid-State Cells: 15-Minute Fast Charge & 1,000 Cycles",
-    "category": "Battery & Energy",
-    "categoryColor": "#eab308",
-    "badge": "🔋 CleanTech",
-    "source": "Green Car Congress / Automotive News",
-    "url": "https://www.greencarcongress.com/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "QuantumScape has delivered commercial B-sample solid-state lithium-metal cells (QSE-5) to automotive partners, including the Volkswagen Group. The cells feature an anodeless architecture that completely eliminates graphite/silicon anodes, achieving unprecedented volumetric energy density while meeting rigorous automotive fast-charging and thermal safety criteria.",
-    "keyMetrics": [
-      {
-        "label": "Energy Density",
-        "value": ">800 Wh/L volumetric"
-      },
-      {
-        "label": "Fast Charge Time",
-        "value": "10% to 80% in <15 minutes"
-      },
-      {
-        "label": "Cycle Life",
-        "value": ">1,000 cycles with >95% retention"
-      },
-      {
-        "label": "Operating Temp",
-        "value": "-30°C to +60°C without fires"
-      }
-    ],
-    "technicalDeepDive": "Traditional lithium-ion batteries rely on flammable liquid electrolytes and bulky graphite anodes. QuantumScape replaces the liquid with a proprietary flexible ceramic separator that resists lithium dendrite formation, allowing pure metallic lithium to plate directly onto the current collector during charging. This removes 40% of battery volume while eliminating runaway combustion risks.",
-    "industryImpact": "Solid-state batteries pave the way for 500-to-600-mile electric vehicles that charge as quickly as filling a gas tank, eliminating range anxiety and accelerating consumer EV transition.",
-    "resources": [
-      {
-        "label": "QuantumScape Commercial Update",
-        "url": "https://www.quantumscape.com/"
-      },
-      {
-        "label": "Green Car Congress Review",
-        "url": "https://www.greencarcongress.com/"
-      }
-    ],
-    "relatedTopicIds": [
-      45
-    ],
-    "relatedTopics": [
-      {
-        "id": 45,
-        "title": "1-Bit LLMs & Hardware"
-      }
-    ]
-  },
-  {
-    "id": "news-16",
-    "title": "Starship Flight 6: Orbital Raptor Relight & Tileless Reentry Telemetry",
-    "category": "Space Tech",
-    "categoryColor": "#3b82f6",
-    "badge": "🚀 Aerospace",
-    "source": "SpaceX Mission Updates",
-    "url": "https://www.spacex.com/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "SpaceX achieved another critical flight test milestone for the 121-meter Starship launch vehicle from Starbase, Texas. Flight 6 demonstrated the first in-space reignition of a vacuum Raptor engine—a mandatory capability for orbital deorbit burns and satellite deployment—and intentionally stripped heat shield tiles from high-stress zones to collect structural survival telemetry during peak atmospheric entry heating.",
-    "keyMetrics": [
-      {
-        "label": "Liftoff Thrust",
-        "value": "16.7 Million lbs (33 Raptors)"
-      },
-      {
-        "label": "Payload to LEO",
-        "value": "150+ metric tons (Reusable)"
-      },
-      {
-        "label": "In-Space Relight",
-        "value": "100% Successful ignition"
-      },
-      {
-        "label": "Splashdown Precision",
-        "value": "Sub-meter pinpoint Indian Ocean"
-      }
-    ],
-    "technicalDeepDive": "Igniting liquid methane and liquid oxygen engines in zero-gravity vacuum requires precise cryogenic propellant settling using reaction control thrusters and high-pressure helium chilldown. Flight 6 tested updated secondary thermal protection layers behind intentional heat-shield gaps to validate structural safety margins for future ship catches with the 'Mechazilla' launch tower chopstick arms.",
-    "industryImpact": "Fully reusable heavy-lift orbital flight drops launch costs below $100 per kilogram, making lunar bases (Artemis III), orbital propellant depots, and mega-constellation space telescopes economically feasible.",
-    "resources": [
-      {
-        "label": "SpaceX Starship Flight Updates",
-        "url": "https://www.spacex.com/launches/"
-      },
-      {
-        "label": "NASA Artemis Program",
-        "url": "https://www.nasa.gov/artemis/"
-      }
-    ],
-    "relatedTopicIds": [
-      48
-    ],
-    "relatedTopics": [
-      {
-        "id": 48,
-        "title": "Diffusion Policy for Robotics"
-      }
-    ]
-  },
-  {
-    "id": "news-17",
-    "title": "Dual-LLM Firewall Architecture Neutralizes Indirect Prompt Injections",
-    "category": "Cybersecurity",
-    "categoryColor": "#ef4444",
-    "badge": "🛡 Security",
-    "source": "arXiv Security / USENIX Security",
-    "url": "https://arxiv.org/abs/2403.05047",
-    "readTime": "5 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Prompt injection—the OWASP #1 vulnerability in production LLM applications—has plagued AI agent deployments where untrusted web content or email text tricks models into exfiltrating credentials or executing unauthorized actions. Security researchers from Stanford and Berkeley unveiled a formally verified 'Dual-LLM' firewall architecture that structurally isolates instructions from untrusted data channels.",
-    "keyMetrics": [
-      {
-        "label": "Injection Defense Rate",
-        "value": "99.4% on benchmark attacks"
-      },
-      {
-        "label": "False Positive Rate",
-        "value": "<0.2% on legitimate prompts"
-      },
-      {
-        "label": "Latency Overhead",
-        "value": "<45 ms"
-      },
-      {
-        "label": "Standards Alignment",
-        "value": "OWASP GenAI Top 10"
-      }
-    ],
-    "technicalDeepDive": "Single-model architectures treat user instructions and scraped data as a unified token stream, making delimiter-based escaping ineffective. The Dual-LLM architecture splits tasks into a privileged 'Planner LLM' (which never sees raw untrusted data directly) and an unprivileged 'Execution Sandboxed LLM'. Untrusted content is treated as passive binary data that cannot alter the Planner's control flow graph.",
-    "industryImpact": "Enterprises can safely connect autonomous agents to company email inboxes, CRM records, and SQL databases without fearing that an adversarial email or malicious webpage will hijack company credentials or trigger unauthorized money transfers.",
-    "resources": [
-      {
-        "label": "arXiv Research Paper",
-        "url": "https://arxiv.org/abs/2403.05047"
-      },
-      {
-        "label": "OWASP GenAI Security Project",
-        "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
-      }
-    ],
-    "relatedTopicIds": [
-      18,
-      46
-    ],
-    "relatedTopics": [
-      {
-        "id": 18,
-        "title": "Prompt Injection Firewalls"
-      },
-      {
-        "id": 46,
-        "title": "Constitutional AI"
-      }
-    ]
-  },
-  {
-    "id": "news-18",
-    "title": "Apple Open-Sources 'MLX' Unified Memory Speedups: 70B Models on MacBooks",
-    "category": "Apple Silicon AI",
-    "categoryColor": "#64748b",
-    "badge": "🍎 Ecosystem",
-    "source": "Apple Machine Learning Research",
-    "url": "https://github.com/ml-explore/mlx",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Apple released a major update to MLX, its open-source array framework tailored specifically for Apple Silicon's unified memory architecture. The update introduces fused quantized matrix multiplication kernels and dynamic memory allocation improvements that allow 128GB/192GB M-series MacBook Pros and Mac Studios to fine-tune and run 70B parameter models at full speed with zero PCIe transfer penalties.",
-    "keyMetrics": [
-      {
-        "label": "Inference Speedup",
-        "value": "3.2x faster for quantized 70B"
-      },
-      {
-        "label": "Max Memory Bandwidth",
-        "value": "Up to 800 GB/s (M-Max/Ultra)"
-      },
-      {
-        "label": "Quantization Formats",
-        "value": "4-bit, 8-bit, FP16, BF16"
-      },
-      {
-        "label": "Framework Compatibility",
-        "value": "PyTorch-like NumPy API"
-      }
-    ],
-    "technicalDeepDive": "Unlike discrete PC GPUs where weights must be copied over a bandwidth-limited PCIe bus from host RAM to VRAM, Apple Silicon shares a single high-bandwidth unified memory pool between CPU and GPU. MLX provides lazy evaluation and unified buffer sharing: tensors allocated by the CPU can be consumed by GPU compute kernels without copying or converting memory layouts.",
-    "industryImpact": "Turns portable consumer laptops into premier personal research labs. Individual developers and privacy-conscious enterprises can fine-tune frontier models on confidential customer data without renting expensive cloud GPU clusters.",
-    "resources": [
-      {
-        "label": "MLX GitHub Repository",
-        "url": "https://github.com/ml-explore/mlx"
-      },
-      {
-        "label": "Apple ML Research Blog",
-        "url": "https://machinelearning.apple.com/"
-      }
-    ],
-    "relatedTopicIds": [
-      33,
-      6
-    ],
-    "relatedTopics": [
-      {
-        "id": 33,
-        "title": "On-Device Inference (WebGPU)"
-      },
-      {
-        "id": 6,
-        "title": "Quantization (INT8/4)"
-      }
-    ]
-  },
-  {
-    "id": "news-19",
-    "title": "RISC-V 128-Core Server Chiplets Enter Commercial Cloud Datacenter Trials",
-    "category": "Computer Architecture",
-    "categoryColor": "#0d9488",
-    "badge": "⚙️ Hardware",
-    "source": "RISC-V International / SemiAnalysis",
-    "url": "https://riscv.org/",
-    "readTime": "5 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Ventana Micro Systems and Jim Keller's Tenstorrent unveiled high-performance 128-core RISC-V server chiplets targeting hyperscale cloud deployments. Featuring open-standard Vector Extensions (RVV 1.0) and advanced matrix acceleration units, the processors challenge x86 (Intel/AMD) and ARM architectures with an open, royalty-free instruction set that hyperscalers can customize directly.",
-    "keyMetrics": [
-      {
-        "label": "Core Count",
-        "value": "128 Cores per socket"
-      },
-      {
-        "label": "Process Node",
-        "value": "TSMC 3nm FinFET"
-      },
-      {
-        "label": "Interconnect Standard",
-        "value": "UCIe Die-to-Die open link"
-      },
-      {
-        "label": "Royalty Cost",
-        "value": "Zero ISA licensing fees"
-      }
-    ],
-    "technicalDeepDive": "The Veyron V2 architecture utilizes Universal Chiplet Interconnect Express (UCIe) to pair standard RISC-V compute dies with custom customer-designed AI accelerator chiplets. The 128-bit vector units support native bfloat16 and INT8 matrix multiplies, delivering high throughput for cloud microservices and distributed storage engines.",
-    "industryImpact": "Breaks the duopoly of proprietary server architectures and insulates global cloud operators from geopolitical export controls. Cloud giants can tailor custom silicon specifically for their AI workloads without paying millions in architecture licensing fees.",
-    "resources": [
-      {
-        "label": "RISC-V International",
-        "url": "https://riscv.org/"
-      },
-      {
-        "label": "Tenstorrent Silicon Architecture",
-        "url": "https://tenstorrent.com/"
-      }
-    ],
-    "relatedTopicIds": [
-      29
-    ],
-    "relatedTopics": [
-      {
-        "id": 29,
-        "title": "Tensor & Pipeline Parallelism"
-      }
-    ]
-  },
-  {
-    "id": "news-20",
-    "title": "Diffusion-Transformers Synthesize Production-Grade Parametric 3D CAD",
-    "category": "Generative 3D",
-    "categoryColor": "#d946ef",
-    "badge": "🎨 3D & Design",
-    "source": "ACM SIGGRAPH / Autodesk Research",
-    "url": "https://www.siggraph.org/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Generative 3D has evolved beyond polygonal mesh blobs. Autodesk and academic partners debuted multimodal diffusion-transformer models that synthesize production-grade boundary representation (B-Rep) CAD solids directly from text descriptions and hand-drawn mechanical sketches. The generated models include editable parametric sketch planes, fillet radii, and mechanical constraints compatible with SolidWorks, AutoCAD, and Fusion 360.",
-    "keyMetrics": [
-      {
-        "label": "Geometry Format",
-        "value": "Parametric STEP / B-Rep"
-      },
-      {
-        "label": "Generation Time",
-        "value": "<10 seconds per part"
-      },
-      {
-        "label": "Manufacturability Check",
-        "value": "100% watertight valid solids"
-      },
-      {
-        "label": "Format Export",
-        "value": "STEP, IGES, Parasolid"
-      }
-    ],
-    "technicalDeepDive": "Previous generative 3D approaches (NeRFs, Gaussian Splatting) produced surface meshes unusable for CNC machining or injection molding. The new architecture tokenizes CAD construction history sequences (extrusions, cuts, lofts, fillets) as a formal programmatic grammar, using autoregressive transformers with geometric constraint solvers to guarantee that all generated faces and edges stitch into watertight manifolds.",
-    "industryImpact": "Mechanical engineers and industrial designers can generate dozens of manufacturable component variants in minutes, drastically accelerating aerospace prototyping, consumer electronics tooling, and automotive chassis development.",
-    "resources": [
-      {
-        "label": "ACM SIGGRAPH Research",
-        "url": "https://www.siggraph.org/"
-      },
-      {
-        "label": "Autodesk AI Research",
-        "url": "https://www.autodesk.com/research"
-      }
-    ],
-    "relatedTopicIds": [
-      31,
-      20
-    ],
-    "relatedTopics": [
-      {
-        "id": 31,
-        "title": "Diffusion Transformers (DiT)"
-      },
-      {
-        "id": 20,
-        "title": "Vision Transformers (ViT)"
-      }
-    ]
-  },
-  {
-    "id": "news-21",
-    "title": "Raspberry Pi 5 AI HAT+: 26 TOPS Edge NPU Inference Under $70",
-    "category": "Maker & IoT",
-    "categoryColor": "#e11d48",
-    "badge": "🍓 Maker",
-    "source": "Raspberry Pi Foundation",
-    "url": "https://www.raspberrypi.com/news/",
-    "readTime": "3 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "The Raspberry Pi Foundation launched the AI HAT+ module, integrating Hailo-8 neural processing units with the Raspberry Pi 5. Delivering up to 26 tera-operations per second (TOPS) over the Pi's native PCIe 2.0 interface, the accessory allows makers and industrial engineers to run multiple neural networks—including YOLOv8 object detection, facial recognition, and voice models—at 60 FPS in real time.",
-    "keyMetrics": [
-      {
-        "label": "Compute Power",
-        "value": "Up to 26 TOPS"
-      },
-      {
-        "label": "Price Point",
-        "value": "$70 (Complete module)"
-      },
-      {
-        "label": "Power Consumption",
-        "value": "<2.5 Watts"
-      },
-      {
-        "label": "Interface",
-        "value": "Single-lane PCIe 2.0 M.2"
-      }
-    ],
-    "technicalDeepDive": "The Hailo-8 NPU utilizes a structure-driven architecture that maps neural network graph topologies directly onto physical compute-and-memory units. This eliminates the energy-expensive memory shuttling common in discrete GPUs, achieving high inferencing throughput at just 2.5 watts of thermal design power.",
-    "industryImpact": "Democratizes intelligent robotics, smart home security cameras, wildlife tracking devices, and automated factory sorting for hobbyists, startups, and university researchers without requiring expensive industrial edge servers.",
-    "resources": [
-      {
-        "label": "Raspberry Pi Launch Blog",
-        "url": "https://www.raspberrypi.com/news/"
-      },
-      {
-        "label": "Hailo-8 Architecture Guide",
-        "url": "https://hailo.ai/"
-      }
-    ],
-    "relatedTopicIds": [
-      33,
-      45
-    ],
-    "relatedTopics": [
-      {
-        "id": 33,
-        "title": "On-Device Inference (WebGPU)"
-      },
-      {
-        "id": 45,
-        "title": "1-Bit LLMs & Hardware"
-      }
-    ]
-  },
-  {
-    "id": "news-22",
-    "title": "Boom Supersonic XB-1 Completes Supersonic Envelope Expansion Flights",
-    "category": "Aviation",
-    "categoryColor": "#2563eb",
-    "badge": "✈️ Supersonic",
-    "source": "Aviation Week / FlightGlobal",
-    "url": "https://aviationweek.com/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Boom Supersonic's XB-1 demonstrator aircraft successfully completed its first series of supersonic test flights over the Mojave Desert in California. The aircraft represents the first independently developed civil supersonic aircraft to exceed Mach 1 and serves as the technological testbed for the full-scale commercial airliner 'Overture', designed to carry 64-80 passengers on 100% sustainable aviation fuel.",
-    "keyMetrics": [
-      {
-        "label": "Maximum Speed",
-        "value": "Mach 1.2+ Envelope Tested"
-      },
-      {
-        "label": "Airframe Material",
-        "value": "Carbon-Fiber Composite"
-      },
-      {
-        "label": "Vision System",
-        "value": "Augmented Reality HUD (No droop nose)"
-      },
-      {
-        "label": "Airliner Target",
-        "value": "Overture 2029 Maiden Flight"
-      }
-    ],
-    "technicalDeepDive": "Unlike Concorde's heavy hydraulic drooping nose, XB-1 features an aerodynamically optimized chined needle nose that uses digital forward cameras and augmented reality displays to project synthetic runway views for the pilot. The airframe's area-ruled fuselage minimizes supersonic wave drag, while digital twin simulations eliminated thousands of hours of wind tunnel trials.",
-    "industryImpact": "Commercial supersonic travel would cut transatlantic flight times in half (New York to London in 3.5 hours), unlocking a new era of global passenger mobility powered by sustainable biofuels.",
-    "resources": [
-      {
-        "label": "Boom Supersonic Flight Updates",
-        "url": "https://boomsupersonic.com/"
-      },
-      {
-        "label": "Aviation Week Technical Review",
-        "url": "https://aviationweek.com/"
-      }
-    ],
-    "relatedTopicIds": [
-      48
-    ],
-    "relatedTopics": [
-      {
-        "id": 48,
-        "title": "Diffusion Policy for Robotics"
-      }
-    ]
-  },
-  {
-    "id": "news-23",
-    "title": "Mistral Pixtral 12B: Open-Weights Native Vision-Language Architecture",
-    "category": "Multimodal Models",
-    "categoryColor": "#f97316",
-    "badge": "👁 Vision AI",
-    "source": "Mistral AI / Hugging Face",
-    "url": "https://mistral.ai/news/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Mistral AI released Pixtral 12B, an open-weights 12-billion-parameter multimodal vision-language model trained natively on images and text. Pixtral achieves frontier results on complex technical document parsing, multi-chart reasoning, and code visual QA, outperforming existing open-weights models and matching proprietary vision models on key visual benchmarks under an open Apache 2.0 license.",
-    "keyMetrics": [
-      {
-        "label": "Parameter Count",
-        "value": "12 Billion (Weights Open)"
-      },
-      {
-        "label": "Context Window",
-        "value": "128,000 tokens"
-      },
-      {
-        "label": "Image Resolution",
-        "value": "Arbitrary aspect ratio native"
-      },
-      {
-        "label": "DocVQA Score",
-        "value": "90.7%"
-      }
-    ],
-    "technicalDeepDive": "Most vision models crop images into fixed square patches (e.g. 336x336 or 448x448), distorting fine text and diagrams. Pixtral uses a custom 400M parameter vision encoder that accepts arbitrary aspect ratios and resolutions natively. Images and text tokens share the same 128k context window, allowing users to query multiple high-resolution PDF pages simultaneously.",
-    "industryImpact": "Enterprises can deploy Pixtral locally to automate legal document extraction, medical chart audits, and architectural blueprint parsing without leaking proprietary company imagery to external cloud APIs.",
-    "resources": [
-      {
-        "label": "Mistral AI Announcement",
-        "url": "https://mistral.ai/news/"
-      },
-      {
-        "label": "Hugging Face Model Card",
-        "url": "https://huggingface.co/mistralai/Pixtral-12B-2409"
-      }
-    ],
-    "relatedTopicIds": [
-      20,
-      27
-    ],
-    "relatedTopics": [
-      {
-        "id": 20,
-        "title": "Vision Transformers (ViT)"
-      },
-      {
-        "id": 27,
-        "title": "CLIP Multimodal Alignment"
-      }
-    ]
-  },
-  {
-    "id": "news-24",
-    "title": "Autonomous AI Reviewers Flag Unnoticed Concurrency Bugs in Open Source",
-    "category": "Software QA",
-    "categoryColor": "#14b8a6",
-    "badge": "🤖 DevOps",
-    "source": "GitHub Universe / ACM Queue",
-    "url": "https://github.blog/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Autonomous background agents deployed across GitHub CI/CD workflows are discovering critical concurrency race conditions, memory leaks, and logic flaws that escaped experienced human maintainers. In major open-source repositories including the Linux kernel and Kubernetes, automated AI code review bots have submitted hundreds of verified, merged security and performance patches.",
-    "keyMetrics": [
-      {
-        "label": "Bug Detection Rate",
-        "value": "40% more subtle edge-cases"
-      },
-      {
-        "label": "PR Review Turnaround",
-        "value": "<90 seconds per pull request"
-      },
-      {
-        "label": "Maintainer Acceptance",
-        "value": "78% patch merge rate"
-      },
-      {
-        "label": "False Positive Rate",
-        "value": "Dropped from 45% to <7%"
-      }
-    ],
-    "technicalDeepDive": "Rather than relying on static AST regex linting, modern review agents compile the project, instrument the binary with thread sanitizers (TSan/ASan), and generate targeted fuzzing inputs based on the PR diff. If a panic or memory corruption occurs, the agent writes an isolated reproduction test case and proposes the exact diff patch to resolve it.",
-    "industryImpact": "Alleviates open-source maintainer burnout and drastically elevates global software security hygiene by catching zero-day vulnerabilities prior to production release.",
-    "resources": [
-      {
-        "label": "GitHub Engineering Blog",
-        "url": "https://github.blog/"
-      },
-      {
-        "label": "ACM Queue Software Engineering",
-        "url": "https://queue.acm.org/"
-      }
-    ],
-    "relatedTopicIds": [
-      47,
-      32
-    ],
-    "relatedTopics": [
-      {
-        "id": 47,
-        "title": "Semantic AST Code Synthesis"
-      },
-      {
-        "id": 32,
-        "title": "Tool Use & Sandboxing"
-      }
-    ]
-  },
-  {
-    "id": "news-25",
-    "title": "Next-Gen Spatial Audio Glasses: On-Device Neural Co-Processors & Bone Conduction",
-    "category": "Wearables",
-    "categoryColor": "#8b5cf6",
-    "badge": "🕶 Wearables",
-    "source": "Wired / IEEE Consumer Electronics",
-    "url": "https://www.wired.com/category/gear/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Wearable hardware makers have begun shipping lightweight everyday smart audio glasses that embed dedicated ultra-low-power neural co-processors and bone-conduction transducers into standard eyewear frames. Unlike bulky VR headsets, these 42-gram frames provide continuous, hands-free conversational AI assistance and live language translation with 18-hour all-day battery life without visible cameras or screens.",
-    "keyMetrics": [
-      {
-        "label": "Frame Weight",
-        "value": "42 grams (Everyday glasses)"
-      },
-      {
-        "label": "Battery Life",
-        "value": "18+ Hours continuous"
-      },
-      {
-        "label": "Audio Delivery",
-        "value": "Private Bone-Conduction"
-      },
-      {
-        "label": "On-Device NPU",
-        "value": "Sub-millivolt always-on wake"
-      }
-    ],
-    "technicalDeepDive": "The key breakthrough is multi-tier power gating: an always-on micro-watt neural classifier detects voice activity and spatial orientation locally. When triggered, it activates the Bluetooth Low Energy (BLE) audio stream to your phone or executes local offline commands without waking the primary system processor, keeping standby power under 3 milliwatts.",
-    "industryImpact": "Points toward a screenless ambient computing future where users receive contextual whisper notifications, real-time speech translations, and meeting summaries effortlessly throughout their daily lives.",
-    "resources": [
-      {
-        "label": "Wired Gear & Wearables",
-        "url": "https://www.wired.com/category/gear/"
-      },
-      {
-        "label": "IEEE Consumer Technology Society",
-        "url": "https://ctsoc.ieee.org/"
-      }
-    ],
-    "relatedTopicIds": [
-      36,
-      33
-    ],
-    "relatedTopics": [
-      {
-        "id": 36,
-        "title": "Neural Audio Codecs"
-      },
-      {
-        "id": 33,
-        "title": "On-Device Inference (WebGPU)"
       }
     ]
   }

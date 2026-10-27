@@ -164,17 +164,23 @@ def fetch_hn_stories(limit=12):
     return stories
 
 def fetch_rss_feed(feed_url, source_name, limit=6):
-    """Fetch stories from an RSS feed"""
+    """Fetch stories from an RSS feed with tech/AI keyword filtering"""
     stories = []
     try:
-        req = urllib.request.Request(feed_url, headers={'User-Agent': 'Mozilla/5.0 (compatible; TechPulse/1.0)'})
-        with urllib.request.urlopen(req, timeout=10) as resp:
+        req = urllib.request.Request(
+            feed_url, 
+            headers={
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+                'Accept': 'application/rss+xml, application/xml, text/xml, */*'
+            }
+        )
+        with urllib.request.urlopen(req, timeout=12) as resp:
             xml_data = resp.read()
             root = ET.fromstring(xml_data)
             channel = root.find("channel")
             items = channel.findall("item") if channel is not None else root.findall("{http://www.w3.org/2005/Atom}entry")
             
-            for i, item in enumerate(items[:limit]):
+            for item in items:
                 title_elem = item.find("title") or item.find("{http://www.w3.org/2005/Atom}title")
                 link_elem = item.find("link") or item.find("{http://www.w3.org/2005/Atom}link")
                 desc_elem = item.find("description") or item.find("{http://www.w3.org/2005/Atom}summary") or item.find("{http://www.w3.org/2005/Atom}content")
@@ -187,7 +193,18 @@ def fetch_rss_feed(feed_url, source_name, limit=6):
                 raw_desc = desc_elem.text if desc_elem is not None and desc_elem.text else ""
                 desc = clean_html(raw_desc)[:280] + ("..." if len(raw_desc) > 280 else "")
                 
-                if not title or not url:
+                if not title or not url or len(title) < 15:
+                    continue
+
+                # Ensure relevance to Tech, AI, Software, Hardware, or Science
+                text_to_check = (title + " " + desc).lower()
+                tech_keywords = [
+                    "ai", "model", "chip", "nvidia", "gpu", "llm", "google", "apple", "microsoft", 
+                    "openai", "anthropic", "meta", "robot", "cloud", "code", "quantum", "software", 
+                    "hardware", "developer", "deepseek", "data", "cyber", "security", "autonomous",
+                    "tech", "agent", "browser", "algorithm", "processor", "server", "linux"
+                ]
+                if not any(re.search(r'\b' + re.escape(kw) + r'\b', text_to_check) for kw in tech_keywords):
                     continue
 
                 cat = classify_story(title, desc)
@@ -212,6 +229,8 @@ def fetch_rss_feed(feed_url, source_name, limit=6):
                         {"label": f"Read on {source_name}", "url": url}
                     ]
                 })
+                if len(stories) >= limit:
+                    break
     except Exception as e:
         print(f"[Warning] Failed to fetch {source_name} ({feed_url}): {e}", file=sys.stderr)
     return stories
@@ -220,9 +239,12 @@ def main():
     print(f"[{datetime.now().isoformat()}] Starting TechPulse Daily 6:00 AM in-depth news fetcher...")
     
     fresh_stories = []
+    # Dedicated AI and Tech feeds with keyword filtering
     fresh_stories.extend(fetch_rss_feed("https://techcrunch.com/category/artificial-intelligence/feed/", "TechCrunch AI", limit=6))
     fresh_stories.extend(fetch_rss_feed("https://www.theverge.com/rss/index.xml", "The Verge", limit=6))
-    fresh_stories.extend(fetch_hn_stories(limit=12))
+    fresh_stories.extend(fetch_rss_feed("https://feeds.arstechnica.com/arstechnica/technology-lab", "Ars Technica", limit=6))
+    fresh_stories.extend(fetch_rss_feed("https://www.wired.com/feed/tag/ai/latest/rss", "Wired AI", limit=6))
+    fresh_stories.extend(fetch_hn_stories(limit=16))
 
     existing_stories = []
     if os.path.exists(DATA_FILE):
@@ -235,8 +257,8 @@ def main():
     seen_urls = set()
     combined = []
     
-    # Prioritize existing high-detail stories when merging
-    for s in existing_stories + fresh_stories:
+    # CRUCIAL BUG FIX: Put fresh_stories FIRST so new articles immediately replace old ones!
+    for s in fresh_stories + existing_stories:
         u = s.get("url", "").rstrip("/")
         if not u or u in seen_urls:
             continue
