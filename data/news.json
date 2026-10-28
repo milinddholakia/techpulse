@@ -1,6 +1,40 @@
 [
   {
-    "id": "rss-7440386",
+    "id": "rss-8240122",
+    "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+    "category": "Reasoning & LLMs",
+    "categoryColor": "#3b82f6",
+    "badge": "🔥 Breakthrough",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing i...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Model Focus",
+        "value": "Frontier Reasoning"
+      },
+      {
+        "label": "Ecosystem",
+        "value": "Open / API"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics"
+      }
+    ]
+  },
+  {
+    "id": "rss-9534803",
     "title": "VisionQuest is what happens when AI really goes rogue",
     "category": "Robotics & Physical AI",
     "categoryColor": "#06b6d4",
@@ -34,7 +68,7 @@
     ]
   },
   {
-    "id": "rss-2015016",
+    "id": "rss-1074734",
     "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
     "category": "Reasoning & LLMs",
     "categoryColor": "#3b82f6",
@@ -68,7 +102,7 @@
     ]
   },
   {
-    "id": "rss-3256581",
+    "id": "rss-3924945",
     "title": "Meta’s $25 billion legal loss just put blood in the water",
     "category": "Tech & AI",
     "categoryColor": "#6366f1",
@@ -102,7 +136,7 @@
     ]
   },
   {
-    "id": "rss-4483780",
+    "id": "rss-1334136",
     "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
     "category": "Open Source & Web",
     "categoryColor": "#ec4899",
@@ -132,6 +166,258 @@
       {
         "label": "Read on The Verge",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms"
+      }
+    ]
+  },
+  {
+    "id": "hn-50264853",
+    "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+    "category": "Reasoning & LLMs",
+    "categoryColor": "#3b82f6",
+    "badge": "🔥 Breakthrough",
+    "source": "Hacker News",
+    "url": "https://www.brangus.io/survival-llm",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 278 points and 121 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "278+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "121+ comments"
+      },
+      {
+        "label": "Model Focus",
+        "value": "Frontier Reasoning"
+      },
+      {
+        "label": "Ecosystem",
+        "value": "Open / API"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://www.brangus.io/survival-llm"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50264853"
+      }
+    ]
+  },
+  {
+    "id": "hn-50268380",
+    "title": "Git for the US Code",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://lexifina.com/blog/git-for-the-us-code",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 159 points and 75 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "159+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "75+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://lexifina.com/blog/git-for-the-us-code"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50268380"
+      }
+    ]
+  },
+  {
+    "id": "hn-50265594",
+    "title": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 136 points and 59 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "136+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "59+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50265594"
+      }
+    ]
+  },
+  {
+    "id": "hn-50236073",
+    "title": "Nvidia and Micron Make Up 34% of America's Earnings Boom",
+    "category": "AI Hardware & Chips",
+    "categoryColor": "#10b981",
+    "badge": "⚡️ Hardware",
+    "source": "Hacker News",
+    "url": "https://www.wsj.com/finance/stocks/the-earnings-boom-is-heavily-reliant-on-just-a-handful-of-stocks-21decb53",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 132 points and 29 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "132+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "29+ comments"
+      },
+      {
+        "label": "Fabrication",
+        "value": "Advanced Node"
+      },
+      {
+        "label": "Efficiency",
+        "value": "High FLOPS/Watt"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://www.wsj.com/finance/stocks/the-earnings-boom-is-heavily-reliant-on-just-a-handful-of-stocks-21decb53"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50236073"
+      }
+    ]
+  },
+  {
+    "id": "hn-50265393",
+    "title": "Code-execution flaw in UEFI firmware threatens most servers on planet Earth",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 88 points and 24 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "88+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "24+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50265393"
+      }
+    ]
+  },
+  {
+    "id": "hn-50227400",
+    "title": "MacOS Extensions Pack for the Apple Network Server v1.0",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "http://oldvcr.blogspot.com/2026/10/macos-extensions-pack-for-apple-network.html",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 6 points and 0 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "6+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "0+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "http://oldvcr.blogspot.com/2026/10/macos-extensions-pack-for-apple-network.html"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50227400"
       }
     ]
   },
@@ -726,388 +1012,6 @@
       {
         "id": 6,
         "title": "Quantization (INT8/4)"
-      }
-    ]
-  },
-  {
-    "id": "news-3",
-    "title": "Anthropic Claude Hybrid Reasoning & Adaptive Thinking Budgets",
-    "category": "Agentic Systems",
-    "categoryColor": "#f59e0b",
-    "badge": "🛠 Agents",
-    "source": "Anthropic Research",
-    "url": "https://www.anthropic.com/news",
-    "readTime": "5 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Anthropic introduced a breakthrough hybrid reasoning capability across its Claude model suite, allowing developers to allocate an explicit 'thinking budget' (from 1,000 to 128,000 tokens) on a per-request basis. Unlike fixed-mode reasoning systems that lock models into slow, verbose chains for simple tasks, Claude dynamically balances deep internal deliberation for tough architectural problems with blazing fast output tokens for straightforward logic.",
-    "keyMetrics": [
-      {
-        "label": "SWE-bench Verified",
-        "value": "70.2% Fix Rate"
-      },
-      {
-        "label": "Thinking Budget",
-        "value": "1k to 128k tokens"
-      },
-      {
-        "label": "Multi-turn Tool Accuracy",
-        "value": "+34% reduction in errors"
-      },
-      {
-        "label": "Context Window",
-        "value": "200k tokens"
-      }
-    ],
-    "technicalDeepDive": "Claude's extended thinking token stream operates in a hidden internal scratchpad, allowing the model to simulate edge cases, test counter-arguments, and backtrack before writing code or making bash tool calls. The architecture supports interleaved thinking between sequential tool calls: after executing a terminal command or viewing a git diff, the agent enters another thinking block to inspect test output before determining its next action.",
-    "industryImpact": "Engineering teams building autonomous coding copilots and multi-agent workflows can now prevent agent 'hallucination drift' during long-horizon tasks. Complex codebase refactors that previously failed after 5 steps can now run through 30+ iterative tool invocations with high reliability.",
-    "resources": [
-      {
-        "label": "Anthropic Engineering Post",
-        "url": "https://www.anthropic.com/news"
-      },
-      {
-        "label": "Developer Documentation",
-        "url": "https://docs.anthropic.com/"
-      }
-    ],
-    "relatedTopicIds": [
-      10,
-      14,
-      9
-    ],
-    "relatedTopics": [
-      {
-        "id": 10,
-        "title": "Test-Time Compute"
-      },
-      {
-        "id": 14,
-        "title": "Chain-of-Thought (CoT)"
-      },
-      {
-        "id": 9,
-        "title": "ReAct Agent Loop"
-      }
-    ]
-  },
-  {
-    "id": "news-4",
-    "title": "Google Quantum AI 'Willow': Below-Threshold Error Suppression Achieved",
-    "category": "Quantum Computing",
-    "categoryColor": "#8b5cf6",
-    "badge": "🔬 Frontier",
-    "source": "Google Quantum AI / Nature",
-    "url": "https://blog.google/technology/ai/google-quantum-ai-willow/",
-    "readTime": "6 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Google's Quantum AI team unveiled 'Willow', a 105-qubit superconducting quantum processor that demonstrated for the first time that increasing code distance exponentially reduces logical error rates. This physical milestone—known as operating 'below threshold'—has eluded physicists for thirty years and confirms that quantum surface error-correcting codes function in hardware exactly as predicted by theoretical quantum mechanics.",
-    "keyMetrics": [
-      {
-        "label": "Physical Qubits",
-        "value": "105 Qubits"
-      },
-      {
-        "label": "Error Suppression",
-        "value": "2x reduction per code distance"
-      },
-      {
-        "label": "Benchmark Time",
-        "value": "<5 min vs 10^25 yrs supercomputer"
-      },
-      {
-        "label": "Fidelity",
-        "value": "99.9% two-qubit gates"
-      }
-    ],
-    "technicalDeepDive": "Willow achieved this through custom fabricated superconducting transmon qubits with sub-nanosecond microwave pulse control and integrated flux-trapping metallurgy that neutralizes stray cosmic ray phonons. When scaling from code distance 3 to distance 5 and distance 7 surface codes, logical qubit lifetimes doubled with each step, proving that adding more imperfect physical qubits makes the overall logical quantum system significantly more stable, not noisier.",
-    "industryImpact": "Fault-tolerant logical qubits unlock exact quantum chemistry simulations of carbon-fixation enzymes (nitrogenase), battery electrolyte degradation, and quantum cryptography. Google outlined an updated timeline pointing to commercial-scale million-qubit quantum supercomputers before 2032.",
-    "resources": [
-      {
-        "label": "Google AI Announcement",
-        "url": "https://blog.google/technology/ai/google-quantum-ai-willow/"
-      },
-      {
-        "label": "Nature Research Paper",
-        "url": "https://www.nature.com/"
-      }
-    ],
-    "relatedTopicIds": [
-      50
-    ],
-    "relatedTopics": [
-      {
-        "id": 50,
-        "title": "Quantum Surface Codes"
-      }
-    ]
-  },
-  {
-    "id": "news-5",
-    "title": "Zero-Latency In-Browser LLMs: WebAssembly SIMD & WebGPU Compute Pipelines",
-    "category": "Web & Edge AI",
-    "categoryColor": "#ec4899",
-    "badge": "🌐 Web Tech",
-    "source": "W3C / WebGPU Community Group",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Browser-based AI has reached parity with native client execution thanks to mature WebGPU WGSL compute shaders and Wasm 128-bit SIMD matrix engines. Modern web applications can now download quantized 3B to 7B parameter models (such as Llama-3.2-3B, Gemma-2-2B, and SmolLM) directly into browser memory (OPFS) and execute generative text and vision pipelines entirely on the client's local GPU without transmitting a single byte to an external server.",
-    "keyMetrics": [
-      {
-        "label": "Generation Speed",
-        "value": "45+ tokens/sec on M3/M4"
-      },
-      {
-        "label": "Time to First Token",
-        "value": "<120 ms"
-      },
-      {
-        "label": "Server Cloud Cost",
-        "value": "$0.00 / month"
-      },
-      {
-        "label": "Privacy Compliance",
-        "value": "100% Zero-Egress GDPR"
-      }
-    ],
-    "technicalDeepDive": "The pipeline pairs WebAssembly for tokenization and memory layout with WebGPU compute passes executing custom quantized 4-bit integer (AWQ/GPTQ) matrix multiplications. By caching model weights inside the Origin Private File System (OPFS), models are fetched once and load in under 400 milliseconds on subsequent visits. Dynamic KV-cache memory pooling prevents browser tab crashes even during 8,000-token context interactions.",
-    "industryImpact": "Web application developers can build intelligent text editors, code reviewers, and semantic search interfaces without managing GPU server clusters, paying recurring API bills, or exposing sensitive user documents to third-party model providers.",
-    "resources": [
-      {
-        "label": "MDN WebGPU Documentation",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API"
-      },
-      {
-        "label": "WebLLM Open Project",
-        "url": "https://webllm.mlc.ai/"
-      }
-    ],
-    "relatedTopicIds": [
-      33,
-      6
-    ],
-    "relatedTopics": [
-      {
-        "id": 33,
-        "title": "On-Device Inference (WebGPU)"
-      },
-      {
-        "id": 6,
-        "title": "Quantization (INT8/4)"
-      }
-    ]
-  },
-  {
-    "id": "news-6",
-    "title": "Humanoid Robotics Enter Automotive Production: 8-Hour Autonomous Shifts",
-    "category": "Robotics",
-    "categoryColor": "#06b6d4",
-    "badge": "🤖 Physical AI",
-    "source": "TechCrunch Robotics / IEEE Spectrum",
-    "url": "https://techcrunch.com/category/robotics/",
-    "readTime": "5 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Commercial humanoid robots have graduated from laboratory demonstrations to continuous deployment inside active automotive assembly plants. Companies like Figure and Boston Dynamics announced that electric humanoid units have completed thousands of production cycles at BMW and Hyundai manufacturing facilities, autonomously carrying stamping blanks, loading CNC milling machines, and sequencing heavy structural parts without human teleoperation.",
-    "keyMetrics": [
-      {
-        "label": "Continuous Shift",
-        "value": "8 Hours Autonomous"
-      },
-      {
-        "label": "Payload Capacity",
-        "value": "25 kg (55 lbs)"
-      },
-      {
-        "label": "Tactile Gripper Precision",
-        "value": "16-DoF Sub-Millimeter"
-      },
-      {
-        "label": "Cycle Placement Error",
-        "value": "<0.1%"
-      }
-    ],
-    "technicalDeepDive": "The breakthrough stems from Vision-Language-Action (VLA) end-to-end models trained on billions of real and simulated interaction tokens. Rather than hard-coding trajectory waypoints, humanoid hands equipped with high-bandwidth optical tactile sensors adjust their grip pressure in real-time based on slip detection. The robots navigate dynamic factory environments using stereo depth cameras and continuous whole-body model predictive control (MPC).",
-    "industryImpact": "Humanoid robotics resolves structural labor shortages in hazardous manufacturing roles (e.g., hot stamping, foundry loading, and sheet metal transport). Factory managers can reprogram tasks in hours via natural language and video demonstration instead of re-tooling fixed robotic gantry cages.",
-    "resources": [
-      {
-        "label": "Figure Commercial Field Update",
-        "url": "https://www.figure.ai/"
-      },
-      {
-        "label": "IEEE Robotics & Automation",
-        "url": "https://www.ieee-ras.org/"
-      }
-    ],
-    "relatedTopicIds": [
-      35,
-      48
-    ],
-    "relatedTopics": [
-      {
-        "id": 35,
-        "title": "Vision-Language-Action (VLA)"
-      },
-      {
-        "id": 48,
-        "title": "Diffusion Policy for Robotics"
-      }
-    ]
-  },
-  {
-    "id": "news-7",
-    "title": "AlphaFold 3 Weights Released for Academic Drug Discovery & Therapeutic Design",
-    "category": "BioTech & Health",
-    "categoryColor": "#14b8a6",
-    "badge": "🧬 Biology",
-    "source": "DeepMind / Nature",
-    "url": "https://deepmind.google/technologies/alphafold/",
-    "readTime": "5 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "DeepMind has officially released the model weights and open-source inference codebase for AlphaFold 3 to academic and non-profit researchers worldwide. While AlphaFold 2 revolutionized protein structure prediction, AlphaFold 3 expands structural biology into predicting full multi-molecular complexes—including proteins interacting with DNA, RNA, small-molecule drug candidates, ions, and post-translational chemical modifications.",
-    "keyMetrics": [
-      {
-        "label": "Binding Prediction",
-        "value": "50% more accurate than docking"
-      },
-      {
-        "label": "Supported Modalities",
-        "value": "Proteins, DNA, RNA, Ligands"
-      },
-      {
-        "label": "Prediction Runtime",
-        "value": "<2 minutes per complex"
-      },
-      {
-        "label": "License Type",
-        "value": "Open Academic & Research"
-      }
-    ],
-    "technicalDeepDive": "AlphaFold 3 replaces the MSA Pairformer module with a streamlined Diffusion Module that operates directly on 3D atomic coordinates rather than internal torsion angles. This enables the model to accurately capture atomic interactions without rigid steric constraints. Chemical ligands are represented as full molecular graphs with SMILES topologies, enabling unified co-folding of target receptors with candidate pharmaceutical compounds.",
-    "industryImpact": "Researchers can now screen hundreds of drug candidates against targeted oncology and antiviral receptor proteins on a single workstation before synthesizing compounds in a wet lab. This drastically compresses lead optimization timelines from several years down to weeks.",
-    "resources": [
-      {
-        "label": "AlphaFold Server",
-        "url": "https://alphafoldserver.com/"
-      },
-      {
-        "label": "Nature Publication",
-        "url": "https://www.nature.com/articles/s41586-024-07487-w"
-      }
-    ],
-    "relatedTopicIds": [
-      15,
-      27
-    ],
-    "relatedTopics": [
-      {
-        "id": 15,
-        "title": "Diffusion Models"
-      },
-      {
-        "id": 27,
-        "title": "CLIP Multimodal Alignment"
-      }
-    ]
-  },
-  {
-    "id": "news-8",
-    "title": "Sub-150ms Duplex Speech-to-Speech AI Eliminates Turn-Taking Lag",
-    "category": "Audio & Speech AI",
-    "categoryColor": "#f43f5e",
-    "badge": "🎙 Speech",
-    "source": "VentureBeat / InterSpeech",
-    "url": "https://venturebeat.com/category/ai/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "A fundamental shift is underway in conversational voice interfaces: native audio-in, audio-out multimodal architectures have officially replaced the legacy pipeline of Whisper (ASR) → LLM → ElevenLabs (TTS). By modeling raw discrete audio tokens directly within the neural transformer backbone, the system achieves sub-150 millisecond duplex response latency—matching natural human conversation speeds.",
-    "keyMetrics": [
-      {
-        "label": "Latency (End-to-End)",
-        "value": "120 - 150 ms"
-      },
-      {
-        "label": "Interruption Recovery",
-        "value": "Instant (<20 ms)"
-      },
-      {
-        "label": "Acoustic Expressiveness",
-        "value": "Whispers, Laughter, Pitch Nuance"
-      },
-      {
-        "label": "Bandwidth Requirement",
-        "value": "<24 kbps Opus stream"
-      }
-    ],
-    "technicalDeepDive": "Legacy cascading stacks accumulated latency at every stage: 300ms for speech-to-text, 400ms for text generation, and 300ms for voice synthesis, creating awkward 1-second pauses. The new native audio models use neural codec tokenizers (such as SoundStream and EnCodec) to tokenize acoustic waveforms into discrete tokens. An integrated Voice Activity Detection (VAD) layer listens continuously on a full-duplex WebSocket stream, instantly cutting generation when the human speaker interrupts.",
-    "industryImpact": "Enables completely natural customer support agents, real-time simultaneous language interpreters, and interactive virtual tutors that detect emotional hesitation, sarcasm, and conversational cadence in real time.",
-    "resources": [
-      {
-        "label": "VentureBeat Voice AI Overview",
-        "url": "https://venturebeat.com/category/ai/"
-      },
-      {
-        "label": "InterSpeech Audio Research",
-        "url": "https://www.interspeech2024.org/"
-      }
-    ],
-    "relatedTopicIds": [
-      36
-    ],
-    "relatedTopics": [
-      {
-        "id": 36,
-        "title": "Neural Audio Codecs"
-      }
-    ]
-  },
-  {
-    "id": "news-9",
-    "title": "Hyperscalers Sign Landmark 24/7 Nuclear & Geothermal AI Power PPAs",
-    "category": "Clean Energy",
-    "categoryColor": "#84cc16",
-    "badge": "⚡️ Energy",
-    "source": "MIT Technology Review / Bloomberg Energy",
-    "url": "https://www.technologyreview.com/",
-    "readTime": "5 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Grid interconnect constraints have officially surpassed chip availability as the #1 bottleneck for AI expansion. In response, Microsoft, Amazon, and Google signed historic 20-year Power Purchase Agreements (PPAs) totaling over 15 gigawatts of baseload carbon-free energy. The deals span restarting decommissioned nuclear reactors (such as Constellation's Three Mile Island Unit 1) and co-funding commercial Small Modular Reactor (SMR) and enhanced geothermal developers.",
-    "keyMetrics": [
-      {
-        "label": "Contracted Capacity",
-        "value": "15+ Gigawatts"
-      },
-      {
-        "label": "Datacenter Growth",
-        "value": "3x power demand by 2030"
-      },
-      {
-        "label": "Carbon Intensity",
-        "value": "Zero Scope 2 emissions"
-      },
-      {
-        "label": "Commercial SMR Target",
-        "value": "2028 - 2030"
-      }
-    ],
-    "technicalDeepDive": "Training 100,000-GPU clusters requires uninterrupted 500MW to 1GW electrical loads that cannot tolerate intermittent wind or solar drops. Next-gen PPAs incorporate behind-the-meter high-voltage direct connections to nuclear power plants and deep EGS (Enhanced Geothermal Systems) that use hydraulic stimulation in hot dry crystalline rock to pump supercritical water, delivering continuous 99.9% capacity factor electricity.",
-    "industryImpact": "These multi-billion-dollar hyperscaler commitments provide the long-sought private financing required to commercialize SMRs (Kairos Power, TerraPower, NuScale) and de-risk modern deep-rock geothermal, accelerating the greening of national electric grids.",
-    "resources": [
-      {
-        "label": "MIT Tech Review Clean Energy",
-        "url": "https://www.technologyreview.com/"
-      },
-      {
-        "label": "US Department of Energy Report",
-        "url": "https://www.energy.gov/"
-      }
-    ],
-    "relatedTopicIds": [
-      29
-    ],
-    "relatedTopics": [
-      {
-        "id": 29,
-        "title": "Tensor & Pipeline Parallelism"
       }
     ]
   }
