@@ -275,6 +275,14 @@
           ? `<span class="path-badge" style="background: rgba(6, 182, 212, 0.2); color: #38bdf8;">Step ${idx + 1}</span>`
           : '';
 
+        // Generate Visual Architecture Flowchart for this topic
+        const topicDiagram = (window.TechPulseDiagrams)
+          ? window.TechPulseDiagrams.getTopicDiagram(t.id, t)
+          : null;
+        const flowchartHtml = (topicDiagram && window.TechPulseDiagrams)
+          ? window.TechPulseDiagrams.renderFlowchartHTML(topicDiagram, { compact: false })
+          : '';
+
         return `
           <article class="topic-card ${isMastered ? 'mastered' : ''}" data-id="${t.id}">
             <div class="topic-header-row">
@@ -302,7 +310,7 @@
 
             <div class="topic-accordion">
               <button class="accordion-toggle-btn ${isExpanded ? 'open' : ''}" data-action="toggle-accordion" data-id="${t.id}">
-                <span>${isExpanded ? 'Hide Deep Dive & Code' : '📖 View Analogy, Math & Code Example'}</span>
+                <span>${isExpanded ? 'Hide Deep Dive, Flowchart & Code' : '📖 View Analogy, Architecture Flowchart & Code'}</span>
                 <span class="arrow-icon">▼</span>
               </button>
 
@@ -319,6 +327,9 @@
                     <div class="detail-sec-title">⚙️ Architecture & Technical Formulation</div>
                     <p class="detail-sec-text">${t.technicalBreakdown}</p>
                   </div>
+
+                  <!-- 📊 Interactive System Architecture Flowchart -->
+                  ${flowchartHtml}
 
                   <!-- Code Example -->
                   ${t.codeExample ? `

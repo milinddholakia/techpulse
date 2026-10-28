@@ -340,6 +340,13 @@
             </div>
           ` : ''}
 
+          <!-- 📊 Architecture & Workflow Flowchart -->
+          ${(() => {
+            if (!window.TechPulseDiagrams) return '';
+            const diag = window.TechPulseDiagrams.getNewsDiagram(article);
+            return window.TechPulseDiagrams.renderFlowchartHTML(diag, { compact: true });
+          })()}
+
           <!-- Industry Impact -->
           ${article.industryImpact ? `
             <div class="intel-section impact-box">
@@ -706,6 +713,16 @@
             <div class="reader-section-title">⚙️ Architecture & Technical Deep Dive</div>
             <p class="reader-paragraph">${article.technicalDeepDive}</p>
           ` : ''}
+
+          <!-- 📊 Architecture & Workflow Flowchart -->
+          ${(() => {
+            if (!window.TechPulseDiagrams) return '';
+            const diag = window.TechPulseDiagrams.getNewsDiagram(article);
+            return `
+              <div class="reader-section-title">📊 Visual System Pipeline & Data Flowchart</div>
+              ${window.TechPulseDiagrams.renderFlowchartHTML(diag, { compact: false })}
+            `;
+          })()}
 
           ${article.industryImpact ? `
             <div class="reader-section-title">🌐 Industry Implications & Strategic Takeaways</div>
