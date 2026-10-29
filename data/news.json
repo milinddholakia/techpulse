@@ -1,5 +1,419 @@
 [
   {
+    "id": "rss-76810",
+    "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the Colin and Samir podcast t...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity"
+      }
+    ]
+  },
+  {
+    "id": "rss-9212498",
+    "title": "A hacker stole more than 40,000 DHS employee records",
+    "category": "Cybersecurity & Safety",
+    "categoryColor": "#ef4444",
+    "badge": "🛡 Security",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1021528/ice-cbp-data-leak",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "A hacker stole a trove of personal information from the Department of Homeland Security (DHS). The breach exposes the names, job titles, phone numbers, email addresses, and office locations of more than 41,000 employees, including those in US Immigration and Customs Enforcement (...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Threat Vector",
+        "value": "Adversarial Injection"
+      },
+      {
+        "label": "Defense Tier",
+        "value": "Formal Verification"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1021528/ice-cbp-data-leak"
+      }
+    ]
+  },
+  {
+    "id": "rss-1289682",
+    "title": "Google says its investments in AI are driving more searches",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1020811/alphabet-google-earnings-q3-2026",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Google parent company Alphabet says that its AI investments are leading to a big growth in searches year-over-year, as noted in its Q3 2026 earnings today. \"Our AI investments are driving overall Search query growth, including commercial queries,\" CEO Sundar Pichai says in a stat...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1020811/alphabet-google-earnings-q3-2026"
+      }
+    ]
+  },
+  {
+    "id": "rss-6199603",
+    "title": "Microsoft reveals strong cloud growth amid financial reporting overhaul",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1020785/microsoft-earnings-revenue-q1-2027",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Microsoft just posted the first quarter of its 2027 fiscal financial results. The software maker made $92.3 billion in revenue and a net income of $33.6 billion during Q1. Revenue is up 19 percent, and net income has increased by 32 percent. It's a new financial year for Microsof...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1020785/microsoft-earnings-revenue-q1-2027"
+      }
+    ]
+  },
+  {
+    "id": "rss-4133291",
+    "title": "Apple charges $14,549 for a fully specced touchscreen MacBook Pro",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1021308/apple-touchscreen-macbook-pro-proled-xdr-fully-specced",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "With an OLED display and touchscreen capabilities, it's no surprise that the new MacBook Pro Apple announced today is more expensive than the MBP announced earlier this year. But upgrading the base models that start at $2,899 for the 14-inch, and $3,399 for the 16-inch, with ever...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1021308/apple-touchscreen-macbook-pro-proled-xdr-fully-specced"
+      }
+    ]
+  },
+  {
+    "id": "rss-8273398",
+    "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+    "category": "Reasoning & LLMs",
+    "categoryColor": "#3b82f6",
+    "badge": "🔥 Breakthrough",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Clau...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Model Focus",
+        "value": "Frontier Reasoning"
+      },
+      {
+        "label": "Ecosystem",
+        "value": "Open / API"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier"
+      }
+    ]
+  },
+  {
+    "id": "hn-50271640",
+    "title": "Apple's git still trusts the compromised eMudhra certificates",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://emudhra.we-have-a-problem.com/apple.html",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 1092 points and 385 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "1092+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "385+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://emudhra.we-have-a-problem.com/apple.html"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50271640"
+      }
+    ]
+  },
+  {
+    "id": "hn-50243060",
+    "title": "The Grid, a factory-scale robot in Massachusetts that builds PCBs on demand",
+    "category": "Robotics & Physical AI",
+    "categoryColor": "#06b6d4",
+    "badge": "🤖 Physical AI",
+    "source": "Hacker News",
+    "url": "https://www.circuithub.com/post/unveiling-the-grid",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 477 points and 215 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "477+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "215+ comments"
+      },
+      {
+        "label": "Control",
+        "value": "VLA Foundation Policy"
+      },
+      {
+        "label": "Autonomy",
+        "value": "Multi-Hour Shifts"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://www.circuithub.com/post/unveiling-the-grid"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50243060"
+      }
+    ]
+  },
+  {
+    "id": "hn-50275626",
+    "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://surgehq.ai/blog/dayjob-tax",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 222 points and 143 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "222+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "143+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://surgehq.ai/blog/dayjob-tax"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50275626"
+      }
+    ]
+  },
+  {
+    "id": "hn-50284255",
+    "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+    "category": "Reasoning & LLMs",
+    "categoryColor": "#3b82f6",
+    "badge": "🔥 Breakthrough",
+    "source": "Hacker News",
+    "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 211 points and 49 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "211+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "49+ comments"
+      },
+      {
+        "label": "Model Focus",
+        "value": "Frontier Reasoning"
+      },
+      {
+        "label": "Ecosystem",
+        "value": "Open / API"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50284255"
+      }
+    ]
+  },
+  {
+    "id": "hn-50282544",
+    "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
+    "category": "Cybersecurity & Safety",
+    "categoryColor": "#ef4444",
+    "badge": "🛡 Security",
+    "source": "Hacker News",
+    "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 136 points and 58 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "136+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "58+ comments"
+      },
+      {
+        "label": "Threat Vector",
+        "value": "Adversarial Injection"
+      },
+      {
+        "label": "Defense Tier",
+        "value": "Formal Verification"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50282544"
+      }
+    ]
+  },
+  {
     "id": "rss-8240122",
     "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
     "category": "Reasoning & LLMs",
@@ -528,490 +942,6 @@
       {
         "label": "Hacker News Discussion",
         "url": "https://news.ycombinator.com/item?id=50255298"
-      }
-    ]
-  },
-  {
-    "id": "hn-50257326",
-    "title": "Wikipedia's Cleanup of AI-Generated Content",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 328 points and 154 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "328+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "154+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50257326"
-      }
-    ]
-  },
-  {
-    "id": "hn-50257548",
-    "title": "Software may be getting worse, but it used to be horrible",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 246 points and 225 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "246+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "225+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50257548"
-      }
-    ]
-  },
-  {
-    "id": "hn-50259406",
-    "title": "Is my data used for model training?",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 181 points and 76 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "181+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "76+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50259406"
-      }
-    ]
-  },
-  {
-    "id": "hn-50261819",
-    "title": "Police Are Using AI to Pull over Drivers for 'Suspicious' Behavior",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 157 points and 78 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "157+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "78+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50261819"
-      }
-    ]
-  },
-  {
-    "id": "hn-50261352",
-    "title": "Apple introduces the new 14‑inch MacBook Pro with M6",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 87 points and 92 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "87+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "92+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50261352"
-      }
-    ]
-  },
-  {
-    "id": "hn-50260960",
-    "title": "Data Recovery CEO Indicted for Allegedly Scamming Ransomware Victims",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://www.propublica.org/article/zohar-pinhasi-monstercloud-ransomware-indictment",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 47 points and 7 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "47+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "7+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://www.propublica.org/article/zohar-pinhasi-monstercloud-ransomware-indictment"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50260960"
-      }
-    ]
-  },
-  {
-    "id": "hn-50261584",
-    "title": "We let our cloud agents query prod (with OIDC, not secrets)",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://www.formal.ai/blog/cloud-agents-oidc-infrastructure/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 12 points and 7 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "12+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "7+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://www.formal.ai/blog/cloud-agents-oidc-infrastructure/"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50261584"
-      }
-    ]
-  },
-  {
-    "id": "rss-5430163",
-    "title": "Trump is making it easier for fossil fuel companies to leak methane",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/policy/1019691/gas-leak-methane-rule-rollback-trump",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "In its latest gift to oil and gas companies, the Trump administration is expected to announce plans today to weaken rules that guard against methane leaks. Methane is a smog-forming pollutant and a powerful greenhouse gas that's up to 80 times as potent as carbon dioxide on a 20-...",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
-    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/policy/1019691/gas-leak-methane-rule-rollback-trump"
-      }
-    ]
-  },
-  {
-    "id": "rss-232311",
-    "title": "The Super Mouse puts a touchscreen macro pad under your hand",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/tech/1019484/super-mouse-touchscreen-shortcuts-macros-kickstarter",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "A company called Arctic Fox Technologies has announced a new multifunction mouse that forgoes a myriad of customizable shortcut buttons peppered across its surface for a compact touchscreen sitting beneath your hand. The Super Mouse may not prioritize ergonomics with its boxy des...",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
-    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/tech/1019484/super-mouse-touchscreen-shortcuts-macros-kickstarter"
-      }
-    ]
-  },
-  {
-    "id": "news-1",
-    "title": "DeepSeek-R1: Open-Weights Reasoning Architecture & High-Efficiency Distillation",
-    "category": "Reasoning Models",
-    "categoryColor": "#3b82f6",
-    "badge": "🔥 Breakthrough",
-    "source": "DeepSeek AI / arXiv",
-    "url": "https://arxiv.org/abs/2501.12948",
-    "readTime": "6 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "DeepSeek unveiled R1, a frontier open-weights reasoning model that matches OpenAI o1 across competitive mathematics, coding, and logical reasoning benchmarks. What sets R1 apart is its dual-stage training: DeepSeek-R1-Zero, trained purely through large-scale reinforcement learning (RL) without prior supervised fine-tuning (SFT), demonstrated that self-evolution through rule-based reward incentives naturally produces advanced chain-of-thought, self-verification, and problem-decomposition behaviors.",
-    "keyMetrics": [
-      {
-        "label": "MATH-500",
-        "value": "97.3%"
-      },
-      {
-        "label": "AIME 2024",
-        "value": "79.8%"
-      },
-      {
-        "label": "Codeforces",
-        "value": "Percentile 96.3%"
-      },
-      {
-        "label": "Inference Cost",
-        "value": "~95% cheaper than o1"
-      }
-    ],
-    "technicalDeepDive": "DeepSeek-R1-Zero bypassed human demonstration warm-ups by directly optimizing base models using Group Relative Policy Optimization (GRPO) with rule-based outcome rewards (accuracy and formatting checks). To fix readability and language mixing, the production DeepSeek-R1 incorporates a cold-start data stage with thousands of curated long-chain-of-thought examples followed by multi-stage RL. DeepSeek then distilled 800,000 reasoning trajectories directly into standard open architectures (Qwen-2.5 and Llama-3), enabling 1.5B to 70B models to inherit frontier reasoning capabilities without needing huge compute during inference.",
-    "industryImpact": "By releasing both model weights and distilled checkpoints under an MIT-equivalent license, DeepSeek broke the proprietary monopoly on frontier reasoning. Developers can now run local 14B and 32B reasoning models directly on Apple Silicon M-series chips and single consumer RTX 4090 GPUs, making high-level autonomous code review, verifiable contract validation, and quantitative research private and zero-cost per token.",
-    "resources": [
-      {
-        "label": "arXiv Technical Report",
-        "url": "https://arxiv.org/abs/2501.12948"
-      },
-      {
-        "label": "GitHub Weights & Code",
-        "url": "https://github.com/deepseek-ai/DeepSeek-R1"
-      }
-    ],
-    "relatedTopicIds": [
-      12,
-      10,
-      28
-    ],
-    "relatedTopics": [
-      {
-        "id": 12,
-        "title": "GRPO Reinforcement Learning"
-      },
-      {
-        "id": 10,
-        "title": "Test-Time Compute"
-      },
-      {
-        "id": 28,
-        "title": "Model Distillation"
-      }
-    ]
-  },
-  {
-    "id": "news-2",
-    "title": "NVIDIA Blackwell GB200 NVL72 Racks: Trillion-Parameter Scale & Liquid Cooling",
-    "category": "AI Hardware",
-    "categoryColor": "#10b981",
-    "badge": "⚡️ Hardware",
-    "source": "NVIDIA Newsroom / Hot Chips",
-    "url": "https://nvidianews.nvidia.com/",
-    "readTime": "5 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "NVIDIA has initiated volume shipments of its flagship GB200 NVL72 computing systems to tier-1 hyperscalers including Microsoft Azure, AWS, and Google Cloud. The architecture marks a monumental shift from discrete air-cooled servers to an end-to-end liquid-cooled, single-rack supercomputer uniting 72 Blackwell GPUs and 36 Grace CPUs over a 130 TB/s NVLink copper switch backbone.",
-    "keyMetrics": [
-      {
-        "label": "Inference Speedup",
-        "value": "30x vs H100"
-      },
-      {
-        "label": "NVLink Bandwidth",
-        "value": "1.8 TB/s per GPU"
-      },
-      {
-        "label": "Rack Power",
-        "value": "120 kW (Liquid)"
-      },
-      {
-        "label": "FP4 Compute",
-        "value": "1.44 Exaflops"
-      }
-    ],
-    "technicalDeepDive": "The GB200 utilizes a second-generation Transformer Engine supporting native 4-bit floating point (FP4) precision. This doubles compute density and halves memory bandwidth bottlenecks without sacrificing accuracy on mixture-of-experts (MoE) token routing. By utilizing a passive copper backplane for the 5,184-cable NVLink spine, NVIDIA eliminated 20,000 transceivers and saved 20 kilowatts of power per rack compared to optical interconnects.",
-    "industryImpact": "The NVL72 allows frontier models with over 1 trillion parameters (such as Llama 3.1 405B and next-generation multimodal architectures) to reside entirely within unified GPU memory across a single rack. This slashes per-token inference latency down to real-time conversational speeds and cuts energy consumption per million generated tokens by up to 25x compared to Hopper clusters.",
-    "resources": [
-      {
-        "label": "NVIDIA Architecture Whitepaper",
-        "url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/"
-      },
-      {
-        "label": "Hot Chips Technical Keynote",
-        "url": "https://hotchips.org/"
-      }
-    ],
-    "relatedTopicIds": [
-      29,
-      2,
-      6
-    ],
-    "relatedTopics": [
-      {
-        "id": 29,
-        "title": "Tensor & Pipeline Parallelism"
-      },
-      {
-        "id": 2,
-        "title": "KV Caching"
-      },
-      {
-        "id": 6,
-        "title": "Quantization (INT8/4)"
       }
     ]
   }
