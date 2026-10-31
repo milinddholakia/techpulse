@@ -13,6 +13,8 @@
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#07090e">
   <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+  <!-- Dynamic Theme Initializer (prevents flash) -->
+  <script src="theme.js"></script>
 </head>
 <body>
   <!-- Ambient background glow elements -->
@@ -42,6 +44,12 @@
         </div>
 
         <div class="header-right">
+          <!-- Quick Theme Switcher Pill -->
+          <button id="themeToggleBtn" class="theme-pill-btn" aria-label="Change Theme" title="Choose Color Theme">
+            <span>🎨</span>
+            <span id="currentThemeLabel">Midnight</span>
+          </button>
+
           <!-- Daily Quiz Button -->
           <button id="openQuizBtn" class="streak-badge-btn" title="Take Today's 60-Second AI Micro-Quiz">
             <span class="fire-icon">🔥</span>
@@ -124,6 +132,12 @@
             <span class="item-icon">🛣️</span>
             <span class="item-title">Career Learning Roadmaps</span>
           </a>
+
+          <!-- 🎨 Color Theme Switcher in Drawer -->
+          <div class="drawer-section-label">🎨 Color Theme</div>
+          <div class="drawer-theme-grid" id="drawerThemeGrid">
+            <!-- Populated by theme.js -->
+          </div>
 
           <div class="drawer-section-label">Preferences & Tools</div>
           <div class="drawer-nav-toggle-row">
@@ -447,6 +461,26 @@
             <button class="btn btn-outline" id="importProfileBtn">📥 Import Sync JSON</button>
           </div>
         </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- 🎨 Visual Theme Selection Dialog -->
+  <dialog class="theme-picker-dialog" id="themeDialog">
+    <div class="theme-dialog-box">
+      <div class="dialog-header">
+        <div class="dialog-title-group" style="display: flex; align-items: center; gap: 8px;">
+          <span style="font-size: 1.3rem;">🎨</span>
+          <h3>Choose Visual Color Theme</h3>
+        </div>
+        <button class="dialog-close-btn" id="closeThemeBtn">✕</button>
+      </div>
+      <p style="font-size: 0.78rem; color: var(--text-muted); margin-top: -8px; margin-bottom: 8px;">
+        Personalize your learning environment. Themes dynamically adapt concept cards, interactive simulators, code blocks, and diagrams.
+      </p>
+
+      <div class="theme-grid" id="modalThemeGrid">
+        <!-- Rendered dynamically by TechPulseTheme -->
       </div>
     </div>
   </dialog>

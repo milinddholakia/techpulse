@@ -2,7 +2,7 @@
    TechPulse - Modern Tinder-style In-Depth Tech & AI News Swipe Web App
    ========================================================================== */
 
-:root {
+:root, [data-theme="midnight"] {
   --bg-primary: #07090e;
   --bg-secondary: #0f1422;
   --bg-card: rgba(16, 22, 36, 0.94);
@@ -20,6 +20,9 @@
   --accent-rose: #f43f5e;
   --accent-amber: #f59e0b;
   
+  --glow-1-color: #6366f1;
+  --glow-2-color: #06b6d4;
+  
   --color-like: #10b981;
   --color-like-glow: rgba(16, 185, 129, 0.35);
   --color-pass: #ef4444;
@@ -35,6 +38,138 @@
   
   --shadow-card: 0 25px 50px -15px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(255, 255, 255, 0.08);
   --shadow-dock: 0 10px 30px -5px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(255, 255, 255, 0.06);
+}
+
+/* 2. Neo Cyberpunk (Vibrant Violet, Neon Magenta & Mint) */
+[data-theme="cyberpunk"] {
+  --bg-primary: #090614;
+  --bg-secondary: #130a24;
+  --bg-card: rgba(23, 14, 42, 0.94);
+  --bg-card-border: rgba(236, 72, 153, 0.22);
+  --bg-card-border-hover: rgba(236, 72, 153, 0.55);
+  --text-primary: #fdf4ff;
+  --text-secondary: #d8b4fe;
+  --text-muted: #a855f7;
+  --accent-cyan: #00f2fe;
+  --accent-indigo: #d946ef;
+  --accent-purple: #ec4899;
+  --accent-emerald: #00f5a0;
+  --accent-rose: #f43f5e;
+  --accent-amber: #facc15;
+  --glow-1-color: #d946ef;
+  --glow-2-color: #00f2fe;
+  --shadow-card: 0 25px 50px -15px rgba(0, 0, 0, 0.85), 0 0 0 1px rgba(236, 72, 153, 0.22);
+  --shadow-dock: 0 10px 30px -5px rgba(0, 0, 0, 0.85), 0 0 0 1px rgba(217, 70, 239, 0.25);
+}
+
+/* 3. Sunset Mirage (Deep Plum, Radiant Coral Rose & Warm Amber) */
+[data-theme="sunset"] {
+  --bg-primary: #0f070a;
+  --bg-secondary: #1c0c14;
+  --bg-card: rgba(30, 14, 22, 0.94);
+  --bg-card-border: rgba(244, 63, 94, 0.22);
+  --bg-card-border-hover: rgba(244, 63, 94, 0.55);
+  --text-primary: #fff1f2;
+  --text-secondary: #fca5a5;
+  --text-muted: #e11d48;
+  --accent-cyan: #fb923c;
+  --accent-indigo: #f43f5e;
+  --accent-purple: #fb7185;
+  --accent-emerald: #10b981;
+  --accent-rose: #e11d48;
+  --accent-amber: #f59e0b;
+  --glow-1-color: #f43f5e;
+  --glow-2-color: #fb923c;
+  --shadow-card: 0 25px 50px -15px rgba(0, 0, 0, 0.85), 0 0 0 1px rgba(244, 63, 94, 0.22);
+  --shadow-dock: 0 10px 30px -5px rgba(0, 0, 0, 0.85), 0 0 0 1px rgba(244, 63, 94, 0.25);
+}
+
+/* 4. Nordic Aurora (Deep Forest with Glowing Emerald & Arctic Teal) */
+[data-theme="emerald"] {
+  --bg-primary: #040e0a;
+  --bg-secondary: #091a13;
+  --bg-card: rgba(10, 30, 22, 0.94);
+  --bg-card-border: rgba(16, 185, 129, 0.22);
+  --bg-card-border-hover: rgba(16, 185, 129, 0.55);
+  --text-primary: #ecfdf5;
+  --text-secondary: #a7f3d0;
+  --text-muted: #059669;
+  --accent-cyan: #2dd4bf;
+  --accent-indigo: #10b981;
+  --accent-purple: #059669;
+  --accent-emerald: #34d399;
+  --accent-rose: #f43f5e;
+  --accent-amber: #a3e635;
+  --glow-1-color: #10b981;
+  --glow-2-color: #2dd4bf;
+  --shadow-card: 0 25px 50px -15px rgba(0, 0, 0, 0.85), 0 0 0 1px rgba(16, 185, 129, 0.22);
+  --shadow-dock: 0 10px 30px -5px rgba(0, 0, 0, 0.85), 0 0 0 1px rgba(16, 185, 129, 0.25);
+}
+
+/* 5. Deep Cobalt (Linear / Vercel Dark Royal Navy & Ice Blue) */
+[data-theme="cobalt"] {
+  --bg-primary: #060b18;
+  --bg-secondary: #0b152d;
+  --bg-card: rgba(13, 24, 48, 0.94);
+  --bg-card-border: rgba(59, 130, 246, 0.22);
+  --bg-card-border-hover: rgba(59, 130, 246, 0.55);
+  --text-primary: #f0f9ff;
+  --text-secondary: #bae6fd;
+  --text-muted: #0284c7;
+  --accent-cyan: #38bdf8;
+  --accent-indigo: #3b82f6;
+  --accent-purple: #2563eb;
+  --accent-emerald: #10b981;
+  --accent-rose: #f43f5e;
+  --accent-amber: #f59e0b;
+  --glow-1-color: #3b82f6;
+  --glow-2-color: #38bdf8;
+  --shadow-card: 0 25px 50px -15px rgba(0, 0, 0, 0.85), 0 0 0 1px rgba(59, 130, 246, 0.22);
+  --shadow-dock: 0 10px 30px -5px rgba(0, 0, 0, 0.85), 0 0 0 1px rgba(59, 130, 246, 0.25);
+}
+
+/* 6. OLED Pure Black (Monochrome Titanium Minimalist) */
+[data-theme="obsidian"] {
+  --bg-primary: #000000;
+  --bg-secondary: #0b0b0e;
+  --bg-card: rgba(16, 16, 20, 0.96);
+  --bg-card-border: rgba(255, 255, 255, 0.14);
+  --bg-card-border-hover: rgba(255, 255, 255, 0.4);
+  --text-primary: #ffffff;
+  --text-secondary: #cbd5e1;
+  --text-muted: #64748b;
+  --accent-cyan: #e2e8f0;
+  --accent-indigo: #ffffff;
+  --accent-purple: #94a3b8;
+  --accent-emerald: #34d399;
+  --accent-rose: #f43f5e;
+  --accent-amber: #fbbf24;
+  --glow-1-color: rgba(255, 255, 255, 0.08);
+  --glow-2-color: rgba(255, 255, 255, 0.05);
+  --shadow-card: 0 25px 50px -15px rgba(0, 0, 0, 0.95), 0 0 0 1px rgba(255, 255, 255, 0.12);
+  --shadow-dock: 0 10px 30px -5px rgba(0, 0, 0, 0.95), 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/* 7. Solar Daylight (Crisp High-Contrast Light Mode) */
+[data-theme="solar"] {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #edf2f7;
+  --bg-card: rgba(255, 255, 255, 0.96);
+  --bg-card-border: rgba(0, 0, 0, 0.1);
+  --bg-card-border-hover: rgba(79, 70, 229, 0.4);
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  --accent-cyan: #0284c7;
+  --accent-indigo: #4f46e5;
+  --accent-purple: #7c3aed;
+  --accent-emerald: #059669;
+  --accent-rose: #e11d48;
+  --accent-amber: #d97706;
+  --glow-1-color: rgba(79, 70, 229, 0.12);
+  --glow-2-color: rgba(2, 132, 199, 0.12);
+  --shadow-card: 0 20px 45px -10px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.06);
+  --shadow-dock: 0 10px 30px -5px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.06);
 }
 
 *, *::before, *::after {
@@ -54,6 +189,7 @@ body {
   position: relative;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Background Ambient Glows */
@@ -64,12 +200,13 @@ body {
   pointer-events: none;
   z-index: 0;
   opacity: 0.22;
+  transition: background 0.4s ease;
 }
 
 .glow-1 {
   width: 550px;
   height: 550px;
-  background: radial-gradient(circle, var(--accent-indigo) 0%, transparent 70%);
+  background: radial-gradient(circle, var(--glow-1-color, var(--accent-indigo)) 0%, transparent 70%);
   top: -120px;
   right: -100px;
 }
@@ -77,7 +214,7 @@ body {
 .glow-2 {
   width: 580px;
   height: 580px;
-  background: radial-gradient(circle, var(--accent-cyan) 0%, transparent 70%);
+  background: radial-gradient(circle, var(--glow-2-color, var(--accent-cyan)) 0%, transparent 70%);
   bottom: -150px;
   left: -120px;
 }
@@ -1848,6 +1985,155 @@ body {
 .dialog-footer {
   display: flex;
   justify-content: flex-end;
+}
+
+/* ==========================================================================
+   Theme Selector Cards & Picker Grid
+   ========================================================================== */
+
+.theme-picker-dialog {
+  border: none;
+  border-radius: var(--radius-lg);
+  background: transparent;
+  padding: 0;
+  max-width: 580px;
+  width: 92%;
+  margin: auto;
+  box-shadow: 0 25px 60px -10px rgba(0, 0, 0, 0.9);
+}
+
+.theme-picker-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.theme-dialog-box {
+  background: var(--bg-card);
+  border: 1px solid var(--bg-card-border);
+  border-radius: var(--radius-lg);
+  padding: 22px;
+  color: var(--text-primary);
+  max-height: 85vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+.drawer-theme-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  padding: 2px 0;
+}
+
+.theme-card-option {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-md);
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: all 0.22s ease;
+  text-align: left;
+  width: 100%;
+  color: inherit;
+  outline: none;
+}
+
+.theme-card-option:hover,
+.theme-card-option:focus-visible {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.theme-card-option.active {
+  border-color: var(--accent-indigo);
+  background: rgba(99, 102, 241, 0.12);
+  box-shadow: 0 0 16px rgba(99, 102, 241, 0.25);
+}
+
+.theme-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+}
+
+.theme-icon {
+  font-size: 1.15rem;
+}
+
+.theme-swatches-group {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.theme-swatch {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.theme-active-tag {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--accent-indigo);
+  padding: 2px 7px;
+  border-radius: var(--radius-full);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.theme-name {
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.theme-sub {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  line-height: 1.35;
+}
+
+/* Quick Theme Button in Header & Drawer */
+.theme-pill-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-secondary);
+  font-size: 0.76rem;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.theme-pill-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--text-primary);
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
 /* ==========================================================================

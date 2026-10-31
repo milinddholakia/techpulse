@@ -169,10 +169,42 @@
 
     async init() {
       this.updateSoundIcon();
+      this.setupTheme();
       this.setupEventListeners();
       this.updateFavoritesBadges();
       await this.loadNewsData();
       this.renderDeck();
+    }
+
+    // --- Dynamic Theme Integration ---
+    setupTheme() {
+      if (!window.TechPulseTheme) return;
+      const drawerGrid = document.getElementById('drawerThemeGrid');
+      const modalGrid = document.getElementById('modalThemeGrid');
+      const html = window.TechPulseTheme.renderSelectorHTML();
+      if (drawerGrid) drawerGrid.innerHTML = html;
+      if (modalGrid) modalGrid.innerHTML = html;
+
+      window.TechPulseTheme.initListeners((theme) => {
+        this.showToast(`🎨 Switched to ${theme.name}`);
+        if (this.sound && this.sound.enabled) this.sound.playChime();
+      });
+      window.TechPulseTheme.updateUI(window.TechPulseTheme.getActiveTheme());
+
+      const themeToggleBtn = document.getElementById('themeToggleBtn');
+      const themeDialog = document.getElementById('themeDialog');
+      const closeThemeBtn = document.getElementById('closeThemeBtn');
+
+      if (themeToggleBtn && themeDialog) {
+        themeToggleBtn.addEventListener('click', () => {
+          themeDialog.showModal();
+        });
+      }
+      if (closeThemeBtn && themeDialog) {
+        closeThemeBtn.addEventListener('click', () => {
+          themeDialog.close();
+        });
+      }
     }
 
     // --- Data Loading with Cache Busting & Live Refresh ---

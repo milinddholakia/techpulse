@@ -16,6 +16,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="learn.css">
+  <!-- Dynamic Theme Initializer (prevents flash) -->
+  <script src="theme.js"></script>
 </head>
 <body>
   <!-- Ambient background glow elements -->
@@ -45,6 +47,12 @@
         </div>
 
         <div class="header-right">
+          <!-- Quick Theme Switcher Pill -->
+          <button id="themeToggleBtn" class="theme-pill-btn" aria-label="Change Theme" title="Choose Color Theme">
+            <span>🎨</span>
+            <span id="currentThemeLabel">Midnight</span>
+          </button>
+
           <!-- Story counter pill -->
           <div class="deck-counter-badge" id="deckCounter">
             <span class="counter-dot"></span>
@@ -230,6 +238,12 @@
           <span class="item-icon">🛣️</span>
           <span class="item-title">Career Learning Roadmaps</span>
         </a>
+
+        <!-- 🎨 Color Theme Switcher in Drawer -->
+        <div class="drawer-section-label">🎨 Color Theme</div>
+        <div class="drawer-theme-grid" id="drawerThemeGrid">
+          <!-- Populated by theme.js -->
+        </div>
 
         <div class="drawer-section-label">Controls & Preferences</div>
         <button class="drawer-nav-item" id="menuFavoritesBtn">
@@ -431,6 +445,26 @@
             <button class="btn btn-outline" id="importProfileBtn">📥 Import Sync JSON</button>
           </div>
         </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- 🎨 Visual Theme Selection Dialog -->
+  <dialog class="theme-picker-dialog" id="themeDialog">
+    <div class="theme-dialog-box">
+      <div class="dialog-header">
+        <div class="dialog-title-group" style="display: flex; align-items: center; gap: 8px;">
+          <span style="font-size: 1.3rem;">🎨</span>
+          <h3>Choose Visual Color Theme</h3>
+        </div>
+        <button class="dialog-close-btn" id="closeThemeBtn">✕</button>
+      </div>
+      <p style="font-size: 0.78rem; color: var(--text-muted); margin-top: -8px; margin-bottom: 8px;">
+        Personalize your reading experience. Themes dynamically adapt cards, glowing ambient effects, flowcharts, and navigation.
+      </p>
+
+      <div class="theme-grid" id="modalThemeGrid">
+        <!-- Rendered dynamically by TechPulseTheme -->
       </div>
     </div>
   </dialog>
