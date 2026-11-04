@@ -1,5 +1,671 @@
 [
   {
+    "id": "rss-6489918",
+    "title": "AMD rides data center riches to &#8216;largest and most profitable&#8217; quarter in history",
+    "category": "AI Hardware & Chips",
+    "categoryColor": "#10b981",
+    "badge": "⚡️ Hardware",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "AMD CEO Lisa Su said in the company's quarterly earnings call on Tuesday that Q3 2026 was \"was the largest and most profitable in our history.\" AMD reported a record $13.4 billion in quarterly revenue, and it's predicting it will hit another record high next quarter of $17 billio...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Fabrication",
+        "value": "Advanced Node"
+      },
+      {
+        "label": "Efficiency",
+        "value": "High FLOPS/Watt"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc"
+      }
+    ]
+  },
+  {
+    "id": "rss-5208993",
+    "title": "The biggest modding site in PC gaming is taking a stance on AI",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the plat...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures"
+      }
+    ]
+  },
+  {
+    "id": "rss-5716225",
+    "title": "Please stop asking me when the AI bubble will pop",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Emmanuel Roman, chief executive officer of Pacific Investment Management Co. (Pimco), during the Global Financial Leaders' Investment Summit in Hong Kong, China, on Tuesday, Nov. 3, 2026. | Bloomberg via Getty Images People, including on this staff, keep asking me with varying de...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds"
+      }
+    ]
+  },
+  {
+    "id": "rss-4590030",
+    "title": "Sonos adds new Presets and prepares for the 27voice AI beta",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1025903/sonos-presets-27voice-ai-early-access",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Sonos is rolling out a big app update that includes new Presets and early access to its AI voice assistant. You can create a preset to play music at a specific volume in a certain room, which will appear directly on the homescreen so you can quickly start playback. If you're in t...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1025903/sonos-presets-27voice-ai-early-access"
+      }
+    ]
+  },
+  {
+    "id": "rss-5451122",
+    "title": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "The largest crypto theft to date was pulled off by combining some well-known hacking techniques over the course of a few months, according to Binance. A postmortem from the company says the process started in June with one developer downloading a tampered installer apparently spr...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained"
+      }
+    ]
+  },
+  {
+    "id": "rss-5509634",
+    "title": "Here’s what it’s like to use Audio Intelligence on the Apple Watch",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1025835/audio-intelligence-live-rewind-siri-recap-apple-watch",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Siri can still make mistakes in transcripts. | Photo by Victoria Song / The Verge It's impossible to paint a full picture of what Audio Intelligence on the Apple Watch Series 12 and Ultra 4 will be right now. The watchOS 27.3 developer beta just dropped earlier this afternoon, an...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1025835/audio-intelligence-live-rewind-siri-recap-apple-watch"
+      }
+    ]
+  },
+  {
+    "id": "hn-50354960",
+    "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 1176 points and 388 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "1176+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "388+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50354960"
+      }
+    ]
+  },
+  {
+    "id": "hn-50339288",
+    "title": "Jailbreaking my car's navigation system just so I can change the time",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 731 points and 297 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "731+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "297+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://blog.nns.ee/2026/11/02/renault-hack/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50339288"
+      }
+    ]
+  },
+  {
+    "id": "hn-50355251",
+    "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+    "category": "Open Source & Web",
+    "categoryColor": "#ec4899",
+    "badge": "🌐 Open Tech",
+    "source": "Hacker News",
+    "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 569 points and 171 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "569+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "171+ comments"
+      },
+      {
+        "label": "Execution",
+        "value": "Zero-Egress Client"
+      },
+      {
+        "label": "License",
+        "value": "Permissive / Apache 2.0"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50355251"
+      }
+    ]
+  },
+  {
+    "id": "hn-50354358",
+    "title": "Stringman, an $800 open-source room scale gripper robot",
+    "category": "Robotics & Physical AI",
+    "categoryColor": "#06b6d4",
+    "badge": "🤖 Physical AI",
+    "source": "Hacker News",
+    "url": "https://neufangled.com/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 510 points and 176 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "510+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "176+ comments"
+      },
+      {
+        "label": "Control",
+        "value": "VLA Foundation Policy"
+      },
+      {
+        "label": "Autonomy",
+        "value": "Multi-Hour Shifts"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://neufangled.com/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50354358"
+      }
+    ]
+  },
+  {
+    "id": "hn-50336918",
+    "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 439 points and 183 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "439+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "183+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50336918"
+      }
+    ]
+  },
+  {
+    "id": "hn-50358582",
+    "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://arxiv.org/abs/2605.29713",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 306 points and 49 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "306+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "49+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://arxiv.org/abs/2605.29713"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50358582"
+      }
+    ]
+  },
+  {
+    "id": "hn-50355767",
+    "title": "How I use AI (Oct 2026)",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 137 points and 118 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "137+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "118+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50355767"
+      }
+    ]
+  },
+  {
+    "id": "hn-50322603",
+    "title": "We're training a Figma-fluent editing model",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://www.figma.com/blog/training-a-figma-fluent-editing-model/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 104 points and 46 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "104+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "46+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://www.figma.com/blog/training-a-figma-fluent-editing-model/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50322603"
+      }
+    ]
+  },
+  {
+    "id": "hn-50358314",
+    "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://github.com/finic-ai/kairos",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 83 points and 17 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "83+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "17+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://github.com/finic-ai/kairos"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50358314"
+      }
+    ]
+  },
+  {
+    "id": "hn-50352641",
+    "title": "There is no posttraining data commons",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://openathena.ai/blog/there-is-no-posttraining-data-commons/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 56 points and 18 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "56+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "18+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://openathena.ai/blog/there-is-no-posttraining-data-commons/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50352641"
+      }
+    ]
+  },
+  {
+    "id": "hn-50358352",
+    "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+    "category": "Reasoning & LLMs",
+    "categoryColor": "#3b82f6",
+    "badge": "🔥 Breakthrough",
+    "source": "Hacker News",
+    "url": "https://uncracked.city",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 22 points and 9 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "22+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "9+ comments"
+      },
+      {
+        "label": "Model Focus",
+        "value": "Frontier Reasoning"
+      },
+      {
+        "label": "Ecosystem",
+        "value": "Open / API"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://uncracked.city"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50358352"
+      }
+    ]
+  },
+  {
     "id": "rss-7786163",
     "title": "Apple is ‘not able to predict’ when it&#8217;ll have enough iPhone Duos to go around",
     "category": "Tech & AI",
@@ -284,664 +950,6 @@
       {
         "label": "Hacker News Discussion",
         "url": "https://news.ycombinator.com/item?id=50341736"
-      }
-    ]
-  },
-  {
-    "id": "hn-50340159",
-    "title": "Polyend releases the Tracker firmware source code",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://polyend.com/whats-up/tracker-the-biggest-update-yet/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 115 points and 34 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "115+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "34+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://polyend.com/whats-up/tracker-the-biggest-update-yet/"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50340159"
-      }
-    ]
-  },
-  {
-    "id": "hn-50347464",
-    "title": "Open-Source 5G Ran Platforms: A Dual Perspective on Performance and Capabilities",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://arxiv.org/abs/2608.25820",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 20 points and 0 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "20+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "0+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://arxiv.org/abs/2608.25820"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50347464"
-      }
-    ]
-  },
-  {
-    "id": "hn-50347552",
-    "title": "Show HN: I built a little browser game to practice Vim commands",
-    "category": "Open Source & Web",
-    "categoryColor": "#ec4899",
-    "badge": "🌐 Open Tech",
-    "source": "Hacker News",
-    "url": "https://hjkl.duy.run",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 16 points and 11 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "16+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "11+ comments"
-      },
-      {
-        "label": "Execution",
-        "value": "Zero-Egress Client"
-      },
-      {
-        "label": "License",
-        "value": "Permissive / Apache 2.0"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://hjkl.duy.run"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50347552"
-      }
-    ]
-  },
-  {
-    "id": "hn-50348740",
-    "title": "Show HN: ReBirth 338 in Browser",
-    "category": "Open Source & Web",
-    "categoryColor": "#ec4899",
-    "badge": "🌐 Open Tech",
-    "source": "Hacker News",
-    "url": "https://margeux.com/rb338.html",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 7 points and 0 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "7+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "0+ comments"
-      },
-      {
-        "label": "Execution",
-        "value": "Zero-Egress Client"
-      },
-      {
-        "label": "License",
-        "value": "Permissive / Apache 2.0"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://margeux.com/rb338.html"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50348740"
-      }
-    ]
-  },
-  {
-    "id": "rss-1609936",
-    "title": "Apple’s HomeView could add security camera features",
-    "category": "Cybersecurity & Safety",
-    "categoryColor": "#ef4444",
-    "badge": "🛡 Security",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Reddit user pdfu found hints hidden in the HomeView 27.2 code that Apple could be adding security camera features to its smart home hub. The strings describe a security camera mode with motion detection, live streaming, and recording options, as well as privacy functions. Accordi...",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Threat Vector",
-        "value": "Adversarial Injection"
-      },
-      {
-        "label": "Defense Tier",
-        "value": "Formal Verification"
-      }
-    ],
-    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
-    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features"
-      }
-    ]
-  },
-  {
-    "id": "rss-5951241",
-    "title": "A fully playable version of Portal prequel F-Stop leaked",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Leakers have pieced together a playable version of the canceled Portal prequel F-Stop. Most of the assets came from the massive 12-terabyte leak that dropped this August. That didn't include the game's source code or map data, but those final pieces apparently hit the Valve Cut C...",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
-    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak"
-      }
-    ]
-  },
-  {
-    "id": "rss-1255129",
-    "title": "HomePod Mini 2 first look: Three things I love and one disappointment",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/tech/1024108/homepod-mini-2-hands-on-siri-smart-home-mac-speaker",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Apple’s second-generation HomePod Mini is a nice upgrade, but the biggest improvement hasn’t arrived yet. | Photo: Jennifer Pattison Tuohy / The Verge When I first heard about the new $149 HomePod Mini 2 at Apple's Welcome Home event last month, I was disappointed. It's been six ...",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
-    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/tech/1024108/homepod-mini-2-hands-on-siri-smart-home-mac-speaker"
-      }
-    ]
-  },
-  {
-    "id": "rss-7193381",
-    "title": "New Zelda and GTA represent a games industry that no longer exists",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/column/1022402/new-zelda-and-gta-represent-a-games-industry-that-no-longer-exists",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the biggest game releases of the year, follow Andrew Webster. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it st...",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
-    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/column/1022402/new-zelda-and-gta-represent-a-games-industry-that-no-longer-exists"
-      }
-    ]
-  },
-  {
-    "id": "rss-4742679",
-    "title": "Prop 45 in California could be hiding a loophole for data centers",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/policy/1023877/prop-45-california-data-centers-energy",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "A high-stakes California ballot measure pitched as a fast track for \"essential\" infrastructure could wind up giving data center developers a loophole to evade public scrutiny, environmental advocates warn. Proposition 45 would shorten timelines for state-mandated environmental as...",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
-    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/policy/1023877/prop-45-california-data-centers-energy"
-      }
-    ]
-  },
-  {
-    "id": "hn-50323088",
-    "title": "The AI cost of JavaScript frameworks",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 345 points and 262 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "345+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "262+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50323088"
-      }
-    ]
-  },
-  {
-    "id": "hn-50332086",
-    "title": "AI fan wikis riddled with errors are muddying the waters of games culture",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 67 points and 42 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "67+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "42+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50332086"
-      }
-    ]
-  },
-  {
-    "id": "rss-1602292",
-    "title": "I built an AI Tamagotchi before Meta could",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It c...",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
-    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code"
-      }
-    ]
-  },
-  {
-    "id": "rss-2588584",
-    "title": "Best Buy is bundling a $100 gift card with touchscreen MacBook Pro preorders",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/gadgets/1023302/best-buy-gift-card-macbook-pro-proled-xdr-preorder-deal-sale",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "We got a chance to touch Apple’s latest MacBook at the “Pro and Tell” event. | Photo: Antonio G. Di Benedetto / The Verge While the new touch-enabled MacBook Pro with the PROLED XDR screen is available for preorder across a few major retailers, Best Buy is sweetening the deal by ...",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
-    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/gadgets/1023302/best-buy-gift-card-macbook-pro-proled-xdr-preorder-deal-sale"
-      }
-    ]
-  },
-  {
-    "id": "hn-50315782",
-    "title": "Show HN: A language model that lives in a boot sector",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://github.com/kerlenton/bootgpt",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 74 points and 3 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "74+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "3+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://github.com/kerlenton/bootgpt"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50315782"
-      }
-    ]
-  },
-  {
-    "id": "hn-50320599",
-    "title": "AI text watermarking and quality loss",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 43 points and 8 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "43+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "8+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50320599"
-      }
-    ]
-  },
-  {
-    "id": "hn-50304718",
-    "title": "A 1580 Map Shows Why Data Visualization Is Never Neutral",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://thereader.mitpress.mit.edu/a-1580-map-shows-why-data-visualization-is-never-neutral/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 23 points and 1 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "23+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "1+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://thereader.mitpress.mit.edu/a-1580-map-shows-why-data-visualization-is-never-neutral/"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50304718"
-      }
-    ]
-  },
-  {
-    "id": "hn-50302686",
-    "title": "Decode kernel panic from QR Code photo",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://gist.github.com/skorotkiewicz/c59e591c26661cb52b06afc42d8ac546",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 20 points and 8 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "20+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "8+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://gist.github.com/skorotkiewicz/c59e591c26661cb52b06afc42d8ac546"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50302686"
       }
     ]
   }
