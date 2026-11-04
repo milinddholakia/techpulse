@@ -56,9 +56,16 @@
     {
       id: 'solar',
       name: 'Solar Daylight',
-      subtitle: 'Crisp paper white with high-contrast slate & indigo',
-      colors: ['#f8fafc', '#4f46e5', '#0284c7'],
+      subtitle: 'Crisp editorial light mode with high-contrast slate & indigo',
+      colors: ['#f8fafc', '#4338ca', '#0284c7'],
       icon: '☀️'
+    },
+    {
+      id: 'nordic',
+      name: 'Nordic Frost',
+      subtitle: 'Clean icy light blue with deep navy typography',
+      colors: ['#f0f7ff', '#0284c7', '#2563eb'],
+      icon: '❄️'
     }
   ];
 
