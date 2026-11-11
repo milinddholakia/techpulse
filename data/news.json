@@ -1,5 +1,461 @@
 [
   {
+    "id": "rss-3792729",
+    "title": "Microsoft’s DLSS competitor is out for the Xbox Ally X and works in handheld mode",
+    "category": "AI Hardware & Chips",
+    "categoryColor": "#10b981",
+    "badge": "⚡️ Hardware",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "The Xbox Ally X. | Photo by Amelia Holowaty Krales / The Verge Microsoft is now rolling out Automatic Super Resolution (Auto SR), an upscaling technology that competes with Nvidia's DLSS, for the Xbox Ally X, Xbox Ally X20, and select Windows Copilot Plus PCs, the company announc...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Fabrication",
+        "value": "Advanced Node"
+      },
+      {
+        "label": "Efficiency",
+        "value": "High FLOPS/Watt"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling"
+      }
+    ]
+  },
+  {
+    "id": "rss-5749334",
+    "title": "The VR Disney Plus app on Meta Quest now has 3D movies",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1031256/meta-quest-disney-plus-vr-3d-movies",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Disney is bringing more than 60 3D movies to the Disney Plus app on Meta Quest. The movies will be available to Disney Plus subscribers as part of an updated Disney Plus app that's rolling out today. The 3D movies you can check out include The Avengers and Black Panther, Meta say...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1031256/meta-quest-disney-plus-vr-3d-movies"
+      }
+    ]
+  },
+  {
+    "id": "rss-2085067",
+    "title": "Oura is acquiring medical AI chatbot startup Counsel Health",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/gadgets/1031284/oura-counsel-health-acquisition",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Oura announced its quarterly earnings today and said it agreed to acquire Counsel Health for $625 million, after adding the company's AI chatbot to its app earlier this year. Counsel Health calls itself an \"AI-native primary care company,\" using the app to deliver AI-generated re...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/gadgets/1031284/oura-counsel-health-acquisition"
+      }
+    ]
+  },
+  {
+    "id": "rss-9807176",
+    "title": "The US is winning the AI race. Jensen Huang could have blown it",
+    "category": "AI Hardware & Chips",
+    "categoryColor": "#10b981",
+    "badge": "⚡️ Hardware",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "As espionage targets go, Jensen Huang is perhaps one of the least surprising on Earth. The Nvidia CEO runs one of the world's most valuable companies, controls the in-demand technology fueling the AI boom, and is cozy with presidents, CEOs, and all manner of important people. He ...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Fabrication",
+        "value": "Advanced Node"
+      },
+      {
+        "label": "Efficiency",
+        "value": "High FLOPS/Watt"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy"
+      }
+    ]
+  },
+  {
+    "id": "rss-2122410",
+    "title": "Google’s Pixel Tag tracker is now available",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1030766/google-pixel-tag-tracker-find-hub-uwb-bluetooth-sounding",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "After years of third-party Android trackers from companies like Samsung, Motorola, and Pebblebee, Google's Pixel Tag is now available for purchase. First announced in August, the Pixel Tag is designed to work with Google's tracking network and app that was renamed the Find Hub la...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1030766/google-pixel-tag-tracker-find-hub-uwb-bluetooth-sounding"
+      }
+    ]
+  },
+  {
+    "id": "rss-7502967",
+    "title": "Google is making Pixel HiLight slightly more useful",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1031089/google-pixel-drop-november-2026-hilight",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Google is adding a new feature to its underwhelming HiLight light on the back of Pixel 11 Pro phones: As part of the November 2026 Pixel Drop, the light can light up when you get Google Messages texts from your favorite contacts. Sure, it's a small addition to the disappointing w...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1031089/google-pixel-drop-november-2026-hilight"
+      }
+    ]
+  },
+  {
+    "id": "hn-50439193",
+    "title": "AlphaProof Code",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 612 points and 182 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "612+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "182+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50439193"
+      }
+    ]
+  },
+  {
+    "id": "hn-50438318",
+    "title": "AI usage generates a fragile codebase",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 482 points and 462 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "482+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "462+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50438318"
+      }
+    ]
+  },
+  {
+    "id": "hn-50443812",
+    "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "source": "Hacker News",
+    "url": "https://github.com/GoogleChrome/modern-web-guidance",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 334 points and 101 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "334+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "101+ comments"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://github.com/GoogleChrome/modern-web-guidance"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50443812"
+      }
+    ]
+  },
+  {
+    "id": "hn-50443716",
+    "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+    "category": "Reasoning & LLMs",
+    "categoryColor": "#3b82f6",
+    "badge": "🔥 Breakthrough",
+    "source": "Hacker News",
+    "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 180 points and 139 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "180+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "139+ comments"
+      },
+      {
+        "label": "Model Focus",
+        "value": "Frontier Reasoning"
+      },
+      {
+        "label": "Ecosystem",
+        "value": "Open / API"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50443716"
+      }
+    ]
+  },
+  {
+    "id": "hn-50446520",
+    "title": "Apple has new Mac app coming to make running local AI models easy",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 158 points and 119 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "158+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "119+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50446520"
+      }
+    ]
+  },
+  {
+    "id": "hn-50448174",
+    "title": "AI is becoming an information gateway. Audiences still don’t want it making news",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 43 points and 24 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "43+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "24+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50448174"
+      }
+    ]
+  },
+  {
     "id": "rss-4364151",
     "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
     "category": "Tech & AI",
@@ -486,470 +942,6 @@
       {
         "label": "Read on The Verge",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
-      }
-    ]
-  },
-  {
-    "id": "rss-5413663",
-    "title": "Epic Games Launcher is coming to SteamOS",
-    "category": "Open Source & Web",
-    "categoryColor": "#ec4899",
-    "badge": "🌐 Open Tech",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/games/1029557/epic-games-launcher-is-coming-to-steamos",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "In October, Epic Games said that it was \"investigating\" making Fortnite compatible with Valve's Linux-based SteamOS. At the time, Epic Games Launcher was in preview, but SteamOS was not specifically listed as a supported distro. Now, Communications Director Jake Jones has confirm...",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Execution",
-        "value": "Zero-Egress Client"
-      },
-      {
-        "label": "License",
-        "value": "Permissive / Apache 2.0"
-      }
-    ],
-    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
-    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/games/1029557/epic-games-launcher-is-coming-to-steamos"
-      }
-    ]
-  },
-  {
-    "id": "rss-3867444",
-    "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
-    "category": "AI Hardware & Chips",
-    "categoryColor": "#10b981",
-    "badge": "⚡️ Hardware",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: ...",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Fabrication",
-        "value": "Advanced Node"
-      },
-      {
-        "label": "Efficiency",
-        "value": "High FLOPS/Watt"
-      }
-    ],
-    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
-    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy"
-      }
-    ]
-  },
-  {
-    "id": "rss-5535693",
-    "title": "Apple is racing to make Siri more agentic",
-    "category": "Reasoning & LLMs",
-    "categoryColor": "#3b82f6",
-    "badge": "🔥 Breakthrough",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly sho...",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Model Focus",
-        "value": "Frontier Reasoning"
-      },
-      {
-        "label": "Ecosystem",
-        "value": "Open / API"
-      }
-    ],
-    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
-    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic"
-      }
-    ]
-  },
-  {
-    "id": "rss-9459116",
-    "title": "Elvis and Eminem rights holders are suing Suno",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Pres...",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
-    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit"
-      }
-    ]
-  },
-  {
-    "id": "rss-2503029",
-    "title": "Apple’s M5 MacBook Air is down to its lowest price since July",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/gadgets/1029019/apple-macbook-air-13-15-inch-m5-deal-sale",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "A top-down view of the 15-inch MacBook Air, which features Apple’s M5 processor. | Photo: Antonio G. Di Benedetto / The Verge The latest 13-inch MacBook Air is currently available for $1,099.99, marking the second time we’ve seen this $200 discount following the company’s hefty p...",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
-    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/gadgets/1029019/apple-macbook-air-13-15-inch-m5-deal-sale"
-      }
-    ]
-  },
-  {
-    "id": "hn-50415628",
-    "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
-    "category": "Reasoning & LLMs",
-    "categoryColor": "#3b82f6",
-    "badge": "🔥 Breakthrough",
-    "source": "Hacker News",
-    "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 709 points and 391 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "709+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "391+ comments"
-      },
-      {
-        "label": "Model Focus",
-        "value": "Frontier Reasoning"
-      },
-      {
-        "label": "Ecosystem",
-        "value": "Open / API"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50415628"
-      }
-    ]
-  },
-  {
-    "id": "hn-50418016",
-    "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
-    "category": "AI Hardware & Chips",
-    "categoryColor": "#10b981",
-    "badge": "⚡️ Hardware",
-    "source": "Hacker News",
-    "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 529 points and 564 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "529+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "564+ comments"
-      },
-      {
-        "label": "Fabrication",
-        "value": "Advanced Node"
-      },
-      {
-        "label": "Efficiency",
-        "value": "High FLOPS/Watt"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50418016"
-      }
-    ]
-  },
-  {
-    "id": "hn-50411961",
-    "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
-    "category": "Reasoning & LLMs",
-    "categoryColor": "#3b82f6",
-    "badge": "🔥 Breakthrough",
-    "source": "Hacker News",
-    "url": "https://github.com/synchopate/llama-modchip",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 404 points and 181 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "404+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "181+ comments"
-      },
-      {
-        "label": "Model Focus",
-        "value": "Frontier Reasoning"
-      },
-      {
-        "label": "Ecosystem",
-        "value": "Open / API"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://github.com/synchopate/llama-modchip"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50411961"
-      }
-    ]
-  },
-  {
-    "id": "hn-50418176",
-    "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
-    "category": "Open Source & Web",
-    "categoryColor": "#ec4899",
-    "badge": "🌐 Open Tech",
-    "source": "Hacker News",
-    "url": "https://ketchup3d.github.io/app/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 380 points and 101 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "380+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "101+ comments"
-      },
-      {
-        "label": "Execution",
-        "value": "Zero-Egress Client"
-      },
-      {
-        "label": "License",
-        "value": "Permissive / Apache 2.0"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://ketchup3d.github.io/app/"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50418176"
-      }
-    ]
-  },
-  {
-    "id": "hn-50416053",
-    "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://duxlabs.dev/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 253 points and 83 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "253+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "83+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://duxlabs.dev/"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50416053"
-      }
-    ]
-  },
-  {
-    "id": "hn-50416363",
-    "title": "How I Fight AI Brain Fry",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 216 points and 161 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "216+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "161+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50416363"
-      }
-    ]
-  },
-  {
-    "id": "hn-50418975",
-    "title": "I'm not convinced the AI bubble exists",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 172 points and 230 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "172+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "230+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50418975"
       }
     ]
   }
