@@ -1,5 +1,419 @@
 [
   {
+    "id": "rss-7672478",
+    "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+    "category": "AI Hardware & Chips",
+    "categoryColor": "#10b981",
+    "badge": "⚡️ Hardware",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstatement, and many are also hopping on board with a theory spreading throughout Silicon Valley: that the s...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Fabrication",
+        "value": "Advanced Node"
+      },
+      {
+        "label": "Efficiency",
+        "value": "High FLOPS/Watt"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories"
+      }
+    ]
+  },
+  {
+    "id": "rss-2891025",
+    "title": "California sues OpenAI over rogue AI hacking incidents",
+    "category": "Reasoning & LLMs",
+    "categoryColor": "#3b82f6",
+    "badge": "🔥 Breakthrough",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous pro...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Model Focus",
+        "value": "Frontier Reasoning"
+      },
+      {
+        "label": "Ecosystem",
+        "value": "Open / API"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit"
+      }
+    ]
+  },
+  {
+    "id": "rss-6629820",
+    "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
+    "category": "Reasoning & LLMs",
+    "categoryColor": "#3b82f6",
+    "badge": "🔥 Breakthrough",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Sam… thank you. | Image: Getty Images OpenAI CEO Sam Altman is once again addressing his controversial comments on PC RAM purchases. \"I want to be clear, I want people to have a lot of RAM, I think everybody should be able to buy a lot of RAM for their own computer,\" Altman said ...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Model Focus",
+        "value": "Frontier Reasoning"
+      },
+      {
+        "label": "Ecosystem",
+        "value": "Open / API"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor"
+      }
+    ]
+  },
+  {
+    "id": "rss-3837114",
+    "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
+    "category": "CleanTech & Energy",
+    "categoryColor": "#84cc16",
+    "badge": "⚡️ Energy",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Constellation's Clinton Clean Energy Center’s single nuclear reactor power plant, July 25, 2025 in Clinton, Illinois. Meta signed a 20-year power purchase agreement with Constellation for the output from the plant. | Image: Getty Images Constellation Energy - America's largest op...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Capacity",
+        "value": "Gigawatt Scale"
+      },
+      {
+        "label": "Footprint",
+        "value": "24/7 Carbon-Free"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats"
+      }
+    ]
+  },
+  {
+    "id": "rss-8903908",
+    "title": "US data centers now burn more electricity than a midsized country",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Fossil fuels are still the biggest source of electricity for hyperscale data centers in the US, a new paper published in the journal Nature Sustainability shows. They likely burn through more electricity collectively than many countries do, resulting in a serious amount of greenh...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard"
+      }
+    ]
+  },
+  {
+    "id": "rss-1550334",
+    "title": "The Apple Watch Series 12 is cheaper than ever ahead of Black Friday",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "The Apple Watch Series 12 is on sale in multiple configurations. | Photo: Amelia Holowaty Krales / The Verge If you’re still sporting an Apple Watch that launched five or so years ago, now is a good time to upgrade. Apple’s latest smartwatch, the 42mm Apple Watch Series 12 with W...",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
+    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale"
+      }
+    ]
+  },
+  {
+    "id": "hn-50524736",
+    "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "source": "Hacker News",
+    "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 545 points and 384 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "545+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "384+ comments"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50524736"
+      }
+    ]
+  },
+  {
+    "id": "hn-50517321",
+    "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 305 points and 210 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "305+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "210+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50517321"
+      }
+    ]
+  },
+  {
+    "id": "hn-50526560",
+    "title": "If an App Asks for Full Disk Access or System and App Protection Override",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "source": "Hacker News",
+    "url": "https://support.apple.com/en-us/149699",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 105 points and 54 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "105+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "54+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://support.apple.com/en-us/149699"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50526560"
+      }
+    ]
+  },
+  {
+    "id": "hn-50524225",
+    "title": "How to Break into Security, Ptacek Edition (2012)",
+    "category": "Cybersecurity & Safety",
+    "categoryColor": "#ef4444",
+    "badge": "🛡 Security",
+    "source": "Hacker News",
+    "url": "https://krebsonsecurity.com/2012/06/how-to-break-into-security-ptacek-edition/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 103 points and 24 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "103+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "24+ comments"
+      },
+      {
+        "label": "Threat Vector",
+        "value": "Adversarial Injection"
+      },
+      {
+        "label": "Defense Tier",
+        "value": "Formal Verification"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://krebsonsecurity.com/2012/06/how-to-break-into-security-ptacek-edition/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50524225"
+      }
+    ]
+  },
+  {
+    "id": "hn-50496787",
+    "title": "Show HN: Zigzag, a native Mac browser for people leaving Arc",
+    "category": "Open Source & Web",
+    "categoryColor": "#ec4899",
+    "badge": "🌐 Open Tech",
+    "source": "Hacker News",
+    "url": "https://github.com/ZigaoWang/zigzag",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending on Hacker News with 12 points and 5 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "12+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "5+ comments"
+      },
+      {
+        "label": "Execution",
+        "value": "Zero-Egress Client"
+      },
+      {
+        "label": "License",
+        "value": "Permissive / Apache 2.0"
+      }
+    ],
+    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
+    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://github.com/ZigaoWang/zigzag"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50496787"
+      }
+    ]
+  },
+  {
     "id": "rss-2078382",
     "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
     "category": "Tech & AI",
@@ -512,420 +926,6 @@
       {
         "label": "Hacker News Discussion",
         "url": "https://news.ycombinator.com/item?id=50497892"
-      }
-    ]
-  },
-  {
-    "id": "hn-50497589",
-    "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
-    "category": "Reasoning & LLMs",
-    "categoryColor": "#3b82f6",
-    "badge": "🔥 Breakthrough",
-    "source": "Hacker News",
-    "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 219 points and 19 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "219+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "19+ comments"
-      },
-      {
-        "label": "Model Focus",
-        "value": "Frontier Reasoning"
-      },
-      {
-        "label": "Ecosystem",
-        "value": "Open / API"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50497589"
-      }
-    ]
-  },
-  {
-    "id": "hn-50441444",
-    "title": "Generative AI uses more energy on non-English text",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 199 points and 104 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "199+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "104+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50441444"
-      }
-    ]
-  },
-  {
-    "id": "hn-50501594",
-    "title": "How did Woz write the Apple 1 BASIC before building the computer?",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://retrocomputing.stackexchange.com/questions/17957",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 179 points and 77 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "179+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "77+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://retrocomputing.stackexchange.com/questions/17957"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50501594"
-      }
-    ]
-  },
-  {
-    "id": "hn-50503930",
-    "title": "Show HN: Turbo-Browser-MCP – Batch forms, DOM deltas and submit guards for MCP",
-    "category": "Open Source & Web",
-    "categoryColor": "#ec4899",
-    "badge": "🌐 Open Tech",
-    "source": "Hacker News",
-    "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 22 points and 2 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "22+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "2+ comments"
-      },
-      {
-        "label": "Execution",
-        "value": "Zero-Egress Client"
-      },
-      {
-        "label": "License",
-        "value": "Permissive / Apache 2.0"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://github.com/Tthanh2k6/turbo-browser-mcp"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50503930"
-      }
-    ]
-  },
-  {
-    "id": "rss-7480390",
-    "title": "Amazon has a plan to index the world’s online shopping data",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less like...",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
-    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
-      }
-    ]
-  },
-  {
-    "id": "rss-3663967",
-    "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
-    "category": "Reasoning & LLMs",
-    "categoryColor": "#3b82f6",
-    "badge": "🔥 Breakthrough",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Ch...",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Model Focus",
-        "value": "Frontier Reasoning"
-      },
-      {
-        "label": "Ecosystem",
-        "value": "Open / API"
-      }
-    ],
-    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
-    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
-      }
-    ]
-  },
-  {
-    "id": "rss-3788020",
-    "title": "Jensen Huang was reckless with the environment, too",
-    "category": "AI Hardware & Chips",
-    "categoryColor": "#10b981",
-    "badge": "⚡️ Hardware",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Jensen Huang gives a keynote address at the Berlin GPU Technology Conference on October 21st in Berlin. | Photo: Getty Images Under cofounder Jensen Huang, Nvidia has become the engine for the AI boom - and one of the tech industry's biggest environmental liabilities. Its sought-...",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Fabrication",
-        "value": "Advanced Node"
-      },
-      {
-        "label": "Efficiency",
-        "value": "High FLOPS/Watt"
-      }
-    ],
-    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
-    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution"
-      }
-    ]
-  },
-  {
-    "id": "rss-8993997",
-    "title": "The smallest version of Camp Snap’s retro digital camcorder fits on your keychain",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/tech/1033026/camp-snap-retro-digital-video-campcorder-cs-8-micro-keychain",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Last week, Camp Snap launched a miniaturized version of its screen-free CS-8 video camera that was half the size of the original with a smaller grip designed to be easier for kids to hold. But it turns out the company wasn't done shrinking its hardware. Camp Snap's new CS-8 Micro...",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
-    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/tech/1033026/camp-snap-retro-digital-video-campcorder-cs-8-micro-keychain"
-      }
-    ]
-  },
-  {
-    "id": "rss-465071",
-    "title": "The new Apple TV has a YouTube problem",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/tech/1033076/apple-tv-4k-youtube-error",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "People who received the brand new Apple TV 4k today saw some strange error messages as soon as they opened the YouTube app. As the first units arrived, the app was initially only showing a black screen with a QR code and an error message saying \"YouTube is not yet available on th...",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
-    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/tech/1033076/apple-tv-4k-youtube-error"
-      }
-    ]
-  },
-  {
-    "id": "rss-5096247",
-    "title": "Microsoft&#8217;s massive Outlook outage might be over",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Service is recovering for Microsoft Outlook and 365 after an almost two-day outage impacting millions of users around the world. While some apps and features are still running in a degraded state on Friday morning, some people (including Verge staffers) reported that access to th...",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in The Verge's full report.",
-    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage"
-      }
-    ]
-  },
-  {
-    "id": "hn-50474959",
-    "title": "Reverse engineering my Coway air purifier to ditch the cloud",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "source": "Hacker News",
-    "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending on Hacker News with 731 points and 211 in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "731+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "211+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50474959"
       }
     ]
   }
