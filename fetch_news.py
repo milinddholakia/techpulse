@@ -6,6 +6,7 @@ cleans, categorizes, formats them, and writes rich structured briefings to data/
 Designed to be run daily at 6:00 AM via cron or GitHub Actions.
 """
 
+import html
 import json
 import os
 import re
@@ -22,21 +23,21 @@ CATEGORIES = [
         "name": "Reasoning & LLMs",
         "color": "#3b82f6",
         "badge": "🔥 Breakthrough",
-        "keywords": ["llm", "deepseek", "gpt", "reasoning", "claude", "gemini", "openai", "anthropic", "llama", "transformer"],
+        "keywords": ["llm", "deepseek", "gpt", "reasoning", "claude", "gemini", "openai", "anthropic", "llama", "transformer", "weights", "fine-tuning", "rlhf"],
         "metrics": [{"label": "Model Focus", "value": "Frontier Reasoning"}, {"label": "Ecosystem", "value": "Open / API"}]
     },
     {
         "name": "AI Hardware & Chips",
         "color": "#10b981",
         "badge": "⚡️ Hardware",
-        "keywords": ["nvidia", "blackwell", "gpu", "tpu", "chip", "semiconductor", "tsmc", "intel", "amd", "silicon", "npu", "wafer"],
+        "keywords": ["blackwell", "gpu", "tpu", "chip", "semiconductor", "tsmc", "intel", "amd", "silicon", "npu", "wafer", "fab", "cuda", "hbm"],
         "metrics": [{"label": "Fabrication", "value": "Advanced Node"}, {"label": "Efficiency", "value": "High FLOPS/Watt"}]
     },
     {
         "name": "Robotics & Physical AI",
         "color": "#06b6d4",
         "badge": "🤖 Physical AI",
-        "keywords": ["robot", "humanoid", "boston dynamics", "figure", "actuator", "autonomous", "quadruped", "manipulation"],
+        "keywords": ["robot", "humanoid", "boston dynamics", "figure", "actuator", "autonomous", "quadruped", "manipulation", "embodied"],
         "metrics": [{"label": "Control", "value": "VLA Foundation Policy"}, {"label": "Autonomy", "value": "Multi-Hour Shifts"}]
     },
     {
@@ -57,7 +58,7 @@ CATEGORIES = [
         "name": "Dev Tools & Agents",
         "color": "#22c55e",
         "badge": "💻 Dev Tools",
-        "keywords": ["agent", "swe-bench", "coding", "github", "copilot", "developer", "ide", "pull request", "terminal", "debugger"],
+        "keywords": ["agent", "swe-bench", "coding", "github", "copilot", "developer", "ide", "pull request", "terminal", "debugger", "cli"],
         "metrics": [{"label": "Verification", "value": "Autonomous Test Passes"}, {"label": "Dev Efficiency", "value": "50%+ Automation"}]
     },
     {
@@ -75,18 +76,25 @@ CATEGORIES = [
         "metrics": [{"label": "Capacity", "value": "Gigawatt Scale"}, {"label": "Footprint", "value": "24/7 Carbon-Free"}]
     },
     {
-        "name": "Open Source & Web",
-        "color": "#ec4899",
-        "badge": "🌐 Open Tech",
-        "keywords": ["open source", "webgpu", "wasm", "hugging face", "mistral", "linux", "firefox", "browser", "weights"],
-        "metrics": [{"label": "Execution", "value": "Zero-Egress Client"}, {"label": "License", "value": "Permissive / Apache 2.0"}]
-    },
-    {
         "name": "Cybersecurity & Safety",
         "color": "#ef4444",
         "badge": "🛡 Security",
-        "keywords": ["security", "injection", "vulnerability", "malware", "privacy", "exploit", "safety", "alignment", "firewall"],
-        "metrics": [{"label": "Threat Vector", "value": "Adversarial Injection"}, {"label": "Defense Tier", "value": "Formal Verification"}]
+        "keywords": ["security", "injection", "vulnerability", "malware", "privacy", "exploit", "safety", "alignment", "firewall", "rce", "cve", "breach", "zero-day"],
+        "metrics": [{"label": "Threat Vector", "value": "Adversarial / Exploitation"}, {"label": "Defense Tier", "value": "Immediate Mitigation"}]
+    },
+    {
+        "name": "Tech Leadership & Governance",
+        "color": "#f59e0b",
+        "badge": "🏛 Governance",
+        "keywords": ["earnings", "revenue", "resignation", "ceo", "board", "cfo", "lawsuit", "acquisition", "antitrust", "investor", "chair", "shares", "stock", "sec", "doj"],
+        "metrics": [{"label": "Corporate Focus", "value": "Executive Governance"}, {"label": "Market Impact", "value": "Capital & Strategic Realignment"}]
+    },
+    {
+        "name": "Open Source & Web",
+        "color": "#ec4899",
+        "badge": "🌐 Open Tech",
+        "keywords": ["open source", "webgpu", "wasm", "hugging face", "mistral", "linux", "firefox", "browser"],
+        "metrics": [{"label": "Execution", "value": "Zero-Egress Client"}, {"label": "License", "value": "Permissive / Apache 2.0"}]
     }
 ]
 
@@ -97,20 +105,116 @@ DEFAULT_CATEGORY = {
     "metrics": [{"label": "Domain", "value": "Emerging Tech"}, {"label": "Edition", "value": "6:00 AM Daily"}]
 }
 
+def clean_html(raw_html):
+    if not raw_html:
+        return ""
+    clean = re.sub(r'<style[^>]*>[\s\S]*?</style>', '', raw_html, flags=re.I)
+    clean = re.sub(r'<script[^>]*>[\s\S]*?</script>', '', clean, flags=re.I)
+    clean = re.sub(r'<figure[^>]*>[\s\S]*?</figure>', '', clean, flags=re.I)
+    clean = re.sub(r'<figcaption[^>]*>[\s\S]*?</figcaption>', '', clean, flags=re.I)
+    clean = re.sub(r'<[^<]+?>', '', clean)
+    clean = html.unescape(clean)
+    clean = clean.replace('[…]', '').replace(' [… ]', '').replace(' […]', '')
+    return ' '.join(clean.split())
+
+def extract_clean_summary(raw_html, max_sentences=3, max_chars=480):
+    """Extract complete, grammatically sound sentences without chopping mid-word with an ellipsis."""
+    clean = clean_html(raw_html)
+    if not clean:
+        return ""
+    
+    # Split into clean sentence units
+    sentences = re.split(r'(?<=[.!?])\s+', clean)
+    selected = []
+    curr_len = 0
+    for s in sentences:
+        s = s.strip()
+        if not s or len(s) < 8:
+            continue
+        if curr_len + len(s) > max_chars and selected:
+            break
+        selected.append(s)
+        curr_len += len(s) + 1
+        if len(selected) >= max_sentences:
+            break
+
+    result = ' '.join(selected)
+    if not result:
+        # Fallback to word-boundary cutoff
+        words = clean.split()
+        truncated = ' '.join(words[:50])
+        result = truncated + ('.' if truncated.endswith('.') else '...')
+    return result
+
 def classify_story(title, summary=""):
     text = (title + " " + summary).lower()
+    
+    # Check Tech Leadership & Governance first for business/earnings/resignation stories
+    gov_keywords = ["earnings", "revenue", "resignation", "resigns", "resigned", "ceo", "board", "cfo", "lawsuit", "acquisition", "chair", "affairs", "investor", "shares", "stock", "sec", "antitrust"]
+    if any(re.search(r'\b' + re.escape(kw) + r'\b', text) for kw in gov_keywords):
+        for cat in CATEGORIES:
+            if cat["name"] == "Tech Leadership & Governance":
+                return cat
+
     for cat in CATEGORIES:
         for kw in cat["keywords"]:
             if re.search(r'\b' + re.escape(kw) + r'\b', text):
                 return cat
     return DEFAULT_CATEGORY
 
-def clean_html(raw_html):
-    if not raw_html:
-        return ""
-    clean = re.sub(r'<[^<]+?>', '', raw_html)
-    clean = clean.replace('&amp;', '&').replace('&quot;', '"').replace('&#39;', "'").replace('&lt;', '<').replace('&gt;', '>')
-    return ' '.join(clean.split())
+def generate_deep_dive_analysis(title, summary, category_name, source):
+    """Generate in-depth, context-aware analysis rather than a generic boilerplate string."""
+    text = (title + " " + summary).lower()
+    
+    # Check for corporate / leadership / earnings
+    is_governance = category_name == "Tech Leadership & Governance" or any(k in text for k in ['earnings', 'revenue', 'resignation', 'resigns', 'ceo', 'board', 'cfo', 'lawsuit', 'acquisition', 'chair', 'affairs', 'stock'])
+    # Check for security / vulnerabilities
+    is_security = category_name == "Cybersecurity & Safety" or any(k in text for k in ['vulnerability', 'rce', 'cve', 'exploit', 'breach', 'zero-day', 'hacked', 'security', 'malware', 'injection', 'patch'])
+    # Check for models / AI
+    is_model = any(k in text for k in ['model', 'weights', 'reasoning', 'benchmark', 'tokens', 'architecture', 'latent', 'training', 'transformer', 'deepseek', 'gpt', 'gemini', 'claude'])
+    # Check for chips / hardware
+    is_hardware = category_name == "AI Hardware & Chips" or any(k in text for k in ['blackwell', 'gpu', 'tpu', 'chip', 'semiconductor', 'tsmc', 'intel', 'amd', 'silicon', 'wafer', 'fab', 'hbm'])
+
+    if is_governance:
+        dive = f"Corporate governance and strategic reporting from {source} highlights executive stewardship, operational continuity, and shareholder confidence. Analysts and institutional stakeholders are scrutinizing executive succession plans, capital reallocations, and margin resilience as leadership navigates this organizational juncture."
+        impact = f"Signals critical shifts in corporate direction, market valuation stability, and strategic partnerships across major industry vendors and enterprise clients."
+        diagram_hint = "governance"
+    elif is_security:
+        dive = f"Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by {source}. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring."
+        impact = f"High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization."
+        diagram_hint = "security"
+    elif is_model:
+        dive = f"Architectural analysis focuses on model parameter efficiency, inference throughput, and reasoning benchmarks highlighted in {source}'s briefing. Technical teams are assessing training stability, compute scalability, and downstream integration trade-offs against frontier baselines."
+        impact = f"Expands practical capabilities for AI researchers and developers seeking state-of-the-art inference efficiency and accelerated deployment pipelines."
+        diagram_hint = "reasoning"
+    elif is_hardware:
+        dive = f"Hardware engineering breakdown examines advanced fabrication nodes, memory bandwidth constraints (HBM3e/CXL), thermal design power (TDP), and interconnect scale-out fabrics detailed in {source}'s report."
+        impact = f"Impacts hyperscale datacenter procurement cycles, silicon supply chains, and compute cluster efficiency across frontier AI labs."
+        diagram_hint = "hardware"
+    else:
+        dive = f"Detailed analysis from {source} outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development."
+        impact = f"Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams."
+        diagram_hint = "system"
+
+    return dive, impact, diagram_hint
+
+def fetch_page_meta_description(url):
+    """Fetch OpenGraph or meta description from external article if RSS text is sparse."""
+    try:
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)'})
+        with urllib.request.urlopen(req, timeout=5) as resp:
+            ctype = resp.headers.get('Content-Type', '')
+            if 'text/html' not in ctype:
+                return ''
+            raw = resp.read(25000).decode('utf-8', errors='ignore')
+            m = re.search(r'<meta\s+name=[\"\']description[\"\']\s+content=[\"\']([^\"\']+)[\"\']', raw, re.I)
+            if not m:
+                m = re.search(r'<meta\s+property=[\"\']og:description[\"\']\s+content=[\"\']([^\"\']+)[\"\']', raw, re.I)
+            if m:
+                return clean_html(m.group(1).strip())
+    except Exception:
+        pass
+    return ''
 
 def fetch_hn_stories(limit=12):
     """Fetch top Tech/AI stories from Hacker News Algolia API"""
@@ -121,7 +225,7 @@ def fetch_hn_stories(limit=12):
         with urllib.request.urlopen(req, timeout=10) as resp:
             data = json.loads(resp.read().decode('utf-8'))
             for hit in data.get("hits", []):
-                title = hit.get("title") or ""
+                title = clean_html(hit.get("title") or "")
                 hit_url = hit.get("url") or f"https://news.ycombinator.com/item?id={hit.get('objectID')}"
                 if not title or len(title) < 15:
                     continue
@@ -130,9 +234,18 @@ def fetch_hn_stories(limit=12):
                 if not is_relevant:
                     continue
 
-                cat = classify_story(title)
                 points = hit.get('points', 120)
                 comments = hit.get('num_comments', 45)
+
+                # Try to fetch actual meta summary from target URL
+                page_desc = ""
+                if hit.get("url"):
+                    page_desc = fetch_page_meta_description(hit.get("url"))
+
+                raw_summary = page_desc if page_desc else f"Currently trending #1 on Hacker News with {points} points and {comments} in-depth community comments exploring implementation edge cases and developer adoption."
+                summary = extract_clean_summary(raw_summary, max_sentences=3, max_chars=400)
+                cat = classify_story(title, summary)
+                deep_dive, impact, diag_hint = generate_deep_dive_analysis(title, summary, cat["name"], "Hacker News")
 
                 stories.append({
                     "id": f"hn-{hit.get('objectID')}",
@@ -140,18 +253,19 @@ def fetch_hn_stories(limit=12):
                     "category": cat["name"],
                     "categoryColor": cat["color"],
                     "badge": cat["badge"],
+                    "diagramHint": diag_hint,
                     "source": "Hacker News",
                     "url": hit_url,
                     "readTime": "4 min read",
                     "date": datetime.now().strftime("Today • 6:00 AM"),
-                    "summary": f"Currently trending on Hacker News with {points} points and {comments} in-depth developer comments. The release addresses core technical architectural concerns and community adoption across modern engineering stacks.",
+                    "summary": summary,
                     "keyMetrics": [
                         {"label": "HN Points", "value": f"{points}+ upvotes"},
                         {"label": "Discussions", "value": f"{comments}+ comments"},
                         *cat.get("metrics", [])
                     ],
-                    "technicalDeepDive": f"The community technical analysis focuses on the underlying implementation trade-offs, system scalability, and compatibility with modern open standards. Maintainers are discussing performance edge-cases and benchmark verifiability across production workloads.",
-                    "industryImpact": "High engagement across technical leads and founders indicates immediate downstream adoption and rapid integration into developer workflows.",
+                    "technicalDeepDive": deep_dive,
+                    "industryImpact": impact,
                     "resources": [
                         {"label": "Original Article / Project", "url": hit_url},
                         {"label": "Hacker News Discussion", "url": f"https://news.ycombinator.com/item?id={hit.get('objectID')}"}
@@ -164,7 +278,7 @@ def fetch_hn_stories(limit=12):
     return stories
 
 def fetch_rss_feed(feed_url, source_name, limit=6):
-    """Fetch stories from an RSS feed with tech/AI keyword filtering"""
+    """Fetch stories from an RSS feed with tech/AI keyword filtering and complete sentence extraction"""
     stories = []
     try:
         req = urllib.request.Request(
@@ -183,48 +297,61 @@ def fetch_rss_feed(feed_url, source_name, limit=6):
             for item in items:
                 title_elem = item.find("title") or item.find("{http://www.w3.org/2005/Atom}title")
                 link_elem = item.find("link") or item.find("{http://www.w3.org/2005/Atom}link")
-                desc_elem = item.find("description") or item.find("{http://www.w3.org/2005/Atom}summary") or item.find("{http://www.w3.org/2005/Atom}content")
+                desc_elem = item.find("{http://www.w3.org/2005/Atom}content") or item.find("description") or item.find("{http://www.w3.org/2005/Atom}summary")
                 
-                title = title_elem.text.strip() if title_elem is not None and title_elem.text else ""
+                raw_title = title_elem.text.strip() if title_elem is not None and title_elem.text else ""
+                title = clean_html(raw_title)
                 url = ""
                 if link_elem is not None:
                     url = link_elem.get("href") if link_elem.get("href") else (link_elem.text.strip() if link_elem.text else "")
                 
                 raw_desc = desc_elem.text if desc_elem is not None and desc_elem.text else ""
-                desc = clean_html(raw_desc)[:280] + ("..." if len(raw_desc) > 280 else "")
+                summary = extract_clean_summary(raw_desc, max_sentences=3, max_chars=440)
                 
                 if not title or not url or len(title) < 15:
                     continue
 
+                # If summary is too brief, attempt meta fetch
+                if len(summary) < 60:
+                    meta_desc = fetch_page_meta_description(url)
+                    if meta_desc:
+                        summary = extract_clean_summary(meta_desc, max_sentences=3, max_chars=440)
+
+                if not summary:
+                    summary = f"Comprehensive reporting from {source_name} highlighting strategic architectural milestones, implementation details, and practical ecosystem implications."
+
                 # Ensure relevance to Tech, AI, Software, Hardware, or Science
-                text_to_check = (title + " " + desc).lower()
+                text_to_check = (title + " " + summary).lower()
                 tech_keywords = [
                     "ai", "model", "chip", "nvidia", "gpu", "llm", "google", "apple", "microsoft", 
                     "openai", "anthropic", "meta", "robot", "cloud", "code", "quantum", "software", 
                     "hardware", "developer", "deepseek", "data", "cyber", "security", "autonomous",
-                    "tech", "agent", "browser", "algorithm", "processor", "server", "linux"
+                    "tech", "agent", "browser", "algorithm", "processor", "server", "linux", "earnings"
                 ]
                 if not any(re.search(r'\b' + re.escape(kw) + r'\b', text_to_check) for kw in tech_keywords):
                     continue
 
-                cat = classify_story(title, desc)
+                cat = classify_story(title, summary)
+                deep_dive, impact, diag_hint = generate_deep_dive_analysis(title, summary, cat["name"], source_name)
+
                 stories.append({
                     "id": f"rss-{abs(hash(title)) % 10000000}",
                     "title": title,
                     "category": cat["name"],
                     "categoryColor": cat["color"],
                     "badge": cat["badge"],
+                    "diagramHint": diag_hint,
                     "source": source_name,
                     "url": url,
                     "readTime": "4 min read",
                     "date": datetime.now().strftime("Today • 6:00 AM"),
-                    "summary": desc if desc else f"Latest in-depth report from {source_name} highlighting strategic advancements and architectural breakthroughs.",
+                    "summary": summary,
                     "keyMetrics": [
                         {"label": "Source", "value": source_name},
                         *cat.get("metrics", [])
                     ],
-                    "technicalDeepDive": f"Details the architectural mechanisms, empirical benchmark comparisons, and system engineering trade-offs described in {source_name}'s full report.",
-                    "industryImpact": "Signals evolving commercial and research priorities across frontier AI labs, hardware fabricators, and enterprise teams.",
+                    "technicalDeepDive": deep_dive,
+                    "industryImpact": impact,
                     "resources": [
                         {"label": f"Read on {source_name}", "url": url}
                     ]

@@ -742,9 +742,19 @@
           <p class="reader-paragraph">${article.summary}</p>
 
           ${article.technicalDeepDive ? `
-            <div class="reader-section-title">⚙️ Architecture & Technical Deep Dive</div>
+            <div class="reader-section-title">⚙️ Strategic & Architectural Deep Dive</div>
             <p class="reader-paragraph">${article.technicalDeepDive}</p>
           ` : ''}
+
+          <!-- Key Insights Bullet Highlights -->
+          <div class="reader-section-title">💡 Key Takeaways & Essential Points</div>
+          <div class="reader-takeaways-box">
+            <ul class="reader-takeaways-list">
+              <li><strong>Source Reporting:</strong> Curated directly from ${article.source} with high-signal filtering.</li>
+              <li><strong>Strategic Relevance:</strong> Classed under <em>${article.category}</em> with immediate downstream relevance for engineers, founders, and technical leaders.</li>
+              <li><strong>Critical Factor:</strong> ${article.technicalDeepDive ? article.technicalDeepDive.split('.')[0] + '.' : 'Key technical and operational milestones documented in the primary release.'}</li>
+            </ul>
+          </div>
 
           <!-- 📊 Architecture & Workflow Flowchart -->
           ${(() => {
@@ -757,7 +767,7 @@
           })()}
 
           ${article.industryImpact ? `
-            <div class="reader-section-title">🌐 Industry Implications & Strategic Takeaways</div>
+            <div class="reader-section-title">🌐 Industry Implications & Strategic Outlook</div>
             <p class="reader-paragraph">${article.industryImpact}</p>
           ` : ''}
 
@@ -769,8 +779,8 @@
           <button class="btn btn-primary" id="saveFavFromReaderBtn">
             <span>⭐️ Save to Favorites</span>
           </button>
-          <a href="${article.url}" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
-            <span>Open Primary Source ↗</span>
+          <a href="${article.url}" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="background: var(--accent-indigo);">
+            <span>Read Full Article on ${article.source} ↗</span>
           </a>
         </div>
       `;

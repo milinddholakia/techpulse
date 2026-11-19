@@ -298,12 +298,43 @@
     };
   }
 
-  // Generates specific news flowcharts based on article categories
+  // Generates specific news flowcharts based on article categories and narrative context
   function getNewsDiagram(article) {
     const cat = article.category || 'Tech & AI';
     const title = article.title || 'Breaking Tech Briefing';
+    const hint = article.diagramHint || '';
 
-    if (cat.includes('Reasoning') || cat.includes('LLM')) {
+    // 1. Corporate Governance & Strategic Transitions
+    if (hint === 'governance' || cat.includes('Governance') || cat.includes('Leadership')) {
+      return {
+        title: 'Corporate Governance & Executive Succession Flow',
+        subtitle: `Organizational realignment & market stability loop in ${article.source}'s report`,
+        nodes: [
+          { id: 's1', label: 'Leadership Event / Board Action', tag: 'Governance Trigger', type: 'input', desc: 'Resignation, CEO transition, quarterly earnings call, or executive review announced.', metric: 'Executive Directive' },
+          { id: 's2', label: 'Board Stewardship & Audit', tag: 'Fiduciary Review', type: 'process', desc: 'Board of directors and special committee conduct review to ensure stakeholder and operational stability.', metric: 'Committee Oversight' },
+          { id: 's3', label: 'Interim Executive Execution', tag: 'Operational Command', type: 'operation', desc: 'Interim CEO, CFO, and leadership steering team assume operational and customer commitments.', metric: 'Uninterrupted Continuity' },
+          { id: 's4', label: 'Market & Partner Validation', tag: 'Ecosystem Feedback', type: 'decision', desc: 'Enterprise customers, Wall Street analysts, and supply chain partners evaluate strategic alignment.', metric: 'Shareholder Confidence' },
+          { id: 's5', label: 'Strategic Realignment & Growth', tag: 'Stabilized Trajectory', type: 'output', desc: 'Long-term leadership roadmap reaffirmed with continued product execution and capital discipline.', metric: 'Long-Term Valuation' }
+        ]
+      };
+    }
+
+    // 2. Cybersecurity & Threat Mitigation
+    if (hint === 'security' || cat.includes('Security') || cat.includes('Safety')) {
+      return {
+        title: 'Vulnerability Detection & Incident Mitigation Flow',
+        subtitle: `Threat surface assessment and patch remediation in ${article.source}'s briefing`,
+        nodes: [
+          { id: 's1', label: 'Vulnerability Disclosure / Attack Vector', tag: 'Threat Vector', type: 'input', desc: 'Zero-day exploit, RCE flaw, or prompt injection vector discovered.', metric: 'CVE / Advisory' },
+          { id: 's2', label: 'Impact Scope & Exploitability Audit', tag: 'Triage & Blast Radius', type: 'process', desc: 'Security researchers evaluate CVSS severity, unauthenticated exposure, and affected versions.', metric: 'Critical Severity Score' },
+          { id: 's3', label: 'Defensive Mitigation & Patch Engineering', tag: 'Patch Deployment', type: 'operation', desc: 'Engineers build regression-tested security patch and release hotfix packages.', metric: 'Fix Verification' },
+          { id: 's4', label: 'Perimeter Scanning & Verification Gate', tag: 'Integrity Check', type: 'decision', desc: 'Automated boundary checks verify patch efficacy and prevent privilege escalation.', metric: 'Zero-Exploit Verification' },
+          { id: 's5', label: 'Hardened Production Environment', tag: 'Secured State', type: 'output', desc: 'Infrastructure operators achieve full compliance with threat surface completely neutralized.', metric: '100% Mitigated' }
+        ]
+      };
+    }
+
+    if (cat.includes('Reasoning') || cat.includes('LLM') || hint === 'reasoning') {
       return {
         title: 'Frontier LLM Reasoning & Verification Pipeline',
         subtitle: `Architectural dataflow behind ${article.source}'s report: "${title.slice(0, 55)}..."`,
@@ -317,7 +348,7 @@
       };
     }
 
-    if (cat.includes('Hardware') || cat.includes('Chip')) {
+    if ((cat.includes('Hardware') || cat.includes('Chip') || hint === 'hardware') && !cat.includes('Governance')) {
       return {
         title: 'Advanced AI Silicon & Memory Compute Flow',
         subtitle: `Hardware acceleration architecture featured in ${article.source}'s report`,
