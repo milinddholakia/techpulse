@@ -861,8 +861,8 @@ body {
 /* Card Fixed Bottom Action Bar */
 .card-bottom-action-bar {
   padding: 12px 24px;
-  background: rgba(11, 16, 28, 0.95);
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  background: var(--bg-surface);
+  border-top: 1px solid var(--border-subtle);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1223,7 +1223,35 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 12px;
   background: var(--bg-surface);
+  flex-wrap: wrap;
+}
+
+.reader-btn-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-clean-reader {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-surface-hover);
+  border: 1px solid var(--border-strong);
+  color: var(--text-primary);
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 8px 12px;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.btn-clean-reader:hover {
+  background: var(--border-strong);
+  transform: translateY(-1px);
 }
 
 /* ==========================================================================

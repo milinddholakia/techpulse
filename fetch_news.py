@@ -117,7 +117,7 @@ def clean_html(raw_html):
     clean = clean.replace('[…]', '').replace(' [… ]', '').replace(' […]', '')
     return ' '.join(clean.split())
 
-def extract_clean_summary(raw_html, max_sentences=3, max_chars=480):
+def extract_clean_summary(raw_html, max_sentences=4, max_chars=650):
     """Extract complete, grammatically sound sentences without chopping mid-word with an ellipsis."""
     clean = clean_html(raw_html)
     if not clean:
@@ -142,7 +142,7 @@ def extract_clean_summary(raw_html, max_sentences=3, max_chars=480):
     if not result:
         # Fallback to word-boundary cutoff
         words = clean.split()
-        truncated = ' '.join(words[:50])
+        truncated = ' '.join(words[:65])
         result = truncated + ('.' if truncated.endswith('.') else '...')
     return result
 
@@ -366,11 +366,19 @@ def main():
     print(f"[{datetime.now().isoformat()}] Starting TechPulse Daily 6:00 AM in-depth news fetcher...")
     
     fresh_stories = []
-    # Dedicated AI and Tech feeds with keyword filtering
+    
+    # 1. Open Tech & Systems Journalism (Zero Paywalls)
+    fresh_stories.extend(fetch_rss_feed("https://www.theregister.com/headlines.atom", "The Register", limit=6))
+    fresh_stories.extend(fetch_rss_feed("https://siliconangle.com/feed/", "SiliconANGLE", limit=6))
+    fresh_stories.extend(fetch_rss_feed("https://spectrum.ieee.org/rss/computing/fulltext", "IEEE Spectrum", limit=5))
+    fresh_stories.extend(fetch_rss_feed("https://huggingface.co/blog/feed.xml", "Hugging Face Research", limit=4))
+    
+    # 2. Mainstream Tech & Emerging AI (Selective)
+    fresh_stories.extend(fetch_rss_feed("https://feeds.arstechnica.com/arstechnica/technology-lab", "Ars Technica", limit=6))
     fresh_stories.extend(fetch_rss_feed("https://techcrunch.com/category/artificial-intelligence/feed/", "TechCrunch AI", limit=6))
     fresh_stories.extend(fetch_rss_feed("https://www.theverge.com/rss/index.xml", "The Verge", limit=6))
-    fresh_stories.extend(fetch_rss_feed("https://feeds.arstechnica.com/arstechnica/technology-lab", "Ars Technica", limit=6))
-    fresh_stories.extend(fetch_rss_feed("https://www.wired.com/feed/tag/ai/latest/rss", "Wired AI", limit=6))
+    
+    # 3. Community Developer & Breakthrough Feeds
     fresh_stories.extend(fetch_hn_stories(limit=16))
 
     existing_stories = []

@@ -779,9 +779,14 @@
           <button class="btn btn-primary" id="saveFavFromReaderBtn">
             <span>⭐️ Save to Favorites</span>
           </button>
-          <a href="${article.url}" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="background: var(--accent-indigo);">
-            <span>Read Full Article on ${article.source} ↗</span>
-          </a>
+          <div class="reader-btn-group">
+            <a href="https://12ft.io/${article.url}" target="_blank" rel="noopener noreferrer" class="btn btn-clean-reader" title="Read distraction-free without paywalls or login popups">
+              <span>🔓 Clean Reader</span>
+            </a>
+            <a href="${article.url}" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="background: var(--accent-indigo);">
+              <span>Original Source ↗</span>
+            </a>
+          </div>
         </div>
       `;
 
