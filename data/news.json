@@ -1,5 +1,438 @@
 [
   {
+    "id": "rss-576372",
+    "title": "Apple is hiring engineers to build its own AI agent",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "diagramHint": "system",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic AI assistant.",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
+      }
+    ]
+  },
+  {
+    "id": "rss-3317185",
+    "title": "A brief history of Nvidia’s recent stock fluctuations",
+    "category": "Tech Leadership & Governance",
+    "categoryColor": "#f59e0b",
+    "badge": "🏛 Governance",
+    "diagramHint": "governance",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wiping out a brief post-earnings",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Corporate Focus",
+        "value": "Executive Governance"
+      },
+      {
+        "label": "Market Impact",
+        "value": "Capital & Strategic Realignment"
+      }
+    ],
+    "technicalDeepDive": "Corporate governance and strategic reporting from The Verge highlights executive stewardship, operational continuity, and shareholder confidence. Analysts and institutional stakeholders are scrutinizing executive succession plans, capital reallocations, and margin resilience as leadership navigates this organizational juncture.",
+    "industryImpact": "Signals critical shifts in corporate direction, market valuation stability, and strategic partnerships across major industry vendors and enterprise clients.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings"
+      }
+    ]
+  },
+  {
+    "id": "rss-8829883",
+    "title": "Meta now sells 3D movies on Quest VR headsets",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "system",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Meta now offers more than 150 3D movies that you can buy or rent to watch in VR on its Quest 3 and 3S headsets, the company announced today. The movies are available in Meta's TV app and include titles like Avatar, Spider-Man: Far From Home, Jurassic World Rebirth, Wicked: For Good, and a Billie",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app"
+      }
+    ]
+  },
+  {
+    "id": "rss-7343846",
+    "title": "Meta’s Muse Charm might cost $300",
+    "category": "Tech Leadership & Governance",
+    "categoryColor": "#f59e0b",
+    "badge": "🏛 Governance",
+    "diagramHint": "governance",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\" but",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Corporate Focus",
+        "value": "Executive Governance"
+      },
+      {
+        "label": "Market Impact",
+        "value": "Capital & Strategic Realignment"
+      }
+    ],
+    "technicalDeepDive": "Corporate governance and strategic reporting from The Verge highlights executive stewardship, operational continuity, and shareholder confidence. Analysts and institutional stakeholders are scrutinizing executive succession plans, capital reallocations, and margin resilience as leadership navigates this organizational juncture.",
+    "industryImpact": "Signals critical shifts in corporate direction, market valuation stability, and strategic partnerships across major industry vendors and enterprise clients.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price"
+      }
+    ]
+  },
+  {
+    "id": "rss-3804572",
+    "title": "Google is putting AI chats right on the homepage",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "system",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar by clicking the",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats"
+      }
+    ]
+  },
+  {
+    "id": "hn-50562113",
+    "title": "UK government forced to admit it issued Apple a secret encryption order",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "security",
+    "source": "Hacker News",
+    "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "The Investigatory Powers Tribunal has rejected the UK government’s attempt to keep its order secret, marking a significant victory for transparency.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "615+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "276+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by Hacker News. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
+    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50562113"
+      }
+    ]
+  },
+  {
+    "id": "hn-50563148",
+    "title": "Claude solves two open problems in the physics of black holes",
+    "category": "Reasoning & LLMs",
+    "categoryColor": "#3b82f6",
+    "badge": "🔥 Breakthrough",
+    "diagramHint": "reasoning",
+    "source": "Hacker News",
+    "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Claude Fable 5.2 has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "470+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "220+ comments"
+      },
+      {
+        "label": "Model Focus",
+        "value": "Frontier Reasoning"
+      },
+      {
+        "label": "Ecosystem",
+        "value": "Open / API"
+      }
+    ],
+    "technicalDeepDive": "Architectural analysis focuses on model parameter efficiency, inference throughput, and reasoning benchmarks highlighted in Hacker News's briefing. Technical teams are assessing training stability, compute scalability, and downstream integration trade-offs against frontier baselines.",
+    "industryImpact": "Expands practical capabilities for AI researchers and developers seeking state-of-the-art inference efficiency and accelerated deployment pipelines.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://www.anthropic.com/research/claude-black-hole-physics"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50563148"
+      }
+    ]
+  },
+  {
+    "id": "hn-50559719",
+    "title": "Making 8-page foldable zines from a single A4 sheet in the browser",
+    "category": "Open Source & Web",
+    "categoryColor": "#ec4899",
+    "badge": "🌐 Open Tech",
+    "diagramHint": "system",
+    "source": "Hacker News",
+    "url": "https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "A small update on fanzines.app: designing in real spreads, batch photo drops, printer-safe margins, and support for English and Spanish.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "287+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "61+ comments"
+      },
+      {
+        "label": "Execution",
+        "value": "Zero-Egress Client"
+      },
+      {
+        "label": "License",
+        "value": "Permissive / Apache 2.0"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50559719"
+      }
+    ]
+  },
+  {
+    "id": "hn-50570479",
+    "title": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "diagramHint": "system",
+    "source": "Hacker News",
+    "url": "https://grapheneos.social/@GrapheneOS/117645038299496084",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending #1 on Hacker News with 274 points and 63 in-depth community comments exploring implementation edge cases and developer adoption.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "274+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "63+ comments"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://grapheneos.social/@GrapheneOS/117645038299496084"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50570479"
+      }
+    ]
+  },
+  {
+    "id": "hn-50562320",
+    "title": "Launch HN: Onlook (YC W25) – An open-source developer tool for designers",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "diagramHint": "security",
+    "source": "Hacker News",
+    "url": "https://github.com/onlook-dev/onlook/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "The Developer Tool for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code. - onlook-dev/onlook",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "113+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "76+ comments"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by Hacker News. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
+    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://github.com/onlook-dev/onlook/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50562320"
+      }
+    ]
+  },
+  {
+    "id": "hn-50564366",
+    "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "diagramHint": "system",
+    "source": "Hacker News",
+    "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending #1 on Hacker News with 101 points and 200 in-depth community comments exploring implementation edge cases and developer adoption.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "101+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "200+ comments"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://www.youtube.com/watch?v=lwfewYL7X0o"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50564366"
+      }
+    ]
+  },
+  {
     "id": "rss-3581009",
     "title": "The nation’s largest school districts consider ditching Google Search",
     "category": "Reasoning & LLMs",
