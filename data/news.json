@@ -1,5 +1,430 @@
 [
   {
+    "id": "rss-4888653",
+    "title": "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "security",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "YouTube is preparing to pay $3 billion to thousands of school districts to settle claims that its \"addictive design\" harmed kids, according to Bloomberg. Sources tell the publication that YouTube reached the agreement \"in principle,\" and that the deal would also include new safeguards for teens. The settlement would allow Google to avoid a wave",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by The Verge. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
+    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement"
+      }
+    ]
+  },
+  {
+    "id": "rss-2988987",
+    "title": "Eufy’s Omni C28 is 53 percent off ahead of Black Friday",
+    "category": "Robotics & Physical AI",
+    "categoryColor": "#06b6d4",
+    "badge": "🤖 Physical AI",
+    "diagramHint": "security",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/gadgets/1037933/eufy-omni-c28-robot-vacuum-deal-sale",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Hosting Thanksgiving can be fun, but cleaning up afterwards? Not so much. Eufy’s Omni C28 robot vacuum / mop hybrid can help, and thanks to an early Black Friday deal, you can pick it up at a new low price of $379.99 ($420 off its original price) at Amazon, Best Buy, or directly from Eufy",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Control",
+        "value": "VLA Foundation Policy"
+      },
+      {
+        "label": "Autonomy",
+        "value": "Multi-Hour Shifts"
+      }
+    ],
+    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by The Verge. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
+    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/gadgets/1037933/eufy-omni-c28-robot-vacuum-deal-sale"
+      }
+    ]
+  },
+  {
+    "id": "rss-5726567",
+    "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "system",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our country,\" Trump said at a",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
+      }
+    ]
+  },
+  {
+    "id": "rss-1653186",
+    "title": "Multiplying your Switch 2’s storage costs less than usual right now",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "reasoning",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/gadgets/1037749/microsd-express-card-nintendo-switch-2-black-friday-2026-deal-sale",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Expanding your Nintendo Switch 2’s 256GB of built-in storage with a microSD card is pricier than it was with Nintendo’s original console. That’s because microSD Express cards, while physically identical to ones you might have lying around, have faster read and write speeds. Thankfully, Samsung’s 256GB model has dropped to $44.99 at Amazon ahead of",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Architectural analysis focuses on model parameter efficiency, inference throughput, and reasoning benchmarks highlighted in The Verge's briefing. Technical teams are assessing training stability, compute scalability, and downstream integration trade-offs against frontier baselines.",
+    "industryImpact": "Expands practical capabilities for AI researchers and developers seeking state-of-the-art inference efficiency and accelerated deployment pipelines.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/gadgets/1037749/microsd-express-card-nintendo-switch-2-black-friday-2026-deal-sale"
+      }
+    ]
+  },
+  {
+    "id": "rss-377864",
+    "title": "Google says it’s going to shut off Google Assistant on smart speakers next year",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "system",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Google is announcing some significant changes to its smart home software. Starting next year, the company will shut down the Nest app in favor of the Google Home app and retire Google Assistant on its smart home devices. The Nest app shutdown takes place on January 25th, 2027, meaning you'll have to manage your Nest",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down"
+      }
+    ]
+  },
+  {
+    "id": "rss-2419008",
+    "title": "Here are the Apple deals actually worth picking up ahead of Black Friday",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "system",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/gadgets/1035460/best-early-black-friday-apple-deals-2026",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "A new pair of AirPods or the latest Apple Watch can make a great holiday gift, but they can also take a pretty big dent out of your budget. That’s especially true this year, as rising hardware prices have made MacBooks and other Apple devices even more expensive. Fortunately, Black Friday offers a chance to",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/gadgets/1035460/best-early-black-friday-apple-deals-2026"
+      }
+    ]
+  },
+  {
+    "id": "hn-50526023",
+    "title": "Show HN: I made an audio-to-MIDI model 60x more efficient",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "security",
+    "source": "Hacker News",
+    "url": "https://kobi.music/research/dettato",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "a SOTA audio to midi model that significantly beats MuScriptor 1.3B and scores a bit higher than Mirelo's closed source model, at 20m parameters, trained on no copyrighted recordings.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "272+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "57+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by Hacker News. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
+    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://kobi.music/research/dettato"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50526023"
+      }
+    ]
+  },
+  {
+    "id": "hn-50574383",
+    "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+    "category": "Reasoning & LLMs",
+    "categoryColor": "#3b82f6",
+    "badge": "🔥 Breakthrough",
+    "diagramHint": "system",
+    "source": "Hacker News",
+    "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "The Nasdaq lost trillions in value, with the AI startup’s IPO failing to buoy it as investors question huge sums being poured into AI buildout",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "258+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "525+ comments"
+      },
+      {
+        "label": "Model Focus",
+        "value": "Frontier Reasoning"
+      },
+      {
+        "label": "Ecosystem",
+        "value": "Open / API"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50574383"
+      }
+    ]
+  },
+  {
+    "id": "hn-50579297",
+    "title": "Vibecoding an inference chip",
+    "category": "AI Hardware & Chips",
+    "categoryColor": "#10b981",
+    "badge": "⚡️ Hardware",
+    "diagramHint": "hardware",
+    "source": "Hacker News",
+    "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending #1 on Hacker News with 139 points and 55 in-depth community comments exploring implementation edge cases and developer adoption.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "139+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "55+ comments"
+      },
+      {
+        "label": "Fabrication",
+        "value": "Advanced Node"
+      },
+      {
+        "label": "Efficiency",
+        "value": "High FLOPS/Watt"
+      }
+    ],
+    "technicalDeepDive": "Hardware engineering breakdown examines advanced fabrication nodes, memory bandwidth constraints (HBM3e/CXL), thermal design power (TDP), and interconnect scale-out fabrics detailed in Hacker News's report.",
+    "industryImpact": "Impacts hyperscale datacenter procurement cycles, silicon supply chains, and compute cluster efficiency across frontier AI labs.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://ankitg.me/blog/vibecoding-inference-chip/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50579297"
+      }
+    ]
+  },
+  {
+    "id": "hn-50581403",
+    "title": "Show HN: OpenComputer – an open source alternative to Devin",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "diagramHint": "security",
+    "source": "Hacker News",
+    "url": "https://github.com/diggerhq/opencomputer",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "An open-source, faster Devin alternative. Contribute to diggerhq/opencomputer development by creating an account on GitHub.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "103+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "27+ comments"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by Hacker News. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
+    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://github.com/diggerhq/opencomputer"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50581403"
+      }
+    ]
+  },
+  {
+    "id": "hn-50586292",
+    "title": "ClawDOS – An AI coding agent for DOS",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "diagramHint": "system",
+    "source": "Hacker News",
+    "url": "http://ricapar.net/ClawDOS/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "An AI chat and coding harness for DOS, on a real IBM PC 5160 (8088 at 4.77 MHz)",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "25+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "3+ comments"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "http://ricapar.net/ClawDOS/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50586292"
+      }
+    ]
+  },
+  {
     "id": "rss-576372",
     "title": "Apple is hiring engineers to build its own AI agent",
     "category": "Dev Tools & Agents",
@@ -534,385 +959,6 @@
       {
         "label": "Read on The Verge",
         "url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang"
-      }
-    ]
-  },
-  {
-    "id": "rss-4509568",
-    "title": "Tech lawsuits defined 2026 — and lawmakers want more",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "diagramHint": "governance",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "With just a few weeks remaining, lawmakers are trying to pass new protections for victims of online harm before the end of 2026, targeting deepfake creators and online platforms that block users from filing lawsuits. On Tuesday, members of a Senate Judiciary subcommittee hosted a hearing calling for the end of forced arbitration for online",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Corporate governance and strategic reporting from The Verge highlights executive stewardship, operational continuity, and shareholder confidence. Analysts and institutional stakeholders are scrutinizing executive succession plans, capital reallocations, and margin resilience as leadership navigates this organizational juncture.",
-    "industryImpact": "Signals critical shifts in corporate direction, market valuation stability, and strategic partnerships across major industry vendors and enterprise clients.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act"
-      }
-    ]
-  },
-  {
-    "id": "hn-50547374",
-    "title": "Unauthenticated remote code execution in Nginx",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "diagramHint": "system",
-    "source": "Hacker News",
-    "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Two critical HTTP/2 flaws can allow attackers to compromise NGINX servers, putting the websites, APIs, and sensitive data they handle at risk.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "1403+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "603+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50547374"
-      }
-    ]
-  },
-  {
-    "id": "hn-50553225",
-    "title": "LLM assisted reverse engineering",
-    "category": "Reasoning & LLMs",
-    "categoryColor": "#3b82f6",
-    "badge": "🔥 Breakthrough",
-    "diagramHint": "system",
-    "source": "Hacker News",
-    "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "I have been hacking both hardware and software for 2 decades. Previously manually. But in 2026 with the help of AIs the proccess is greatly sped up.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "224+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "56+ comments"
-      },
-      {
-        "label": "Model Focus",
-        "value": "Frontier Reasoning"
-      },
-      {
-        "label": "Ecosystem",
-        "value": "Open / API"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50553225"
-      }
-    ]
-  },
-  {
-    "id": "hn-50547980",
-    "title": "Show HN: ExitPath – Open-source ways out of Slack, Notion and Microsoft 365",
-    "category": "Open Source & Web",
-    "categoryColor": "#ec4899",
-    "badge": "🌐 Open Tech",
-    "diagramHint": "security",
-    "source": "Hacker News",
-    "url": "https://exitpath-ruddy.vercel.app/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Find, compare and switch to open-source alternatives for the tools you depend on. Honest ratings, migration difficulty scores and step-by-step checklists. Nothing you do here leaves your browser.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "222+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "73+ comments"
-      },
-      {
-        "label": "Execution",
-        "value": "Zero-Egress Client"
-      },
-      {
-        "label": "License",
-        "value": "Permissive / Apache 2.0"
-      }
-    ],
-    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by Hacker News. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
-    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://exitpath-ruddy.vercel.app/"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50547980"
-      }
-    ]
-  },
-  {
-    "id": "hn-50548161",
-    "title": "Show HN: Take Voyager 1 apart, down to a single memory chip",
-    "category": "AI Hardware & Chips",
-    "categoryColor": "#10b981",
-    "badge": "⚡️ Hardware",
-    "diagramHint": "hardware",
-    "source": "Hacker News",
-    "url": "https://rshekhar.com/voyager/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Two spacecraft launched in 1977, still talking to Earth from interstellar space. This is where they are right now.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "208+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "50+ comments"
-      },
-      {
-        "label": "Fabrication",
-        "value": "Advanced Node"
-      },
-      {
-        "label": "Efficiency",
-        "value": "High FLOPS/Watt"
-      }
-    ],
-    "technicalDeepDive": "Hardware engineering breakdown examines advanced fabrication nodes, memory bandwidth constraints (HBM3e/CXL), thermal design power (TDP), and interconnect scale-out fabrics detailed in Hacker News's report.",
-    "industryImpact": "Impacts hyperscale datacenter procurement cycles, silicon supply chains, and compute cluster efficiency across frontier AI labs.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://rshekhar.com/voyager/"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50548161"
-      }
-    ]
-  },
-  {
-    "id": "hn-50547583",
-    "title": "F-22 Next-Generation micro–Data Transfer Cartridge (mDTC)",
-    "category": "Dev Tools & Agents",
-    "categoryColor": "#22c55e",
-    "badge": "💻 Dev Tools",
-    "diagramHint": "system",
-    "source": "Hacker News",
-    "url": "https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending #1 on Hacker News with 183 points and 118 in-depth community comments exploring implementation edge cases and developer adoption.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "183+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "118+ comments"
-      },
-      {
-        "label": "Verification",
-        "value": "Autonomous Test Passes"
-      },
-      {
-        "label": "Dev Efficiency",
-        "value": "50%+ Automation"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50547583"
-      }
-    ]
-  },
-  {
-    "id": "hn-50523377",
-    "title": "Show HN: Open-source, real-time object tracking for live video feeds",
-    "category": "AI Hardware & Chips",
-    "categoryColor": "#10b981",
-    "badge": "⚡️ Hardware",
-    "diagramHint": "security",
-    "source": "Hacker News",
-    "url": "https://github.com/aryamandarda/tamserve",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Live, multi-camera object tracking with SAM3, SAM 2 and EdgeTAM, on one GPU or many. One model per GPU serves every camera: faster than the original code, about 4x less GPU memory, identical masks. - aryamandarda/tamserve",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "105+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "9+ comments"
-      },
-      {
-        "label": "Fabrication",
-        "value": "Advanced Node"
-      },
-      {
-        "label": "Efficiency",
-        "value": "High FLOPS/Watt"
-      }
-    ],
-    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by Hacker News. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
-    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://github.com/aryamandarda/tamserve"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50523377"
-      }
-    ]
-  },
-  {
-    "id": "hn-50548660",
-    "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
-    "category": "Dev Tools & Agents",
-    "categoryColor": "#22c55e",
-    "badge": "💻 Dev Tools",
-    "diagramHint": "security",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=50548660",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending #1 on Hacker News with 103 points and 33 in-depth community comments exploring implementation edge cases and developer adoption.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "103+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "33+ comments"
-      },
-      {
-        "label": "Verification",
-        "value": "Autonomous Test Passes"
-      },
-      {
-        "label": "Dev Efficiency",
-        "value": "50%+ Automation"
-      }
-    ],
-    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by Hacker News. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
-    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://news.ycombinator.com/item?id=50548660"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50548660"
-      }
-    ]
-  },
-  {
-    "id": "hn-50519778",
-    "title": "Logitech Harmony IR code online database archive",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "diagramHint": "system",
-    "source": "Hacker News",
-    "url": "https://github.com/pickysysadmin/logitech-harmony-ir-archive",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "An archive of every IR code and protocol format used by Logitech Harmony Remotes/Hubs - pickysysadmin/logitech-harmony-ir-archive",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "32+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "3+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://github.com/pickysysadmin/logitech-harmony-ir-archive"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50519778"
       }
     ]
   }
