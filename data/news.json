@@ -1,5 +1,403 @@
 [
   {
+    "id": "rss-665783",
+    "title": "We haven’t seen the last of the major tech outages",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "hardware",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: \"The American people should be",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Hardware engineering breakdown examines advanced fabrication nodes, memory bandwidth constraints (HBM3e/CXL), thermal design power (TDP), and interconnect scale-out fabrics detailed in The Verge's report.",
+    "industryImpact": "Impacts hyperscale datacenter procurement cycles, silicon supply chains, and compute cluster efficiency across frontier AI labs.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1039851/major-tech-outages"
+      }
+    ]
+  },
+  {
+    "id": "rss-2200963",
+    "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "diagramHint": "system",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music"
+      }
+    ]
+  },
+  {
+    "id": "rss-4614095",
+    "title": "Protesters storm Meta offices in India",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "system",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Members of the opposition Congress party protested outside Meta's offices in Delhi on Friday and appear to have entered the building in a video shared by CNN. Members of the party's youth wing are demanding the company restore accounts of party leaders and warned of more protests to come. The Congress party has criticized Meta",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india"
+      }
+    ]
+  },
+  {
+    "id": "rss-280735",
+    "title": "Nintendo’s Switch 2 console is $50 off for Black Friday",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "system",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/gadgets/1038181/nintendo-switch-2-black-friday-deal-mario-kart-world-bundle-2026-sale",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Those hoping to save some cash on a Nintendo Switch 2 can do so starting today, November 22nd, through Saturday, December 5th, giving you plenty of time to think about it after Cyber Monday has passed. For a limited time, Nintendo has knocked $50 off one of its two current console bundles, temporarily rolling back",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/gadgets/1038181/nintendo-switch-2-black-friday-deal-mario-kart-world-bundle-2026-sale"
+      }
+    ]
+  },
+  {
+    "id": "hn-50603845",
+    "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "reasoning",
+    "source": "Hacker News",
+    "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "We have AI at home! Set up your own free personal ChatGPT on your PC with Unsloth and Inkling or Qwen. It's private, and the whole house can use it.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "451+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "182+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Architectural analysis focuses on model parameter efficiency, inference throughput, and reasoning benchmarks highlighted in Hacker News's briefing. Technical teams are assessing training stability, compute scalability, and downstream integration trade-offs against frontier baselines.",
+    "industryImpact": "Expands practical capabilities for AI researchers and developers seeking state-of-the-art inference efficiency and accelerated deployment pipelines.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50603845"
+      }
+    ]
+  },
+  {
+    "id": "hn-50599762",
+    "title": "Show HN: I built a game where you are an LLM's subagent",
+    "category": "Reasoning & LLMs",
+    "categoryColor": "#3b82f6",
+    "badge": "🔥 Breakthrough",
+    "diagramHint": "system",
+    "source": "Hacker News",
+    "url": "https://github.com/gulivan/worker755",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "A browser game where an AI manager thinks you are its subagent. Play at worker755.com - gulivan/worker755",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "309+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "74+ comments"
+      },
+      {
+        "label": "Model Focus",
+        "value": "Frontier Reasoning"
+      },
+      {
+        "label": "Ecosystem",
+        "value": "Open / API"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://github.com/gulivan/worker755"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50599762"
+      }
+    ]
+  },
+  {
+    "id": "hn-50600511",
+    "title": "Open Social Web Alliance",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "diagramHint": "system",
+    "source": "Hacker News",
+    "url": "https://osw-alliance.net/en/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending #1 on Hacker News with 237 points and 225 in-depth community comments exploring implementation edge cases and developer adoption.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "237+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "225+ comments"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://osw-alliance.net/en/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50600511"
+      }
+    ]
+  },
+  {
+    "id": "hn-50604988",
+    "title": "GL.iNet Security Notice 2026-11-20",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "diagramHint": "security",
+    "source": "Hacker News",
+    "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending #1 on Hacker News with 174 points and 86 in-depth community comments exploring implementation edge cases and developer adoption.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "174+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "86+ comments"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by Hacker News. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
+    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50604988"
+      }
+    ]
+  },
+  {
+    "id": "hn-50604540",
+    "title": "Localcode, open source agentic coding on your Mac with one command",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "diagramHint": "security",
+    "source": "Hacker News",
+    "url": "https://github.com/mjwsolo/localcode",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Agentic coding. Local models. On your Mac.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "55+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "13+ comments"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by Hacker News. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
+    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://github.com/mjwsolo/localcode"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50604540"
+      }
+    ]
+  },
+  {
+    "id": "hn-50605445",
+    "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "reasoning",
+    "source": "Hacker News",
+    "url": "https://0rwx.com/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "A simple model of AI usage, inspired by unix permissions.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "44+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "10+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Architectural analysis focuses on model parameter efficiency, inference throughput, and reasoning benchmarks highlighted in Hacker News's briefing. Technical teams are assessing training stability, compute scalability, and downstream integration trade-offs against frontier baselines.",
+    "industryImpact": "Expands practical capabilities for AI researchers and developers seeking state-of-the-art inference efficiency and accelerated deployment pipelines.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://0rwx.com/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50605445"
+      }
+    ]
+  },
+  {
     "id": "rss-5330746",
     "title": "The UN fails to agree on rules regulating ‘killer robots’",
     "category": "Robotics & Physical AI",
@@ -585,396 +983,6 @@
       {
         "label": "Read on The Verge",
         "url": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down"
-      }
-    ]
-  },
-  {
-    "id": "rss-2419008",
-    "title": "Here are the Apple deals actually worth picking up ahead of Black Friday",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "diagramHint": "system",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/gadgets/1035460/best-early-black-friday-apple-deals-2026",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "A new pair of AirPods or the latest Apple Watch can make a great holiday gift, but they can also take a pretty big dent out of your budget. That’s especially true this year, as rising hardware prices have made MacBooks and other Apple devices even more expensive. Fortunately, Black Friday offers a chance to",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/gadgets/1035460/best-early-black-friday-apple-deals-2026"
-      }
-    ]
-  },
-  {
-    "id": "hn-50526023",
-    "title": "Show HN: I made an audio-to-MIDI model 60x more efficient",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "diagramHint": "security",
-    "source": "Hacker News",
-    "url": "https://kobi.music/research/dettato",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "a SOTA audio to midi model that significantly beats MuScriptor 1.3B and scores a bit higher than Mirelo's closed source model, at 20m parameters, trained on no copyrighted recordings.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "272+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "57+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by Hacker News. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
-    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://kobi.music/research/dettato"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50526023"
-      }
-    ]
-  },
-  {
-    "id": "hn-50574383",
-    "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
-    "category": "Reasoning & LLMs",
-    "categoryColor": "#3b82f6",
-    "badge": "🔥 Breakthrough",
-    "diagramHint": "system",
-    "source": "Hacker News",
-    "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "The Nasdaq lost trillions in value, with the AI startup’s IPO failing to buoy it as investors question huge sums being poured into AI buildout",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "258+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "525+ comments"
-      },
-      {
-        "label": "Model Focus",
-        "value": "Frontier Reasoning"
-      },
-      {
-        "label": "Ecosystem",
-        "value": "Open / API"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50574383"
-      }
-    ]
-  },
-  {
-    "id": "hn-50579297",
-    "title": "Vibecoding an inference chip",
-    "category": "AI Hardware & Chips",
-    "categoryColor": "#10b981",
-    "badge": "⚡️ Hardware",
-    "diagramHint": "hardware",
-    "source": "Hacker News",
-    "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending #1 on Hacker News with 139 points and 55 in-depth community comments exploring implementation edge cases and developer adoption.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "139+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "55+ comments"
-      },
-      {
-        "label": "Fabrication",
-        "value": "Advanced Node"
-      },
-      {
-        "label": "Efficiency",
-        "value": "High FLOPS/Watt"
-      }
-    ],
-    "technicalDeepDive": "Hardware engineering breakdown examines advanced fabrication nodes, memory bandwidth constraints (HBM3e/CXL), thermal design power (TDP), and interconnect scale-out fabrics detailed in Hacker News's report.",
-    "industryImpact": "Impacts hyperscale datacenter procurement cycles, silicon supply chains, and compute cluster efficiency across frontier AI labs.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://ankitg.me/blog/vibecoding-inference-chip/"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50579297"
-      }
-    ]
-  },
-  {
-    "id": "hn-50581403",
-    "title": "Show HN: OpenComputer – an open source alternative to Devin",
-    "category": "Dev Tools & Agents",
-    "categoryColor": "#22c55e",
-    "badge": "💻 Dev Tools",
-    "diagramHint": "security",
-    "source": "Hacker News",
-    "url": "https://github.com/diggerhq/opencomputer",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "An open-source, faster Devin alternative. Contribute to diggerhq/opencomputer development by creating an account on GitHub.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "103+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "27+ comments"
-      },
-      {
-        "label": "Verification",
-        "value": "Autonomous Test Passes"
-      },
-      {
-        "label": "Dev Efficiency",
-        "value": "50%+ Automation"
-      }
-    ],
-    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by Hacker News. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
-    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://github.com/diggerhq/opencomputer"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50581403"
-      }
-    ]
-  },
-  {
-    "id": "hn-50586292",
-    "title": "ClawDOS – An AI coding agent for DOS",
-    "category": "Dev Tools & Agents",
-    "categoryColor": "#22c55e",
-    "badge": "💻 Dev Tools",
-    "diagramHint": "system",
-    "source": "Hacker News",
-    "url": "http://ricapar.net/ClawDOS/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "An AI chat and coding harness for DOS, on a real IBM PC 5160 (8088 at 4.77 MHz)",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "25+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "3+ comments"
-      },
-      {
-        "label": "Verification",
-        "value": "Autonomous Test Passes"
-      },
-      {
-        "label": "Dev Efficiency",
-        "value": "50%+ Automation"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "http://ricapar.net/ClawDOS/"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50586292"
-      }
-    ]
-  },
-  {
-    "id": "rss-576372",
-    "title": "Apple is hiring engineers to build its own AI agent",
-    "category": "Dev Tools & Agents",
-    "categoryColor": "#22c55e",
-    "badge": "💻 Dev Tools",
-    "diagramHint": "system",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic AI assistant.",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Verification",
-        "value": "Autonomous Test Passes"
-      },
-      {
-        "label": "Dev Efficiency",
-        "value": "50%+ Automation"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
-      }
-    ]
-  },
-  {
-    "id": "rss-3317185",
-    "title": "A brief history of Nvidia’s recent stock fluctuations",
-    "category": "Tech Leadership & Governance",
-    "categoryColor": "#f59e0b",
-    "badge": "🏛 Governance",
-    "diagramHint": "governance",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wiping out a brief post-earnings",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Corporate Focus",
-        "value": "Executive Governance"
-      },
-      {
-        "label": "Market Impact",
-        "value": "Capital & Strategic Realignment"
-      }
-    ],
-    "technicalDeepDive": "Corporate governance and strategic reporting from The Verge highlights executive stewardship, operational continuity, and shareholder confidence. Analysts and institutional stakeholders are scrutinizing executive succession plans, capital reallocations, and margin resilience as leadership navigates this organizational juncture.",
-    "industryImpact": "Signals critical shifts in corporate direction, market valuation stability, and strategic partnerships across major industry vendors and enterprise clients.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings"
-      }
-    ]
-  },
-  {
-    "id": "rss-8829883",
-    "title": "Meta now sells 3D movies on Quest VR headsets",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "diagramHint": "system",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Meta now offers more than 150 3D movies that you can buy or rent to watch in VR on its Quest 3 and 3S headsets, the company announced today. The movies are available in Meta's TV app and include titles like Avatar, Spider-Man: Far From Home, Jurassic World Rebirth, Wicked: For Good, and a Billie",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app"
-      }
-    ]
-  },
-  {
-    "id": "rss-7343846",
-    "title": "Meta’s Muse Charm might cost $300",
-    "category": "Tech Leadership & Governance",
-    "categoryColor": "#f59e0b",
-    "badge": "🏛 Governance",
-    "diagramHint": "governance",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\" but",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Corporate Focus",
-        "value": "Executive Governance"
-      },
-      {
-        "label": "Market Impact",
-        "value": "Capital & Strategic Realignment"
-      }
-    ],
-    "technicalDeepDive": "Corporate governance and strategic reporting from The Verge highlights executive stewardship, operational continuity, and shareholder confidence. Analysts and institutional stakeholders are scrutinizing executive succession plans, capital reallocations, and margin resilience as leadership navigates this organizational juncture.",
-    "industryImpact": "Signals critical shifts in corporate direction, market valuation stability, and strategic partnerships across major industry vendors and enterprise clients.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price"
       }
     ]
   }
