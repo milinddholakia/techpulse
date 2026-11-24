@@ -1,5 +1,301 @@
 [
   {
+    "id": "rss-5166196",
+    "title": "Google alternative Kagi launches an email service",
+    "category": "Open Source & Web",
+    "categoryColor": "#ec4899",
+    "badge": "🌐 Open Tech",
+    "diagramHint": "system",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Kagi, which already offers a paid alternative to Google Search and its own Orion browser as a rival to Chrome, is taking on another Google service: Gmail. Today, Kagi announced a public beta of Kagi Mail, a new email service that has \"no surveillance, no ads, open standards, and no lock-in.\" With Kagi Mail, you",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Execution",
+        "value": "Zero-Egress Client"
+      },
+      {
+        "label": "License",
+        "value": "Permissive / Apache 2.0"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative"
+      }
+    ]
+  },
+  {
+    "id": "rss-5137618",
+    "title": "The hacker behind early GTA VI leaks has been sentenced — and released",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "diagramHint": "system",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Arion Kurtaj, who pleaded guilty last week to hacking Grand Theft Auto VI developer Rockstar Games and other companies, including Uber and Revolut, was sentenced to seven years in prison but released on license, the BBC reports. After hacking Rockstar, Kurtaj leaked 90 videos of GTA VI in 2022, years before the game's public release",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released"
+      }
+    ]
+  },
+  {
+    "id": "rss-9605107",
+    "title": "Ladybird, the first new browser engine in years, is now available to test",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "diagramHint": "system",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Ladybird, an independent web browser with a built-from-scratch engine, is finally available for testing. On Monday, Ladybird developer Andreas Kling announced that the browser is launching in alpha on macOS and Linux following more than four years of development. The release makes Ladybird the first browser in years to arrive with an entirely new engine.",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing"
+      }
+    ]
+  },
+  {
+    "id": "rss-6748401",
+    "title": "Trump engineered a risky comeback for Jensen Huang",
+    "category": "Tech Leadership & Governance",
+    "categoryColor": "#f59e0b",
+    "badge": "🏛 Governance",
+    "diagramHint": "governance",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Donald Trump, too, appeared to submit to the new reality. Appearing on Stephen A. Smith's radio show shortly after the news came out, Trump said that Huang would \"end up on his feet.\"",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Corporate Focus",
+        "value": "Executive Governance"
+      },
+      {
+        "label": "Market Impact",
+        "value": "Capital & Strategic Realignment"
+      }
+    ],
+    "technicalDeepDive": "Corporate governance and strategic reporting from The Verge highlights executive stewardship, operational continuity, and shareholder confidence. Analysts and institutional stakeholders are scrutinizing executive succession plans, capital reallocations, and margin resilience as leadership navigates this organizational juncture.",
+    "industryImpact": "Signals critical shifts in corporate direction, market valuation stability, and strategic partnerships across major industry vendors and enterprise clients.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated"
+      }
+    ]
+  },
+  {
+    "id": "rss-1661677",
+    "title": "Nvidia CEO Jensen Huang is back. What happens next?",
+    "category": "Tech Leadership & Governance",
+    "categoryColor": "#f59e0b",
+    "badge": "🏛 Governance",
+    "diagramHint": "governance",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Times reported there was evidence of another affair, this time with an Nvidia executive who reported directly to him, a board meeting that night ended",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Corporate Focus",
+        "value": "Executive Governance"
+      },
+      {
+        "label": "Market Impact",
+        "value": "Capital & Strategic Realignment"
+      }
+    ],
+    "technicalDeepDive": "Corporate governance and strategic reporting from The Verge highlights executive stewardship, operational continuity, and shareholder confidence. Analysts and institutional stakeholders are scrutinizing executive succession plans, capital reallocations, and margin resilience as leadership navigates this organizational juncture.",
+    "industryImpact": "Signals critical shifts in corporate direction, market valuation stability, and strategic partnerships across major industry vendors and enterprise clients.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang"
+      }
+    ]
+  },
+  {
+    "id": "rss-1155067",
+    "title": "Welcome to elite impunity, Jensen Huang",
+    "category": "Tech Leadership & Governance",
+    "categoryColor": "#f59e0b",
+    "badge": "🏛 Governance",
+    "diagramHint": "governance",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "I suppose I must issue a hearty congratulations to Jensen Huang. Huang is CEO of Nvidia again, to the surprise of basically everyone except President Donald Trump and Vice President JD Vance, who made sure it happened. Now, those of us who had some kind of basic education on what a \"free market\" is might",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Corporate Focus",
+        "value": "Executive Governance"
+      },
+      {
+        "label": "Market Impact",
+        "value": "Capital & Strategic Realignment"
+      }
+    ],
+    "technicalDeepDive": "Corporate governance and strategic reporting from The Verge highlights executive stewardship, operational continuity, and shareholder confidence. Analysts and institutional stakeholders are scrutinizing executive succession plans, capital reallocations, and margin resilience as leadership navigates this organizational juncture.",
+    "industryImpact": "Signals critical shifts in corporate direction, market valuation stability, and strategic partnerships across major industry vendors and enterprise clients.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang"
+      }
+    ]
+  },
+  {
+    "id": "hn-50611576",
+    "title": "Nvidia Reinstates Jensen Huang as CEO",
+    "category": "Tech Leadership & Governance",
+    "categoryColor": "#f59e0b",
+    "badge": "🏛 Governance",
+    "diagramHint": "governance",
+    "source": "Hacker News",
+    "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "The Nvidia board said it had input from senior levels of the U.S. government.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "2567+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "3484+ comments"
+      },
+      {
+        "label": "Corporate Focus",
+        "value": "Executive Governance"
+      },
+      {
+        "label": "Market Impact",
+        "value": "Capital & Strategic Realignment"
+      }
+    ],
+    "technicalDeepDive": "Corporate governance and strategic reporting from Hacker News highlights executive stewardship, operational continuity, and shareholder confidence. Analysts and institutional stakeholders are scrutinizing executive succession plans, capital reallocations, and margin resilience as leadership navigates this organizational juncture.",
+    "industryImpact": "Signals critical shifts in corporate direction, market valuation stability, and strategic partnerships across major industry vendors and enterprise clients.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50611576"
+      }
+    ]
+  },
+  {
+    "id": "hn-50625888",
+    "title": "Jevons Paradox in AI: Cheaper Tokens Won't Pay for Capex",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "reasoning",
+    "source": "Hacker News",
+    "url": "https://philippdubach.com/posts/cheaper-ai-tokens-wont-pay-for-capex/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Google processes 330 times more tokens than two years ago, yet prices fall almost as fast. Why the Jevons paradox alone won",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "6+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "0+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Architectural analysis focuses on model parameter efficiency, inference throughput, and reasoning benchmarks highlighted in Hacker News's briefing. Technical teams are assessing training stability, compute scalability, and downstream integration trade-offs against frontier baselines.",
+    "industryImpact": "Expands practical capabilities for AI researchers and developers seeking state-of-the-art inference efficiency and accelerated deployment pipelines.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://philippdubach.com/posts/cheaper-ai-tokens-wont-pay-for-capex/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50625888"
+      }
+    ]
+  },
+  {
     "id": "rss-665783",
     "title": "We haven’t seen the last of the major tech outages",
     "category": "Tech & AI",
@@ -679,310 +975,6 @@
       {
         "label": "Hacker News Discussion",
         "url": "https://news.ycombinator.com/item?id=50595816"
-      }
-    ]
-  },
-  {
-    "id": "hn-50596511",
-    "title": "AI Supply Chain Security: What Canary Tokens Found",
-    "category": "Cybersecurity & Safety",
-    "categoryColor": "#ef4444",
-    "badge": "🛡 Security",
-    "diagramHint": "security",
-    "source": "Hacker News",
-    "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "We seeded two million AI prompts with canary tokens and found three provider breaches, prompt theft, and ignored Zero Data Retention settings.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "16+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "1+ comments"
-      },
-      {
-        "label": "Threat Vector",
-        "value": "Adversarial / Exploitation"
-      },
-      {
-        "label": "Defense Tier",
-        "value": "Immediate Mitigation"
-      }
-    ],
-    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by Hacker News. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
-    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50596511"
-      }
-    ]
-  },
-  {
-    "id": "hn-50487155",
-    "title": "Show HN: Compile the same source for GPUs and CPUs",
-    "category": "Open Source & Web",
-    "categoryColor": "#ec4899",
-    "badge": "🌐 Open Tech",
-    "diagramHint": "security",
-    "source": "Hacker News",
-    "url": "https://github.com/ThrudTheBarbarian/xc",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "A self-hosting Objective-C-flavoured compiler targeting arm64 M-series, x86-64, WASM, and others - ThrudTheBarbarian/xc",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "5+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "0+ comments"
-      },
-      {
-        "label": "Execution",
-        "value": "Zero-Egress Client"
-      },
-      {
-        "label": "License",
-        "value": "Permissive / Apache 2.0"
-      }
-    ],
-    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by Hacker News. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
-    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://github.com/ThrudTheBarbarian/xc"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50487155"
-      }
-    ]
-  },
-  {
-    "id": "hn-50593679",
-    "title": "Tasklet (YC P26) Is Hiring Product and Agent Infra Engineers",
-    "category": "Dev Tools & Agents",
-    "categoryColor": "#22c55e",
-    "badge": "💻 Dev Tools",
-    "diagramHint": "system",
-    "source": "Hacker News",
-    "url": "https://tasklet.ai/careers",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Join Tasklet in San Francisco. Help build AI employees that businesses can trust with real responsibilities.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "120+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "45+ comments"
-      },
-      {
-        "label": "Verification",
-        "value": "Autonomous Test Passes"
-      },
-      {
-        "label": "Dev Efficiency",
-        "value": "50%+ Automation"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://tasklet.ai/careers"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50593679"
-      }
-    ]
-  },
-  {
-    "id": "rss-4888653",
-    "title": "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "diagramHint": "security",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "YouTube is preparing to pay $3 billion to thousands of school districts to settle claims that its \"addictive design\" harmed kids, according to Bloomberg. Sources tell the publication that YouTube reached the agreement \"in principle,\" and that the deal would also include new safeguards for teens. The settlement would allow Google to avoid a wave",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by The Verge. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
-    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement"
-      }
-    ]
-  },
-  {
-    "id": "rss-2988987",
-    "title": "Eufy’s Omni C28 is 53 percent off ahead of Black Friday",
-    "category": "Robotics & Physical AI",
-    "categoryColor": "#06b6d4",
-    "badge": "🤖 Physical AI",
-    "diagramHint": "security",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/gadgets/1037933/eufy-omni-c28-robot-vacuum-deal-sale",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Hosting Thanksgiving can be fun, but cleaning up afterwards? Not so much. Eufy’s Omni C28 robot vacuum / mop hybrid can help, and thanks to an early Black Friday deal, you can pick it up at a new low price of $379.99 ($420 off its original price) at Amazon, Best Buy, or directly from Eufy",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Control",
-        "value": "VLA Foundation Policy"
-      },
-      {
-        "label": "Autonomy",
-        "value": "Multi-Hour Shifts"
-      }
-    ],
-    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by The Verge. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
-    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/gadgets/1037933/eufy-omni-c28-robot-vacuum-deal-sale"
-      }
-    ]
-  },
-  {
-    "id": "rss-5726567",
-    "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "diagramHint": "system",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our country,\" Trump said at a",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
-      }
-    ]
-  },
-  {
-    "id": "rss-1653186",
-    "title": "Multiplying your Switch 2’s storage costs less than usual right now",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "diagramHint": "reasoning",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/gadgets/1037749/microsd-express-card-nintendo-switch-2-black-friday-2026-deal-sale",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Expanding your Nintendo Switch 2’s 256GB of built-in storage with a microSD card is pricier than it was with Nintendo’s original console. That’s because microSD Express cards, while physically identical to ones you might have lying around, have faster read and write speeds. Thankfully, Samsung’s 256GB model has dropped to $44.99 at Amazon ahead of",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Architectural analysis focuses on model parameter efficiency, inference throughput, and reasoning benchmarks highlighted in The Verge's briefing. Technical teams are assessing training stability, compute scalability, and downstream integration trade-offs against frontier baselines.",
-    "industryImpact": "Expands practical capabilities for AI researchers and developers seeking state-of-the-art inference efficiency and accelerated deployment pipelines.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/gadgets/1037749/microsd-express-card-nintendo-switch-2-black-friday-2026-deal-sale"
-      }
-    ]
-  },
-  {
-    "id": "rss-377864",
-    "title": "Google says it’s going to shut off Google Assistant on smart speakers next year",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "diagramHint": "system",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Google is announcing some significant changes to its smart home software. Starting next year, the company will shut down the Nest app in favor of the Google Home app and retire Google Assistant on its smart home devices. The Nest app shutdown takes place on January 25th, 2027, meaning you'll have to manage your Nest",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down"
       }
     ]
   }
