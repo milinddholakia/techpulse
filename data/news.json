@@ -1,5 +1,325 @@
 [
   {
+    "id": "rss-5327839",
+    "title": "Huawei found guilty of stealing trade secrets",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "security",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "A jury has found Huawei guilty of stealing US trade secrets, as reported earlier by NBC News and Bloomberg. The verdict, handed down in a federal court in New York, concludes a years-long legal battle that accused the Chinese telecom giant of stealing source code and proprietary technology from several companies, including T-Mobile, Cisco, and",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by The Verge. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
+    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial"
+      }
+    ]
+  },
+  {
+    "id": "rss-6584106",
+    "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
+    "category": "Tech Leadership & Governance",
+    "categoryColor": "#f59e0b",
+    "badge": "🏛 Governance",
+    "diagramHint": "governance",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg, The New York Times, and The Handbasket's Marisa Kabas. During the meeting, Huang",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Corporate Focus",
+        "value": "Executive Governance"
+      },
+      {
+        "label": "Market Impact",
+        "value": "Capital & Strategic Realignment"
+      }
+    ],
+    "technicalDeepDive": "Corporate governance and strategic reporting from The Verge highlights executive stewardship, operational continuity, and shareholder confidence. Analysts and institutional stakeholders are scrutinizing executive succession plans, capital reallocations, and margin resilience as leadership navigates this organizational juncture.",
+    "industryImpact": "Signals critical shifts in corporate direction, market valuation stability, and strategic partnerships across major industry vendors and enterprise clients.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology"
+      }
+    ]
+  },
+  {
+    "id": "rss-3462564",
+    "title": "Amazon is knocking almost $50 off six months of Apple TV",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "system",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Streaming deals aren’t as plentiful as they used to be, but they’re still around if you know where to look. One that caught our eye is an offer for Apple TV for those with an Amazon account in the US. Apple’s streaming service usually costs $14.99 per month, but following this page will let you",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday"
+      }
+    ]
+  },
+  {
+    "id": "hn-50630594",
+    "title": "Active intrusion campaign against Check Point security management servers",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "diagramHint": "security",
+    "source": "Hacker News",
+    "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending #1 on Hacker News with 282 points and 140 in-depth community comments exploring implementation edge cases and developer adoption.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "282+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "140+ comments"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by Hacker News. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
+    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50630594"
+      }
+    ]
+  },
+  {
+    "id": "hn-50638220",
+    "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "system",
+    "source": "Hacker News",
+    "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Title possibly signs checks the article doesn’t have backing for. This is just a brief pro forma project update. Not much new functionality or anything to announce, last few months have mostly been bug fixes and technical debt cleanup.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "97+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "37+ comments"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://www.marginalia.nu/log/a_141_marginalia_update/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50638220"
+      }
+    ]
+  },
+  {
+    "id": "hn-50638503",
+    "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+    "category": "Open Source & Web",
+    "categoryColor": "#ec4899",
+    "badge": "🌐 Open Tech",
+    "diagramHint": "system",
+    "source": "Hacker News",
+    "url": "https://gpu-demo-gallery.pages.dev/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Twenty-three graphics card demos by 3dfx, NVIDIA and ATI from 1998 to 2006, running in the browser.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "93+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "21+ comments"
+      },
+      {
+        "label": "Execution",
+        "value": "Zero-Egress Client"
+      },
+      {
+        "label": "License",
+        "value": "Permissive / Apache 2.0"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://gpu-demo-gallery.pages.dev/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50638503"
+      }
+    ]
+  },
+  {
+    "id": "hn-50637888",
+    "title": "Lua for data representation (2025)",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "diagramHint": "system",
+    "source": "Hacker News",
+    "url": "https://citrons.xyz/journal/2025-07-23",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending #1 on Hacker News with 52 points and 16 in-depth community comments exploring implementation edge cases and developer adoption.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "52+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "16+ comments"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://citrons.xyz/journal/2025-07-23"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50637888"
+      }
+    ]
+  },
+  {
+    "id": "hn-50637871",
+    "title": "Top open problems in mathematics ranked by LLM-assessed importance",
+    "category": "Reasoning & LLMs",
+    "categoryColor": "#3b82f6",
+    "badge": "🔥 Breakthrough",
+    "diagramHint": "security",
+    "source": "Hacker News",
+    "url": "https://www.proofatlas.ai/open-problems/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Top 500 open problems in mathematics, ranked by LLM-assessed importance, with exact statements, dated status notes, sources, and ranking uncertainty.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "47+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "17+ comments"
+      },
+      {
+        "label": "Model Focus",
+        "value": "Frontier Reasoning"
+      },
+      {
+        "label": "Ecosystem",
+        "value": "Open / API"
+      }
+    ],
+    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by Hacker News. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
+    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://www.proofatlas.ai/open-problems/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50637871"
+      }
+    ]
+  },
+  {
     "id": "rss-5166196",
     "title": "Google alternative Kagi launches an email service",
     "category": "Open Source & Web",
@@ -647,334 +967,6 @@
       {
         "label": "Hacker News Discussion",
         "url": "https://news.ycombinator.com/item?id=50604540"
-      }
-    ]
-  },
-  {
-    "id": "hn-50605445",
-    "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "diagramHint": "reasoning",
-    "source": "Hacker News",
-    "url": "https://0rwx.com/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "A simple model of AI usage, inspired by unix permissions.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "44+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "10+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Architectural analysis focuses on model parameter efficiency, inference throughput, and reasoning benchmarks highlighted in Hacker News's briefing. Technical teams are assessing training stability, compute scalability, and downstream integration trade-offs against frontier baselines.",
-    "industryImpact": "Expands practical capabilities for AI researchers and developers seeking state-of-the-art inference efficiency and accelerated deployment pipelines.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://0rwx.com/"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50605445"
-      }
-    ]
-  },
-  {
-    "id": "rss-5330746",
-    "title": "The UN fails to agree on rules regulating ‘killer robots’",
-    "category": "Robotics & Physical AI",
-    "categoryColor": "#06b6d4",
-    "badge": "🤖 Physical AI",
-    "diagramHint": "system",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Control",
-        "value": "VLA Foundation Policy"
-      },
-      {
-        "label": "Autonomy",
-        "value": "Multi-Hour Shifts"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
-      }
-    ]
-  },
-  {
-    "id": "rss-1662145",
-    "title": "Can Anthropic afford to put safety first?",
-    "category": "Reasoning & LLMs",
-    "categoryColor": "#3b82f6",
-    "badge": "🔥 Breakthrough",
-    "diagramHint": "reasoning",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Model Focus",
-        "value": "Frontier Reasoning"
-      },
-      {
-        "label": "Ecosystem",
-        "value": "Open / API"
-      }
-    ],
-    "technicalDeepDive": "Architectural analysis focuses on model parameter efficiency, inference throughput, and reasoning benchmarks highlighted in The Verge's briefing. Technical teams are assessing training stability, compute scalability, and downstream integration trade-offs against frontier baselines.",
-    "industryImpact": "Expands practical capabilities for AI researchers and developers seeking state-of-the-art inference efficiency and accelerated deployment pipelines.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
-      }
-    ]
-  },
-  {
-    "id": "hn-50587208",
-    "title": "GnuPG Security Advisory for GPGME",
-    "category": "Dev Tools & Agents",
-    "categoryColor": "#22c55e",
-    "badge": "💻 Dev Tools",
-    "diagramHint": "security",
-    "source": "Hacker News",
-    "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending #1 on Hacker News with 248 points and 98 in-depth community comments exploring implementation edge cases and developer adoption.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "248+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "98+ comments"
-      },
-      {
-        "label": "Verification",
-        "value": "Autonomous Test Passes"
-      },
-      {
-        "label": "Dev Efficiency",
-        "value": "50%+ Automation"
-      }
-    ],
-    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by Hacker News. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
-    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50587208"
-      }
-    ]
-  },
-  {
-    "id": "hn-50595554",
-    "title": "Data Processing Incidents on Inference Providers",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "diagramHint": "governance",
-    "source": "Hacker News",
-    "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "OpenRouter off-boarded three providers, removed 125 endpoints from Zero Data Retention eligibility, and notified potentially affected customers after canary token research on inference providers.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "100+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "36+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Corporate governance and strategic reporting from Hacker News highlights executive stewardship, operational continuity, and shareholder confidence. Analysts and institutional stakeholders are scrutinizing executive succession plans, capital reallocations, and margin resilience as leadership navigates this organizational juncture.",
-    "industryImpact": "Signals critical shifts in corporate direction, market valuation stability, and strategic partnerships across major industry vendors and enterprise clients.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50595554"
-      }
-    ]
-  },
-  {
-    "id": "hn-50593481",
-    "title": "Pandex – Official European Law for AI Agents, over MCP",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "diagramHint": "system",
-    "source": "Hacker News",
-    "url": "https://www.pandex.io",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Legislation and highest-court decisions of the EU, seven European countries and the European Court of Human Rights, from the institutions that publish them, in one API and MCP server built for search and AI.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "68+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "13+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://www.pandex.io"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50593481"
-      }
-    ]
-  },
-  {
-    "id": "hn-50595537",
-    "title": "The Mythology of Conscious AI",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "diagramHint": "system",
-    "source": "Hacker News",
-    "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Why consciousness is more likely a property of life than of computation and why creating conscious, or even conscious-seeming AI, is a bad idea.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "40+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "70+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50595537"
-      }
-    ]
-  },
-  {
-    "id": "hn-50595816",
-    "title": "Together.ai: Prompt Leakage for Requests",
-    "category": "Dev Tools & Agents",
-    "categoryColor": "#22c55e",
-    "badge": "💻 Dev Tools",
-    "diagramHint": "system",
-    "source": "Hacker News",
-    "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending #1 on Hacker News with 19 points and 7 in-depth community comments exploring implementation edge cases and developer adoption.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "19+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "7+ comments"
-      },
-      {
-        "label": "Verification",
-        "value": "Autonomous Test Passes"
-      },
-      {
-        "label": "Dev Efficiency",
-        "value": "50%+ Automation"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50595816"
       }
     ]
   }
