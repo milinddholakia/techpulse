@@ -1,5 +1,430 @@
 [
   {
+    "id": "rss-4643107",
+    "title": "The M5 MacBook Air just got its biggest discount since Apple raised the price",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "system",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "If you’ve been holding off on buying a new MacBook Air since Apple raised prices by $200 in June, you’re in luck. The 13-inch M5 MacBook Air is on sale at Amazon and Best Buy with 16GB of RAM and 512GB of storage starting at $999 ($300 off) for Black Friday, which is the lowest",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale"
+      }
+    ]
+  },
+  {
+    "id": "rss-4451504",
+    "title": "The absolute best Black Friday deals you can still get",
+    "category": "Robotics & Physical AI",
+    "categoryColor": "#06b6d4",
+    "badge": "🤖 Physical AI",
+    "diagramHint": "system",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Black Friday is nearly over, but many of this year’s best deals are still available. You can still find some of the lowest prices we’ve seen in-store and online for video games, wireless earbuds, TVs, robot vacuums, and so much more. We can’t guarantee a deal you’ve had your eye on will last through Cyber",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Control",
+        "value": "VLA Foundation Policy"
+      },
+      {
+        "label": "Autonomy",
+        "value": "Multi-Hour Shifts"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas"
+      }
+    ]
+  },
+  {
+    "id": "rss-4761761",
+    "title": "The best Black Friday deals you can still get on AirPods, Macs, and other Apple gear",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "system",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/gadgets/1043935/best-black-friday-apple-deals-2026",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Black Friday is entering the evening, which means one of the best times of the year to save some cash on a new pair of AirPods or the latest Apple Watch is coming to a close. After all, the holiday savings can help offset the unfortunate price hikes from earlier this year, when Apple raised",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/gadgets/1043935/best-black-friday-apple-deals-2026"
+      }
+    ]
+  },
+  {
+    "id": "rss-7398619",
+    "title": "The best robot vacuums we’ve tested are up to 60 percent off for Black Friday",
+    "category": "Robotics & Physical AI",
+    "categoryColor": "#06b6d4",
+    "badge": "🤖 Physical AI",
+    "diagramHint": "security",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/gadgets/1044487/best-black-friday-robot-vacuum-mop-deals-2026",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Black Friday is here, and if you want a little help keeping your floors clean this holiday season, now is a great time to pick up a robot vacuum. Some of the best models we’ve tested over the last year or two are on sale for up to 60 percent off, whether you’re after a",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Control",
+        "value": "VLA Foundation Policy"
+      },
+      {
+        "label": "Autonomy",
+        "value": "Multi-Hour Shifts"
+      }
+    ],
+    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by The Verge. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
+    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/gadgets/1044487/best-black-friday-robot-vacuum-mop-deals-2026"
+      }
+    ]
+  },
+  {
+    "id": "rss-96632",
+    "title": "Sony’s 1000XM4C headphones are a Black Friday bargain at $198",
+    "category": "Tech & AI",
+    "categoryColor": "#6366f1",
+    "badge": "📰 Top Story",
+    "diagramHint": "reasoning",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Instead of purely looking forward with its headphone designs, Sony went back to its popular WH-1000XM4 design and made some improvements to make it even better. The 2026 version, called the WH-1000XM4C, sounds nearly as good as the pricier XM6 model (currently $348), but is down to $198 during Black Friday at Amazon, Best Buy,",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Domain",
+        "value": "Emerging Tech"
+      },
+      {
+        "label": "Edition",
+        "value": "6:00 AM Daily"
+      }
+    ],
+    "technicalDeepDive": "Architectural analysis focuses on model parameter efficiency, inference throughput, and reasoning benchmarks highlighted in The Verge's briefing. Technical teams are assessing training stability, compute scalability, and downstream integration trade-offs against frontier baselines.",
+    "industryImpact": "Expands practical capabilities for AI researchers and developers seeking state-of-the-art inference efficiency and accelerated deployment pipelines.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale"
+      }
+    ]
+  },
+  {
+    "id": "rss-9948089",
+    "title": "Yooka-Laylee’s free upgrade is skipping Xbox",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "diagramHint": "system",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Playtronic Games is getting ready to launch Yooka-Laylee and the Impossible Lair: Definitive Edition as a free update on PlayStation 5, Switch 2, and PC on December 15th. Unfortunately for Xbox owners, the developer says it \"can't commit to any additional platforms for the foreseeable future.\" In a statement posted on X, Playtronic said that",
+    "keyMetrics": [
+      {
+        "label": "Source",
+        "value": "The Verge"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Read on The Verge",
+        "url": "https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox"
+      }
+    ]
+  },
+  {
+    "id": "hn-50672565",
+    "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "diagramHint": "reasoning",
+    "source": "Hacker News",
+    "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending #1 on Hacker News with 340 points and 134 in-depth community comments exploring implementation edge cases and developer adoption.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "340+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "134+ comments"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Architectural analysis focuses on model parameter efficiency, inference throughput, and reasoning benchmarks highlighted in Hacker News's briefing. Technical teams are assessing training stability, compute scalability, and downstream integration trade-offs against frontier baselines.",
+    "industryImpact": "Expands practical capabilities for AI researchers and developers seeking state-of-the-art inference efficiency and accelerated deployment pipelines.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://research.google/blog/supercharging-transformer-residual-connections/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50672565"
+      }
+    ]
+  },
+  {
+    "id": "hn-50662313",
+    "title": "Citroën Hydraulic System",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "diagramHint": "system",
+    "source": "Hacker News",
+    "url": "https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Currently trending #1 on Hacker News with 184 points and 57 in-depth community comments exploring implementation edge cases and developer adoption.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "184+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "57+ comments"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50662313"
+      }
+    ]
+  },
+  {
+    "id": "hn-50672521",
+    "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+    "category": "Open Source & Web",
+    "categoryColor": "#ec4899",
+    "badge": "🌐 Open Tech",
+    "diagramHint": "system",
+    "source": "Hacker News",
+    "url": "https://tabernet.es/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "A Kubernetes cluster whose nodes are browser tabs. Open a page and your phone is a node.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "103+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "36+ comments"
+      },
+      {
+        "label": "Execution",
+        "value": "Zero-Egress Client"
+      },
+      {
+        "label": "License",
+        "value": "Permissive / Apache 2.0"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://tabernet.es/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50672521"
+      }
+    ]
+  },
+  {
+    "id": "hn-50671275",
+    "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "diagramHint": "system",
+    "source": "Hacker News",
+    "url": "https://github.com/skeeto/prospero",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Prospero coding harness. Contribute to skeeto/prospero development by creating an account on GitHub.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "61+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "22+ comments"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://github.com/skeeto/prospero"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50671275"
+      }
+    ]
+  },
+  {
+    "id": "hn-50671651",
+    "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+    "category": "Dev Tools & Agents",
+    "categoryColor": "#22c55e",
+    "badge": "💻 Dev Tools",
+    "diagramHint": "system",
+    "source": "Hacker News",
+    "url": "https://sessiongraph.ai/",
+    "readTime": "4 min read",
+    "date": "Today • 6:00 AM",
+    "summary": "Bring your sessions from your favorite harness, explore and visualize in a graph. Compare with your friends.",
+    "keyMetrics": [
+      {
+        "label": "HN Points",
+        "value": "48+ upvotes"
+      },
+      {
+        "label": "Discussions",
+        "value": "23+ comments"
+      },
+      {
+        "label": "Verification",
+        "value": "Autonomous Test Passes"
+      },
+      {
+        "label": "Dev Efficiency",
+        "value": "50%+ Automation"
+      }
+    ],
+    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
+    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
+    "resources": [
+      {
+        "label": "Original Article / Project",
+        "url": "https://sessiongraph.ai/"
+      },
+      {
+        "label": "Hacker News Discussion",
+        "url": "https://news.ycombinator.com/item?id=50671651"
+      }
+    ]
+  },
+  {
     "id": "rss-6983486",
     "title": "The MacBook Neo is receiving a rare $100 discount for Black Friday",
     "category": "Tech & AI",
@@ -534,447 +959,6 @@
       {
         "label": "Read on The Verge",
         "url": "https://www.theverge.com/tech/1042532/whatsapp-scheduled-messages"
-      }
-    ]
-  },
-  {
-    "id": "rss-3848856",
-    "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
-    "category": "AI Hardware & Chips",
-    "categoryColor": "#10b981",
-    "badge": "⚡️ Hardware",
-    "diagramHint": "hardware",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Fabrication",
-        "value": "Advanced Node"
-      },
-      {
-        "label": "Efficiency",
-        "value": "High FLOPS/Watt"
-      }
-    ],
-    "technicalDeepDive": "Hardware engineering breakdown examines advanced fabrication nodes, memory bandwidth constraints (HBM3e/CXL), thermal design power (TDP), and interconnect scale-out fabrics detailed in The Verge's report.",
-    "industryImpact": "Impacts hyperscale datacenter procurement cycles, silicon supply chains, and compute cluster efficiency across frontier AI labs.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
-      }
-    ]
-  },
-  {
-    "id": "hn-50601280",
-    "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
-    "category": "Reasoning & LLMs",
-    "categoryColor": "#3b82f6",
-    "badge": "🔥 Breakthrough",
-    "diagramHint": "reasoning",
-    "source": "Hacker News",
-    "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "go/codegolf benchmark: frontier models vs.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "362+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "102+ comments"
-      },
-      {
-        "label": "Model Focus",
-        "value": "Frontier Reasoning"
-      },
-      {
-        "label": "Ecosystem",
-        "value": "Open / API"
-      }
-    ],
-    "technicalDeepDive": "Architectural analysis focuses on model parameter efficiency, inference throughput, and reasoning benchmarks highlighted in Hacker News's briefing. Technical teams are assessing training stability, compute scalability, and downstream integration trade-offs against frontier baselines.",
-    "industryImpact": "Expands practical capabilities for AI researchers and developers seeking state-of-the-art inference efficiency and accelerated deployment pipelines.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50601280"
-      }
-    ]
-  },
-  {
-    "id": "hn-50647673",
-    "title": "The New York Times warns photographers not to update Photoshop over AI features",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "diagramHint": "system",
-    "source": "Hacker News",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "The New York Times is warning freelance photographers against using the latest version of Adobe Photoshop, saying it uses AI “in ways that may not be apparent to users.”",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "358+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "302+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50647673"
-      }
-    ]
-  },
-  {
-    "id": "hn-50647181",
-    "title": "Slow Ubuntu security response times",
-    "category": "Dev Tools & Agents",
-    "categoryColor": "#22c55e",
-    "badge": "💻 Dev Tools",
-    "diagramHint": "security",
-    "source": "Hacker News",
-    "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending #1 on Hacker News with 278 points and 125 in-depth community comments exploring implementation edge cases and developer adoption.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "278+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "125+ comments"
-      },
-      {
-        "label": "Verification",
-        "value": "Autonomous Test Passes"
-      },
-      {
-        "label": "Dev Efficiency",
-        "value": "50%+ Automation"
-      }
-    ],
-    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by Hacker News. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
-    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50647181"
-      }
-    ]
-  },
-  {
-    "id": "rss-5327839",
-    "title": "Huawei found guilty of stealing trade secrets",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "diagramHint": "security",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "A jury has found Huawei guilty of stealing US trade secrets, as reported earlier by NBC News and Bloomberg. The verdict, handed down in a federal court in New York, concludes a years-long legal battle that accused the Chinese telecom giant of stealing source code and proprietary technology from several companies, including T-Mobile, Cisco, and",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by The Verge. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
-    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial"
-      }
-    ]
-  },
-  {
-    "id": "rss-6584106",
-    "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
-    "category": "Tech Leadership & Governance",
-    "categoryColor": "#f59e0b",
-    "badge": "🏛 Governance",
-    "diagramHint": "governance",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg, The New York Times, and The Handbasket's Marisa Kabas. During the meeting, Huang",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Corporate Focus",
-        "value": "Executive Governance"
-      },
-      {
-        "label": "Market Impact",
-        "value": "Capital & Strategic Realignment"
-      }
-    ],
-    "technicalDeepDive": "Corporate governance and strategic reporting from The Verge highlights executive stewardship, operational continuity, and shareholder confidence. Analysts and institutional stakeholders are scrutinizing executive succession plans, capital reallocations, and margin resilience as leadership navigates this organizational juncture.",
-    "industryImpact": "Signals critical shifts in corporate direction, market valuation stability, and strategic partnerships across major industry vendors and enterprise clients.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology"
-      }
-    ]
-  },
-  {
-    "id": "rss-3462564",
-    "title": "Amazon is knocking almost $50 off six months of Apple TV",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "diagramHint": "system",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Streaming deals aren’t as plentiful as they used to be, but they’re still around if you know where to look. One that caught our eye is an offer for Apple TV for those with an Amazon account in the US. Apple’s streaming service usually costs $14.99 per month, but following this page will let you",
-    "keyMetrics": [
-      {
-        "label": "Source",
-        "value": "The Verge"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from The Verge outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Read on The Verge",
-        "url": "https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday"
-      }
-    ]
-  },
-  {
-    "id": "hn-50630594",
-    "title": "Active intrusion campaign against Check Point security management servers",
-    "category": "Dev Tools & Agents",
-    "categoryColor": "#22c55e",
-    "badge": "💻 Dev Tools",
-    "diagramHint": "security",
-    "source": "Hacker News",
-    "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending #1 on Hacker News with 282 points and 140 in-depth community comments exploring implementation edge cases and developer adoption.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "282+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "140+ comments"
-      },
-      {
-        "label": "Verification",
-        "value": "Autonomous Test Passes"
-      },
-      {
-        "label": "Dev Efficiency",
-        "value": "50%+ Automation"
-      }
-    ],
-    "technicalDeepDive": "Technical threat analysis centers on the underlying attack surface, exploitation mechanics, and privilege escalation vulnerabilities reported by Hacker News. Security teams recommend immediate patch deployment, defensive boundary audits, and continuous protocol monitoring.",
-    "industryImpact": "High operational urgency across DevSecOps teams and cloud infrastructure engineers to remediate vulnerable endpoints before automated adversarial weaponization.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50630594"
-      }
-    ]
-  },
-  {
-    "id": "hn-50638220",
-    "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
-    "category": "Tech & AI",
-    "categoryColor": "#6366f1",
-    "badge": "📰 Top Story",
-    "diagramHint": "system",
-    "source": "Hacker News",
-    "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Title possibly signs checks the article doesn’t have backing for. This is just a brief pro forma project update. Not much new functionality or anything to announce, last few months have mostly been bug fixes and technical debt cleanup.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "97+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "37+ comments"
-      },
-      {
-        "label": "Domain",
-        "value": "Emerging Tech"
-      },
-      {
-        "label": "Edition",
-        "value": "6:00 AM Daily"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://www.marginalia.nu/log/a_141_marginalia_update/"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50638220"
-      }
-    ]
-  },
-  {
-    "id": "hn-50638503",
-    "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
-    "category": "Open Source & Web",
-    "categoryColor": "#ec4899",
-    "badge": "🌐 Open Tech",
-    "diagramHint": "system",
-    "source": "Hacker News",
-    "url": "https://gpu-demo-gallery.pages.dev/",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Twenty-three graphics card demos by 3dfx, NVIDIA and ATI from 1998 to 2006, running in the browser.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "93+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "21+ comments"
-      },
-      {
-        "label": "Execution",
-        "value": "Zero-Egress Client"
-      },
-      {
-        "label": "License",
-        "value": "Permissive / Apache 2.0"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://gpu-demo-gallery.pages.dev/"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50638503"
-      }
-    ]
-  },
-  {
-    "id": "hn-50637888",
-    "title": "Lua for data representation (2025)",
-    "category": "Dev Tools & Agents",
-    "categoryColor": "#22c55e",
-    "badge": "💻 Dev Tools",
-    "diagramHint": "system",
-    "source": "Hacker News",
-    "url": "https://citrons.xyz/journal/2025-07-23",
-    "readTime": "4 min read",
-    "date": "Today • 6:00 AM",
-    "summary": "Currently trending #1 on Hacker News with 52 points and 16 in-depth community comments exploring implementation edge cases and developer adoption.",
-    "keyMetrics": [
-      {
-        "label": "HN Points",
-        "value": "52+ upvotes"
-      },
-      {
-        "label": "Discussions",
-        "value": "16+ comments"
-      },
-      {
-        "label": "Verification",
-        "value": "Autonomous Test Passes"
-      },
-      {
-        "label": "Dev Efficiency",
-        "value": "50%+ Automation"
-      }
-    ],
-    "technicalDeepDive": "Detailed analysis from Hacker News outlines the core architectural milestones, developer workflow enhancements, and engineering considerations driving this development.",
-    "industryImpact": "Informs technological roadmap planning and resource allocation for technical leads, founders, and software engineering teams.",
-    "resources": [
-      {
-        "label": "Original Article / Project",
-        "url": "https://citrons.xyz/journal/2025-07-23"
-      },
-      {
-        "label": "Hacker News Discussion",
-        "url": "https://news.ycombinator.com/item?id=50637888"
       }
     ]
   }
